@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wallpaper 4K / HD</string>
+    <string name="app__app_name">Wallpaper 4K / HD</string>
+    <string name="app__ok">baik</string>
+    <string name="app__drawer_open">Laci Terbuka</string>
+    <string name="app__drawer_close">Laci Tutup</string>
+    <string name="app__cancel">Membatalkan</string>
+    <string name="success">KEBERHASILAN</string>
+    <string name="confirm">KONFIRMASI</string>
+    <string name="info">INFO</string>
+    <string name="error">KESALAHAN</string>
+    <string name="warning">PERINGATAN</string>
+
+
+    <string name="menu__home">Rumah</string>
+    <string name="menu__profile">Profil</string>
+    <string name="menu__favourite_items">Favorit</string>
+    <string name="menu__logout">Keluar</string>
+    <string name="menu__about_app">Tentang kami</string>
+    <string name="menu__setting">Pengaturan</string>
+    <string name="menu__privacy_app">Rahasia pribadi</string>
+    <string name="menu__dashboard">Dasbor</string>
+    <string name="menu__contact_us">Hubungi kami</string>
+    <string name="menu__notification_setting">Pengaturan Notifikasi</string>
+    <string name="menu__language">Bahasa</string>
+    <string name="menu__app_setting">Aplikasi</string>
+    <string name="menu__user_info">User Info</string>
+    <string name="menu__save">Menyimpan</string>
+    <string name="menu__search">Cari</string>
+    <string name="menu__filter">Saring</string>
+    <string name="menu__category_list">Daftar Kategori</string>
+    <string name="menu__wallpaper_by_category">Wallpaper Berdasarkan Kategori</string>
+    <string name="menu__latest_wallpapers">Wallpaper terbaru</string>
+    <string name="menu__wallpapers_list">Daftar Wallpaper</string>
+    <string name="menu__category">Kategori</string>
+    <string name="menu_wallpaper">Wallpaper</string>
+    <string name="menu__premium">Premium</string>
+    <string name="menu__trending">Trending</string>
+    <string name="menu__claimPoint">Poin Klaim</string>
+    <string name="menu__trending_list">Daftar Tren</string>
+    <string name="menu__fav">Favorit</string>
+    <string name="menu__fav_live_wallpaper">Wallpaper Animasi Favorit</string>
+    <string name="menu__downloaded">Wallpaper yang Diunduh</string>
+    <string name="menu__downloaded_live_wallpaper">Wallpaper Animasi yang diunduh</string>
+    <string name="menu__upload_photo">Unggah Wallpaper</string>
+    <string name="menu__fav_list">Daftar Favorit</string>
+    <string name="menu__latest_wallpaper">Wallpaper terbaru</string>
+    <string name="menu__latest_live_wallpaper">Wallpaper Hidup Terbaru</string>
+    <string name="menu__premium_wallpapers">Wallpaper Premium</string>
+    <string name="menu__gif_wallpapers">GIF</string>
+    <string name="menu__live_wallpapers">Wallpaper Hidup</string>
+    <string name="menu__free_wallpapers">Wallpaper Gratis</string>
+    <string name="menu__rate">Nilai aplikasi ini</string>
+    <string name="menu__imageTypes">Jenis Wallpaper</string>
+    <string name="menu__privacy_policy">Syarat dan ketentuan</string>
+
+
+<!--    <string name="about_us__phone">Telepon</string>-->
+<!--    <string name="about_us__facebook">Facebook</string>-->
+<!--    <string name="about_us__gplus">Google Plus</string>-->
+<!--    <string name="about_us__instagram">Instagram</string>-->
+<!--    <string name="about_us__youtube">Youtube</string>-->
+<!--    <string name="about_us__pinterest">Pinterest</string>-->
+<!--    <string name="about_us__twitter">Kericau</string>-->
+<!--    <string name="about_us__visit_website">Kunjungi Situs Web Kami</string>-->
+<!--    <string name="about_us__email">Surel</string>-->
+
+
+
+    <string name="favourite__favourites">Favorit</string>
+
+
+    <string name="profile__title">Profil</string>
+    <string name="profile__about_me">Tentang saya</string>
+    <string name="profile__joined_date">Tanggal Bergabung</string>
+    <string name="profile__email">Surel</string>
+    <string name="profile__review">Ulasan</string>
+
+
+    <string name="edit_profile__title">Sunting profil</string>
+    <string name="edit_profile__user_name">Nama pengguna</string>
+    <string name="edit_profile__about_me">Tentang saya</string>
+    <string name="edit_profile__email">Surel</string>
+    <string name="edit_profile__password">Kata sandi</string>
+    <string name="edit_profile__password_change">Perubahan Kata Sandi</string>
+    <string name="edit_profile__save">Menyimpan</string>
+
+
+    <string name="register__user_name">Nama pengguna</string>
+    <string name="register__email">Surel</string>
+    <string name="register__password">Kata sandi</string>
+    <string name="register__back_to_login">Sudah menjadi anggota? Gabung</string>
+    <string name="register__register">Daftar</string>
+    <string name="register__new_account">Daftarkan Akun Pengguna Baru</string>
+    <string name="register__check_option">Apakah Anda menyetujui privasi dan kebijakan ini?</string>
+
+
+    <string name="forgot_password__title">Lupa kata sandi</string>
+    <string name="forgot_password__email">Surel</string>
+    <string name="forgot_password__back_to_login">Sudah menjadi anggota? Gabung</string>
+    <string name="forgot_password__password_recovery">Pemulihan Kata Sandi</string>
+    <string name="forgot_password__save">Menyimpan</string>
+    <string name="forgot_password__send">Kirim</string>
+
+
+    <string name="password_change__password">Kata sandi</string>
+    <string name="password_change__save">Menyimpan</string>
+    <string name="password_change__confirm_password">setujui password</string>
+    <string name="password_change__password_change">Perubahan Kata Sandi</string>
+
+
+    <string name="login__email">Surel</string>
+    <string name="login__password">Kata sandi</string>
+    <string name="login__not_a_member_join_now">Bukan seorang anggota? Bergabung sekarang</string>
+    <string name="login__forgot_your_password">Lupa kata sandi Anda ?</string>
+    <string name="login__login">Gabung</string>
+    <string name="login__welcome_title">Selamat Datang di Wallpaper 4K / HD</string>
+    <string name="login__with_google">Masuk dengan Google</string>
+    <string name="login__with_phone">Proses masuk dengan Telepon</string>
+
+
+
+
+    <string name="image__default_image">Gambar Default</string>
+
+
+    <string name="gallery__title">Galeri</string>
+    <string name="gallery__image_gallery">Galeri Gambar</string>
+    <string name="gallery__img_desc">Uraian gambar; kesan</string>
+
+
+    <string name="image_default__image">Gambar Default</string>
+
+
+    <string name="youtube__image">Gambar YouTube</string>
+
+
+    <string name="no_data">Tidak ada data.</string>
+    <string name="search__zero">0</string>
+    <string name="search_five">5</string>
+
+
+    <string name="rating__min">%1$s </string>
+    <string name="rating__max"> %1$s</string>
+
+
+    <string name="premium__point">$ %1$s</string>
+    <string name="premium__premium">Premium</string>
+
+
+    <string name="contact_us__name">Nama Kontak</string>
+    <string name="contact_us__email">Kontak Email</string>
+    <string name="contact_us__message">Pesan Kontak</string>
+    <string name="contact_us__phone">Hubungi Telepon</string>
+    <string name="contact_us__submit">Kirimkan</string>
+
+
+    <string name="notification__notification_setting_on_off">Pengaturan Notifikasi (Aktif / Nonaktif)</string>
+    <string name="notification__latest_message_from_system">Pesan Terbaru Dari Sistem</string>
+    <string name="notification__notification">Pemberitahuan!</string>
+    <string name="notification__alert">Waspada</string>
+
+
+    <string name="language__english">Inggris</string>
+    <string name="language__arabic">Arab</string>
+    <string name="language__spanish">Spanyol</string>
+    <string name="language__language_change">Apakah Anda yakin ingin mengubah ke %1$s?</string>
+    <string name="language__title">Bahasa</string>
+
+
+    <string name="message__register_success">Berhasil Mendaftar.</string>
+    <string name="message__loading">Memuat…</string>
+    <string name="message__please_wait">Mohon tunggu…</string>
+    <string name="message__welcome">Selamat datang di formulir PSNews</string>
+    <string name="message__want_to_quit">Apakah Anda benar-benar ingin berhenti?</string>
+    <string name="message__select_category">Silakan pilih kategori yang ingin Anda lihat !!!</string>
+    <string name="message__ok_close">Dekat</string>
+    <string name="message__cancel_close">Membatalkan</string>
+    <string name="message__want_to_logout">Apakah Anda benar-benar ingin keluar?</string>
+    <string name="message__logout">Keluar</string>
+    <string name="message__download_success">Berhasil Diunduh.</string>
+    <string name="message__downloading">Downloading file..</string>
+    <string name="message__crop_image">Apakah Anda ingin memotong gambar ini</string>
+
+
+
+    <string name="error_message__select_location">Silakan pilih lokasi.!</string>
+    <string name="error_message__login_first">Silahkan masuk terlebih dahulu!</string>
+    <string name="error_message__youtube_not_valid">YouTube tidak valid.</string>
+    <string name="error_message__blank_email">Silakan masukkan Email.</string>
+    <string name="error_message__blank_contact_message">Silakan masukan Pesan Kontak.</string>
+    <string name="error_message__blank_password">Silakan masukkan kata sandi.</string>
+    <string name="error_message__blank_name">Silakan masukkan nama.</string>
+    <string name="error_message__blank_keyword">Silakan masukkan kata kunci pencarian.</string>
+    <string name="error_message__password_not_equal">Kata sandi tidak sama!</string>
+    <string name="error_message__no_internet">Tidak ada koneksi internet.</string>
+    <string name="error_message__img_not_selected">Tidak Ada Gambar yang Dipilih</string>
+    <string name="error_message__image_cannot_upload">Gambar tidak dapat diunggah</string>
+    <string name="error_message__required_fields">Kolom yang Diperlukan tidak boleh kosong</string>
+    <string name="error_message__to_check_agreement">Anda perlu memeriksa perjanjian privasi dan kebijakan.</string>
+    <string name="error_message__blank_phone_no">Silahkan masukan nomor telepon.</string>
+
+
+    <string name="confirm_message__set_wallpaper">Konfirmasikan untuk mengatur Wallpaper</string>
+    <string name="confirm_message__ok">baik</string>
+    <string name="confirm_message__cancel">Membatalkan</string>
+    <string name="success_message__set_wallpaper">Berhasil mengatur wallpaper</string>
+    <string name="success_message__upload_successful">Diunggah dengan Berhasil</string>
+
+
+
+    <string name="hello_blank_fragment">Halo fragmen kosong</string>
+
+
+    <string name="dashboard__title">Temukan Wallpaper</string>
+    <string name="dashboard__search">Cari Wallpaper</string>
+    <string name="dashboard__latest_wallpaper">Wallpaper terbaru</string>
+    <string name="dashboard__category">Kategori</string>
+    <string name="dashboard__trending">Trending</string>
+    <string name="dashboard__landscape">Pemandangan</string>
+    <string name="dashboard__potrait">Potret</string>
+    <string name="dashboard__square">Kotak</string>
+    <string name="dashboard__gif">GIF</string>
+
+    <string name="dashboard__view_all">Lihat Semua&gt;</string>
+    <string name="dashboard__wallpaper_by_category">Wallpaper Berdasarkan Kategori</string>
+    <string name="dashboard__pts">%1$s pts</string>
+
+
+
+    <string name="dashboard__premium_latest">Terbaru</string>
+    <string name="dashboard__premium_trending">Trending</string>
+    <string name="dashboard__premium_recommended">Direkomendasikan</string>
+    <string name="dashboard__premium_download">Most Download</string>
+
+
+    <string name="search__recommanded">direkomendasikan</string>
+
+
+    <string name="dashboard__wallpaper_latest">Terbaru</string>
+    <string name="dashboard__wallpaper_trending">Trending</string>
+    <string name="dashboard__wallpaper_recommended">Direkomendasikan</string>
+    <string name="dashboard__wallpaper_download">Most Download</string>
+
+
+    <string name="category__category">Kategori</string>
+    <string name="category__30wallpaper">Wallpaper</string>
+    <string name="category__wallpaperCount">%1$s  %2$s</string>
+
+
+    <string name="wallpaper__detail">Wallpaper</string>
+
+
+
+    <string name="search__notSet">Tidak diatur</string>
+    <string name="search_button_searh">Cari / Filter</string>
+    <string name="search_button_sorting">Penyortiran</string>
+
+
+
+    <string name="dialog__title_m_mun">Penyortiran</string>
+    <string name="popular__m_mun">Populer</string>
+    <string name="recent__m_mun">Terbaru</string>
+    <string name="most_download__m_mun">Most Download</string>
+    <string name="low_price__m_mun">Peringkat Terendah</string>
+    <string name="high_price__m_mun">Peringkat tertinggi</string>
+
+
+    <string name="sf__notSet">Tidak diatur</string>
+    <string name="sf__notSet_zg">Tidak diatur</string>
+    <string name="sf__ByKeyWord">Kata kunci</string>
+    <string name="sf__ByPrice">Tetapkan Harga</string>
+    <string name="sf__free">Gratis</string>
+    <string name="sf__premium">Premium</string>
+    <string name="sf__AdvanceFiltering">Penyaringan Tingkat Lanjut</string>
+    <string name="sf__Recommend">Direkomendasikan</string>
+    <string name="sf__Portrait">Apakah Portrait</string>
+    <string name="sf__Filter_Button">Saring</string>
+    <string name="sf__Category">Kategori</string>
+    <string name="sf__Landscape">Apakah Landscape</string>
+    <string name="sf__Square">Apakah Square</string>
+    <string name="sf__Gif">Apakah Gif</string>
+    <string name="sf__live_wallpaper">Apakah Wallpaper Animasi</string>
+    <string name="sf__Color">Warna</string>
+    <string name="sf__Points">Poin</string>
+    <string name="sf__Rating">Rentang Peringkat</string>
+    <string name="sf__Minimum">Minimum</string>
+    <string name="sf__Maximum">Maksimum</string>
+    <string name="sf__0_5"> UNTUK</string>
+
+
+
+    <string name="dbs__viewCount">Lihat Hitung</string>
+    <string name="dbs__downloadCount">Unduh Hitungan</string>
+    <string name="dbs__favouriteCount">Hitungan Favorit</string>
+    <string name="dbs__setAs">Ditetapkan sebagai</string>
+    <string name="dbs__download">Download</string>
+    <string name="dbs__share">Bagikan</string>
+    <string name="dbs__favourite">Favorit</string>
+    <string name="dbs__rate">Menilai</string>
+    <string name="dbs__name">Nama</string>
+    <string name="dbs__orientation">Orientasi</string>
+    <string name="dbs__category">Kategori</string>
+    <string name="dbs__addedDate">Tanggal Tambahan</string>
+    <string name="dbs__width">Lebar tinggi</string>
+    <string name="dbs__color">Warna</string>
+    <string name="dbs__size">Ukuran</string>
+    <string name="dbs__credit">Kredit</string>
+    <string name="dbs__tags">Tag</string>
+    <string name="dbs__setWallpaperTo">Setel Wallpaper Ke</string>
+    <string name="dbs__setWallpaperToHome">Tampilan depan</string>
+    <string name="dbs__setWallpaperToLock">Layar kunci</string>
+    <string name="dbs__setWallpaperToBoth">Layar Beranda dan Kunci</string>
+
+
+
+    <string name="claim__pts_100">100 pts</string>
+    <string name="claim__pts_200">200 pts</string>
+    <string name="claim__pts_300">300 pts</string>
+    <string name="claim__daily_reward">Poin Hadiah Harian</string>
+    <string name="claim__watch_for_reward">Perhatikan hadiahnya</string>
+    <string name="daily_point">Kembalilah Setiap Hari Untuk Mendapatkan Poin</string>
+    <string name="watch_point">Tonton untuk mendapat lebih banyak poin</string>
+
+
+    <string name="toast_unexpected_error">Kesalahan tak terduga</string>
+    <string name="toast_crop_successful">Berhasil</string>
+    <string name="your_rating">Penilaianmu</string>
+    <string name="user_rating">Peringkat Pengguna!</string>
+    <string name="button_submit">Kirimkan</string>
+
+    <string name="set_as_home_screen">Tetapkan Sebagai Layar Beranda</string>
+    <string name="set_as_home_lock_screen">Set As Home dan Lock Screen</string>
+
+    <string name="Landscape">Pemandangan</string>
+    <string name="Portrait">Potret</string>
+    <string name="Square">Kotak</string>
+
+    <string name="premium_count_purchased">%1$s pts (Dibeli)</string>
+    <string name="premium_count">%1$s pts</string>
+
+
+    <string name="buy_first">Anda perlu membeli wallpaper ini untuk melakukan tindakan yang Anda minta. Beli ini sekarang?</string>
+    <string name="Top_Up">Anda belum memiliki poin yang cukup! Klaim lagi</string>
+    <string name="purchased">Dibeli</string>
+    <string name="purchase_successful">Terima kasih atas pembelian Wallpaper Anda</string>
+    <string name="purchase_unsuccessful">Ada yang salah dengan pembelian Anda, silakan coba lagi</string>
+
+    <string name="loading">Memuat</string>
+
+    <string name="free">GRATIS</string>
+    <string name="premium">PREMIUM</string>
+
+
+
+    <string name="wallpaper_name">Nama Wallpaper *</string>
+    <string name="wallpaper_search_tags">Tag Pencarian Wallpaper</string>
+    <string name="wallpaper_types">Jenis Wallpaper *</string>
+    <string name="wallpaper_point">Wallpaper Point</string>
+    <string name="wallpaper_image">Gambar Wallpaper</string>
+    <string name="wallpaper_category_name">Wallpaper Kategori Nama *</string>
+    <string name="wallpaper_select_color">Warna Wallpaper *</string>
+    <string name="wallpaper_select_credit">Kredit</string>
+    <string name="wallpaper_image_type">Jenis Gambar</string>
+    <string name="wallpaper_published">Apakah wallpaper diterbitkan?</string>
+    <string name="wallpaper_recommended">Apakah wallpaper direkomendasikan?</string>
+    <string name="wallpaper_portrait">Apakah potret wallpaper?</string>
+    <string name="wallpaper_landscape">Apakah wallpaper landscape?</string>
+    <string name="wallpaper_square">Apakah wallpaper persegi?</string>
+    <string name="wallpaper_submit_button">Unggah</string>
+    <string name="wallpaper_choose_button">Pilih foto</string>
+    <string name="wallpaper_image_upload_title">Wallpaper Upload</string>
+    <string name="wallpaper_error__required_name">Nama Wallpaper wajib diisi</string>
+    <string name="wallpaper_error__required_point">Wallpaper Point diperlukan</string>
+    <string name="wallpaper_error__not_required_point">Wallpaper Point tidak diperlukan untuk input.</string>
+    <string name="wallpaper_error__required_category">Silakan pilih kategori.</string>
+    <string name="wallpaper_error__required_color">Silakan pilih warna.</string>
+    <string name="wallpaper_error__required_image_type">Silakan pilih jenis gambar adalah potret, lanskap atau persegi.</string>
+    <string name="wallpaper_error__gif_radio_on">Silakan pilih jenis gambar adalah GIF.</string>
+    <string name="wallpaper_error__image_wallpaper_on">Silakan pilih jenis gambar yaitu Gambar Wallpaper.</string>
+    <string name="wallpaper_error__required_wallpaper_type">Silakan pilih jenis wallpaper.</string>
+    <string name="upload_photo__delete">Anda yakin akan menghapus foto ini?</string>
+    <string name="upload_photo__delete_status">Berhasil Dihapus</string>
+    <string name="upload_photo__point_greater_0">Poin harus lebih besar dari 0</string>
+    <string name="upload_photo__image_wallpapers">Wallpaper Gambar</string>
+    <string name="upload_photo__gif">GIF</string>
+
+
+
+    <string name="walk_through__next">LANJUT</string>
+    <string name="walk_through__skip">MELEWATKAN</string>
+    <string name="walk_through__free_wallpaper">Wallpaper Gratis</string>
+    <string name="walk_through__premium_wallpaper">Wallpaper Premium</string>
+    <string name="walk_through__advanced_search">Pencarian Lanjutan</string>
+    <string name="walk_through__unlimited_wallpapers">Unggah Wallpaper</string>
+    <string name="walk_through__text_1">Pengguna dapat memperoleh dan menggunakan apa pun yang mereka inginkan untuk Wallpaper Gratis.</string>
+    <string name="walk_through__text_2">Pengguna dapat membeli Wallpaper Premium dengan menggunakan poin mereka.</string>
+    <string name="walk_through__text_3">Pengguna dapat mencari wallpaper dengan \ nbeberapa filter lanjutan.</string>
+    <string name="walk_through__text_4">Pengguna dapat mengunggah wallpaper mereka dan \ nadmin akan melakukan proses persetujuan.</string>
+    <string name="walk_through__check_option">Jangan tampilkan intro lagi lain kali buka.</string>
+    <string name="walk_through__let_explore">Mari Jelajahi</string>
+
+
+
+    <string name="setting__privacy_policy">Rahasia pribadi</string>
+    <string name="setting__privacy_policy_desc">Pernyataan Kebijakan</string>
+    <string name="setting__notification_setting">Pengaturan Notifikasi</string>
+    <string name="setting__notification_setting_desc">Pengaturan kontrol untuk notifikasi</string>
+    <string name="setting__app_version">Versi Aplikasi</string>
+    <string name="setting__cache_size">Ukuran Tembolok Gambar</string>
+    <string name="setting__clear_cache">Hapus Cache Gambar</string>
+    <string name="setting__clear_cache_confirm">Apakah Anda yakin untuk menghapus cache gambar?</string>
+    <string name="setting__change_gdpr">Ubah pengaturan GDPR</string>
+
+
+
+    <string name="force_update_true">Pembaruan tersedia</string>
+    <string name="force_update__button_update"> Update </string>
+    <string name="version_update"> Pembaruan Versi</string>
+
+
+    <string name="fb_register__welcome">Selamat datang dari %1$s</string>
+    <string name="fb_register__desc">Silakan masuk untuk menggunakan semua fitur aplikasi.</string>
+
+
+    <string name="verify_email__informateion">Anda baru saja menerima email yang berisi kode verifikasi</string>
+    <string name="verify_email__enter_code">Masukkan kode verifikasi</string>
+    <string name="verify_email__change_email">Ganti e-mail</string>
+    <string name="verify_email__resent_code">Kode Ulang</string>
+    <string name="verify_email__submit">Kirimkan</string>
+    <string name="verify_email__title">Verifikasi email</string>
+
+
+    <string name="verify_phone__informateion">Anda baru saja menerima pesan telepon yang berisi Kode OTP</string>
+    <string name="verify_phone__back_login">KEMBALI UNTUK MASUK ?</string>
+    <string name="verify_phone__title">Verifikasi Telepon</string>
+    <string name="verify_phone_code">Masukkan OTP Kode</string>
+</resources>

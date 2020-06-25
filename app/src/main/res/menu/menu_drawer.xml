@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group_before_login"
+        android:checkableBehavior="single">
+
+        <item android:title="@string/app__app_name">
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/nav_home"
+                        android:icon="@drawable/ic_home"
+                        android:title="@string/menu__home" />
+
+                    <item
+                        android:id="@+id/nav_category"
+                        android:icon="@drawable/baseline_category_grey_24"
+                        android:title="@string/menu__category" />
+
+                    <item
+                        android:id="@+id/nav_free_wallpapers"
+                        android:icon="@drawable/baseline_image_grey_24"
+                        android:title="@string/menu__free_wallpapers" />
+
+                    <item
+                        android:id="@+id/nav_premium_wallpapers"
+                        android:icon="@drawable/baseline_point_grey_24"
+                        android:title="@string/menu__premium_wallpapers" />
+
+                    <item
+                        android:id="@+id/nav_gif_wallpapers"
+                        android:icon="@drawable/baseline_gif_logo_grey_24"
+                        android:title="@string/menu__gif_wallpapers" />
+
+                    <item
+                        android:id="@+id/nav_live_wallpapers"
+                        android:icon="@drawable/baseline_live_wallpaper_grey_24"
+                        android:title="@string/menu__live_wallpapers" />
+
+                    <item
+                        android:id="@+id/nav_search"
+                        android:icon="@drawable/ic_search"
+                        android:title="@string/menu__search" />
+
+                    <item
+                        android:id="@+id/nav_claimPoint"
+                        android:icon="@drawable/baseline_point_badge_white_24"
+                        android:title="@string/menu__claimPoint" />
+
+                </group>
+            </menu>
+
+        </item>
+
+
+        <item android:title="@string/menu__user_info">
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/nav_profile"
+                        android:icon="@drawable/ic_profile"
+                        android:title="@string/menu__profile" />
+
+                </group>
+            </menu>
+
+        </item>
+
+        <item android:title="@string/menu__app_setting">
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/nav_about_us"
+                        android:icon="@drawable/ic_about_us"
+                        android:title="@string/menu__about_app" />
+
+                    <item
+                        android:id="@+id/nav_contact_us"
+                        android:icon="@drawable/ic_contact_us"
+                        android:title="@string/menu__contact_us" />
+
+                    <item
+                        android:id="@+id/nav_language"
+                        android:icon="@drawable/baseline_language_24"
+                        android:title="@string/menu__language" />
+
+                    <item
+                        android:id="@+id/nav_setting"
+                        android:icon="@drawable/ic_setting"
+                        android:title="@string/menu__setting" />
+
+                    <item
+                        android:id="@+id/nav_rate_this_app"
+                        android:icon="@drawable/baseline_rating_grey_24"
+                        android:title="@string/menu__rate" />
+
+                </group>
+            </menu>
+
+        </item>
+
+    </group>
+
+    <group
+        android:id="@+id/group_after_login"
+        android:checkableBehavior="single"
+        android:visible="false">
+
+        <item android:title="@string/app__app_name">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_home_login"
+                        android:icon="@drawable/ic_home"
+                        android:title="@string/menu__home" />
+
+                    <item
+                        android:id="@+id/nav_category_login"
+                        android:icon="@drawable/baseline_category_grey_24"
+                        android:title="@string/menu__category" />
+
+                    <item
+                        android:id="@+id/nav_free_wallpapers_login"
+                        android:icon="@drawable/baseline_image_grey_24"
+                        android:title="@string/menu__free_wallpapers" />
+
+                    <item
+                        android:id="@+id/nav_premium_wallpapers_login"
+                        android:icon="@drawable/baseline_point_grey_24"
+                        android:title="@string/menu__premium_wallpapers" />
+
+                    <item
+                        android:id="@+id/nav_gif_wallpapers_login"
+                        android:icon="@drawable/baseline_gif_logo_grey_24"
+                        android:title="@string/menu__gif_wallpapers" />
+
+                    <item
+                        android:id="@+id/nav_live_wallpapers_login"
+                        android:icon="@drawable/baseline_live_wallpaper_grey_24"
+                        android:title="@string/menu__live_wallpapers" />
+
+                    <item
+                        android:id="@+id/nav_search_login"
+                        android:icon="@drawable/ic_search"
+                        android:title="@string/menu__search" />
+
+                    <item
+                        android:id="@+id/nav_claimPoint_login"
+                        android:icon="@drawable/baseline_point_badge_white_24"
+                        android:title="@string/menu__claimPoint" />
+
+                </group>
+            </menu>
+        </item>
+
+        <item android:title="@string/menu__user_info">
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/nav_profile_login"
+                        android:icon="@drawable/ic_profile"
+                        android:title="@string/menu__profile" />
+
+                    <item
+                        android:id="@+id/nav_fav_login"
+                        android:icon="@drawable/baseline_favourite_grey_24"
+                        android:title="@string/menu__fav" />
+
+                    <item
+                        android:id="@+id/nav_fav_live_wallpaper_login"
+                        android:icon="@drawable/baseline_favourite_grey_24"
+                        android:title="@string/menu__fav_live_wallpaper" />
+
+                    <item
+                        android:id="@+id/nav_upload_photo_login"
+                        android:icon="@drawable/baseline_upload_list_grey_24"
+                        android:title="@string/menu__upload_photo" />
+
+
+                    <item
+                        android:id="@+id/nav_downloaded_wallpapers_login"
+                        android:icon="@drawable/baseline_download_list_grey_24"
+                        android:title="@string/menu__downloaded" />
+
+                    <item
+                        android:id="@+id/nav_downloaded_live_wallpapers_login"
+                        android:icon="@drawable/baseline_download_list_grey_24"
+                        android:title="@string/menu__downloaded_live_wallpaper" />
+
+                    <item
+                        android:id="@+id/nav_logout_login"
+                        android:icon="@drawable/ic_logout"
+                        android:title="@string/menu__logout" />
+
+                </group>
+            </menu>
+
+        </item>
+
+        <item android:title="@string/menu__app_setting">
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/nav_about_us_login"
+                        android:icon="@drawable/ic_about_us"
+                        android:title="@string/menu__about_app" />
+
+                    <item
+                        android:id="@+id/nav_contact_us_login"
+                        android:icon="@drawable/ic_contact_us"
+                        android:title="@string/menu__contact_us" />
+
+                    <item
+                        android:id="@+id/nav_language_login"
+                        android:icon="@drawable/baseline_language_24"
+                        android:title="@string/menu__language" />
+
+                    <item
+                        android:id="@+id/nav_setting_login"
+                        android:icon="@drawable/ic_setting"
+                        android:title="@string/menu__setting" />
+
+                    <item
+                        android:id="@+id/nav_rate_this_app_login"
+                        android:icon="@drawable/baseline_rating_grey_24"
+                        android:title="@string/menu__rate" />
+
+                </group>
+            </menu>
+
+        </item>
+    </group>
+
+</menu>

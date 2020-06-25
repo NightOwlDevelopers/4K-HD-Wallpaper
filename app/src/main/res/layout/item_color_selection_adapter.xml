@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable name="color" type="com.panaceasoft.pswallpaper.viewobject.Color"
+            tools:layout_conversion_absoluteX="0dp" tools:layout_conversion_absoluteY="-81dp"
+            tools:layout_conversion_absoluteWidth="0dp"
+            tools:layout_conversion_absoluteHeight="0dp"/>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/groupview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/colorEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@{color.name}"
+            android:textAlignment="viewStart"
+            app:font='@{"normal"}'
+            app:layout_constraintBottom_toTopOf="@+id/view4"
+            app:layout_constraintStart_toEndOf="@+id/colorView"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Color Name" />
+
+        <View
+            android:id="@+id/colorView"
+            android:layout_width="20dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/circular_shape"
+            app:layout_constraintBottom_toBottomOf="@+id/colorEditText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/colorEditText" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/view__primary_line"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/colorEditText" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

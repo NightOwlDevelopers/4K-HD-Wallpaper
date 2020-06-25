@@ -1,0 +1,228 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="user"
+            type="com.panaceasoft.pswallpaper.viewobject.User" />
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.panaceasoft.pswallpaper.ui.user.ProfileFragment">
+
+                <ImageView
+                    android:id="@+id/user_cover_imageview"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:contentDescription="@string/image__default_image"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/default_profile"
+                    app:imageProfileUrl="@{user.user_profile_photo}"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/user_cover_blur_imageview"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:contentDescription="@string/image__default_image"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/blur"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="100dp"
+                    android:contentDescription="@string/image__default_image"
+                    android:src="@drawable/default_profile"
+                    app:imageProfileUrl="@{user.user_profile_photo}"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/user_cover_blur_imageview" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@{user.user_name}"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    app:font='@{"normal"}'
+                    app:textSize='@{"font_title_size"}'
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+
+                <LinearLayout
+                    android:id="@+id/linearLayout6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="259dp"
+                    tools:ignore="MissingConstraints" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout6"/>
+
+
+                <TextView
+                    android:id="@+id/emailTitleTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/profile__email"
+                    android:textStyle="bold"
+                    app:font='@{"bold"}'
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2"
+                    app:textSize='@{"font_body_size"}' />
+
+                <TextView
+                    android:id="@+id/emailTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@{user.user_email}"
+                    app:font='@{"normal"}'
+                    app:textSize='@{"font_body_size"}'
+                    android:textColor="@color/text__primary_light"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/emailTitleTextView"
+                    tools:text="Email Address" />
+
+
+                <TextView
+                    android:id="@+id/phoneTitleTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/about_us__phone"
+                    app:font='@{"bold"}'
+                    app:textSize='@{"font_body_size"}'
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/emailTextView" />
+
+                <TextView
+                    android:id="@+id/phoneTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text='@{user.user_phone.equals("") ? "-" : user.user_phone}'
+                    app:font='@{"normal"}'
+                    app:textSize='@{"font_body_size"}'
+                    android:textColor="@color/text__primary_light"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/phoneTitleTextView"
+                    tools:text="Phone" />
+
+
+                <TextView
+                    android:id="@+id/AboutMeTitleTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/profile__about_me"
+                    app:font='@{"bold"}'
+                    app:textSize='@{"font_body_size"}'
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/phoneTextView" />
+
+                <TextView
+                    android:id="@+id/aboutMeTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text='@{user.user_about_me.equals("") ? "-" : user.user_about_me }'
+                    app:font='@{"normal"}'
+                    app:textSize='@{"font_body_size"}'
+                    android:textColor="@color/text__primary_light"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/AboutMeTitleTextView"
+                    tools:text="About Me" />
+
+
+                <TextView
+                    android:id="@+id/joinedDateTitleTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/profile__joined_date"
+                    app:font='@{"bold"}'
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/aboutMeTextView" />
+
+                <TextView
+                    android:id="@+id/joinedDateTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="32dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    app:font='@{"normal"}'
+                    app:textSize='@{"font_body_size"}'
+                    android:text='@{user.added_date.equals("") ? "-" : user.added_date}'
+                    android:textColor="@color/text__primary_light"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/joinedDateTitleTextView"
+                    tools:text="JoinedDate" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/space_16"
+            android:scaleType="centerCrop"
+            android:src="@android:drawable/ic_menu_edit" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.panaceasoft.pswallpaper">
+
+    <application
+        android:name=".PSFoundation"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/Base.PSTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:allowBackup">
+        <activity android:name=".ui.user.verifyemail.VerifyEmailActivity"></activity>
+        <activity android:name=".ui.privacypolicy.PrivacyPolicyActivity" />
+        <activity android:name=".ui.livewallpaper.detail.VideoPlayActivity" />
+        <activity
+            android:name=".ui.apploading.AppLoadingActivity"
+            android:label="@string/app__app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app__app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".MainWalkThroughtActivity"
+            android:theme="@style/Base.PSTheme" />
+        <activity
+            android:name=".ui.user.ProfileEditActivity"
+            android:theme="@style/Base.PSTheme" />
+        <activity
+            android:name=".ui.privacy.PrivacyActivity"
+            android:theme="@style/Base.PSTheme" />
+        <activity
+            android:name=".ui.notification.NotificationSettingActivity"
+            android:theme="@style/Base.PSTheme" />
+        <activity
+            android:name=".ui.user.UserRegisterActivity"
+            android:theme="@style/Base.PSTheme" />
+        <activity
+            android:name=".ui.user.UserLoginActivity"
+            android:theme="@style/Base.PSTheme" />
+        <activity
+            android:name=".ui.user.UserForgotPasswordActivity"
+            android:theme="@style/Base.PSTheme" />
+        <activity
+            android:name=".ui.user.PasswordChangeActivity"
+            android:theme="@style/Base.PSTheme" />
+        <activity
+            android:name=".ui.category.list.CategoryListActivity"
+            android:theme="@style/Base.PSTheme" />
+        <activity
+            android:name=".ui.wallpaper.detail.WallpaperDetailActivity"
+            android:theme="@style/Base.PSTheme" />
+        <activity android:name=".ui.dashboard.search.DashboardSearchActivity" />
+        <activity android:name=".ui.wallpaper.listwithfilter.WallpaperListWithFilterActivity" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".ui.search.selection.categoryselection.CategorySelectionListActivity" />
+        <activity android:name=".ui.search.selection.colorselection.ColorSelectionListActivity" />
+        <activity android:name=".ui.search.SearchActivity" />
+        <activity android:name=".ui.claimpoint.ClaimPointActivity" />
+        <activity android:name=".ui.search.selection.wallpapertypesselection.WallpaperTypesSelectionListActivity" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity android:name=".ui.upload.upload.UploadWallpaperActivity" />
+        <activity android:name=".ui.forceupdate.ForceUpdateActivity" />
+        <activity android:name=".ui.user.phonelogin.PhoneLoginActivity" />
+        <activity android:name=".ui.user.verifyphone.VerifyMobileActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+        <meta-data
+            android:name="com.panaceasoft.pswallpaper.utils.CustomCachingGlideModule"
+            android:value="AppGlideModule" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/global__accent" />
+        <meta-data
+            android:name="android.service.wallpaper"
+            android:resource="@layout/wallpaper" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.panaceasoft.pswallpaper"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <service android:name=".utils.FirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".utils.FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".ui.livewallpaper.detail.VideoWallpaperService"
+            android:enabled="true"
+            android:label="Video Wallpaper"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/wallpaper" />
+        </service>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+    <compatible-screens>
+
+        <!-- no small size screens -->
+        <screen
+            android:screenDensity="ldpi"
+            android:screenSize="small" /> <!-- approximately 120 dpi -->
+        <screen
+            android:screenDensity="mdpi"
+            android:screenSize="small" /> <!-- approximately 160 dpi -->
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="small" /> <!-- approximately 240 dpi -->
+        <screen
+            android:screenDensity="280"
+            android:screenSize="small" /> <!-- Workaround -->
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="small" /> <!-- approximately 320 dpi -->
+        <screen
+            android:screenDensity="360"
+            android:screenSize="small" /> <!-- Workaround -->
+        <screen
+            android:screenDensity="420"
+            android:screenSize="small" /> <!-- Workaround -->
+        <screen
+            android:screenDensity="480"
+            android:screenSize="small" /> <!-- Workaround -->
+        <screen
+            android:screenDensity="560"
+            android:screenSize="small" /> <!-- Workaround -->
+        <screen
+            android:screenDensity="640"
+            android:screenSize="small" /> <!-- Workaround -->
+
+
+        <!-- all normal size screens -->
+        <screen
+            android:screenDensity="ldpi"
+            android:screenSize="normal" /> <!-- approximately 120 dpi -->
+        <screen
+            android:screenDensity="mdpi"
+            android:screenSize="normal" /> <!-- approximately 160 dpi -->
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="normal" /> <!-- approximately 240 dpi -->
+        <screen
+            android:screenDensity="280"
+            android:screenSize="normal" /> <!-- Workaround -->
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="normal" /> <!-- approximately 320 dpi -->
+        <screen
+            android:screenDensity="360"
+            android:screenSize="normal" /> <!-- Workaround -->
+        <screen
+            android:screenDensity="420"
+            android:screenSize="normal" /> <!-- Workaround -->
+        <screen
+            android:screenDensity="480"
+            android:screenSize="normal" /> <!-- Workaround -->
+        <screen
+            android:screenDensity="560"
+            android:screenSize="normal" /> <!-- Workaround -->
+        <screen
+            android:screenDensity="640"
+            android:screenSize="normal" /> <!-- Workaround -->
+
+
+        <!-- all large size screens -->
+        <screen
+            android:screenDensity="ldpi"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="mdpi"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="large" />
+
+        <!-- all xlarge size screens -->
+        <screen
+            android:screenDensity="ldpi"
+            android:screenSize="xlarge" />
+        <screen
+            android:screenDensity="mdpi"
+            android:screenSize="xlarge" />
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="xlarge" />
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="xlarge" />
+
+        <!-- Special case for Nexus 7 -->
+        <screen
+            android:screenDensity="213"
+            android:screenSize="large" />
+
+        <!-- xxhdpi -->
+
+        <screen
+            android:screenDensity="480"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="480"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="480"
+            android:screenSize="xlarge" />
+    </compatible-screens>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.permission.CALL_PHONE"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.software.live_wallpaper"
+        android:required="true" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- for card.io card scanning -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+</manifest>

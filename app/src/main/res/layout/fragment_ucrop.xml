@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--<data>-->
+    <!--<variable-->
+    <!--name="allWallpapers"-->
+    <!--type="com.panaceasoft.pswallpaper.viewobject.Wallpaper" />-->
+    <!--</data>-->
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <!--<FrameLayout-->
+                <!--android:id="@+id/ucrop_frame"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_above="@+id/wrapper_controls">-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/image_view_logo"-->
+                    <!--android:layout_width="@dimen/ucrop_default_crop_logo_size"-->
+                    <!--android:layout_height="@dimen/ucrop_default_crop_logo_size"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--app:srcCompat="@drawable/ucrop_vector_ic_crop"-->
+                    <!--tools:background="@drawable/ucrop_vector_ic_crop"-->
+                    <!--tools:ignore="ContentDescription,MissingPrefix" />-->
+
+                <com.yalantis.ucrop.view.UCropView
+                    android:id="@+id/ucrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0" />
+
+            <!--</FrameLayout>-->
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

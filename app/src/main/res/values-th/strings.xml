@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">วอลเปเปอร์ 4K / HD</string>
+    <string name="app__app_name">วอลเปเปอร์ 4K / HD</string>
+    <string name="app__ok">ตกลง</string>
+    <string name="app__drawer_open">เปิดลิ้นชัก</string>
+    <string name="app__drawer_close">ปิดลิ้นชัก</string>
+    <string name="app__cancel">ยกเลิก</string>
+    <string name="success">ความสำเร็จ</string>
+    <string name="confirm">ยืนยัน</string>
+    <string name="info">ข้อมูล</string>
+    <string name="error">ข้อผิดพลาด</string>
+    <string name="warning">คำเตือน</string>
+
+
+    <string name="menu__home">บ้าน</string>
+    <string name="menu__profile">ข้อมูลส่วนตัว</string>
+    <string name="menu__favourite_items">ที่ชื่นชอบ</string>
+    <string name="menu__logout">ออกจากระบบ</string>
+    <string name="menu__about_app">เกี่ยวกับเรา</string>
+    <string name="menu__setting">การตั้งค่า</string>
+    <string name="menu__privacy_app">นโยบายความเป็นส่วนตัว</string>
+    <string name="menu__dashboard">แผงควบคุม</string>
+    <string name="menu__contact_us">ติดต่อเรา</string>
+    <string name="menu__notification_setting">การตั้งค่าการแจ้งเตือน</string>
+    <string name="menu__language">ภาษา</string>
+    <string name="menu__app_setting">แอพพลิเคชั่น</string>
+    <string name="menu__user_info">ข้อมูลผู้ใช้</string>
+    <string name="menu__save">บันทึก</string>
+    <string name="menu__search">ค้นหา</string>
+    <string name="menu__filter">กรอง</string>
+    <string name="menu__category_list">รายการหมวดหมู่</string>
+    <string name="menu__wallpaper_by_category">วอลล์เปเปอร์ตามหมวดหมู่</string>
+    <string name="menu__latest_wallpapers">วอลเปเปอร์ล่าสุด</string>
+    <string name="menu__wallpapers_list">รายการวอลเปเปอร์</string>
+    <string name="menu__category">ประเภท</string>
+    <string name="menu_wallpaper">วอลล์เปเปอร์</string>
+    <string name="menu__premium">เบี้ยประกันภัย</string>
+    <string name="menu__trending">ได้รับความนิยม</string>
+    <string name="menu__claimPoint">อ้างสิทธิ์</string>
+    <string name="menu__trending_list">รายการยอดนิยม</string>
+    <string name="menu__fav">ที่ชื่นชอบ</string>
+    <string name="menu__fav_live_wallpaper">วอลเปเปอร์สดที่ชื่นชอบ</string>
+    <string name="menu__downloaded">ดาวน์โหลดวอลเปเปอร์</string>
+    <string name="menu__downloaded_live_wallpaper">ดาวน์โหลดวอลเปเปอร์สด</string>
+    <string name="menu__upload_photo">อัพโหลดวอลเปเปอร์</string>
+    <string name="menu__fav_list">รายการโปรด</string>
+    <string name="menu__latest_wallpaper">วอลล์เปเปอร์ล่าสุด</string>
+    <string name="menu__latest_live_wallpaper">วอลล์เปเปอร์สดล่าสุด</string>
+    <string name="menu__premium_wallpapers">วอลเปเปอร์พรีเมี่ยม</string>
+    <string name="menu__gif_wallpapers">GIFs</string>
+    <string name="menu__live_wallpapers">วอลเปเปอร์สด</string>
+    <string name="menu__free_wallpapers">วอลเปเปอร์ฟรี</string>
+    <string name="menu__rate">ให้คะแนนแอปนี้</string>
+    <string name="menu__imageTypes">ประเภทวอลล์เปเปอร์</string>
+    <string name="menu__privacy_policy">ข้อกำหนดและเงื่อนไข</string>
+
+
+<!--    <string name="about_us__phone">โทรศัพท์</string>-->
+<!--    <string name="about_us__facebook">Facebook</string>-->
+<!--    <string name="about_us__gplus">Google Plus</string>-->
+<!--    <string name="about_us__instagram">Instagram</string>-->
+<!--    <string name="about_us__youtube">Youtube</string>-->
+<!--    <string name="about_us__pinterest">Pinterest</string>-->
+<!--    <string name="about_us__twitter">พูดเบาและรวดเร็ว</string>-->
+<!--    <string name="about_us__visit_website">เยี่ยมชมเว็บไซต์ของเรา</string>-->
+<!--    <string name="about_us__email">อีเมล์</string>-->
+
+
+    <string name="favourite__favourites">รายการโปรด</string>
+
+
+    <string name="profile__title">ข้อมูลส่วนตัว</string>
+    <string name="profile__about_me">เกี่ยวกับฉัน</string>
+    <string name="profile__joined_date">วันที่เข้าร่วม</string>
+    <string name="profile__email">อีเมล์</string>
+    <string name="profile__review">ความคิดเห็น</string>
+
+
+    <string name="edit_profile__title">แก้ไขโปรไฟล์</string>
+    <string name="edit_profile__user_name">ชื่อผู้ใช้</string>
+    <string name="edit_profile__about_me">เกี่ยวกับฉัน</string>
+    <string name="edit_profile__email">อีเมล์</string>
+    <string name="edit_profile__password">รหัสผ่าน</string>
+    <string name="edit_profile__password_change">เปลี่ยนรหัสผ่าน</string>
+    <string name="edit_profile__save">บันทึก</string>
+
+
+    <string name="register__user_name">ชื่อผู้ใช้</string>
+    <string name="register__email">อีเมล์</string>
+    <string name="register__password">รหัสผ่าน</string>
+    <string name="register__back_to_login">เป็นสมาชิกอยู่แล้ว? เข้าสู่ระบบ</string>
+    <string name="register__register">สมัครสมาชิก</string>
+    <string name="register__new_account">ลงทะเบียนบัญชีผู้ใช้ใหม่</string>
+    <string name="register__check_option">คุณเห็นด้วยกับความเป็นส่วนตัวและนโยบายนี้หรือไม่?</string>
+
+
+    <string name="forgot_password__title">ลืมรหัสผ่าน</string>
+    <string name="forgot_password__email">อีเมล์</string>
+    <string name="forgot_password__back_to_login">เป็นสมาชิกอยู่แล้ว? เข้าสู่ระบบ</string>
+    <string name="forgot_password__password_recovery">รหัสผ่าน</string>
+    <string name="forgot_password__save">บันทึก</string>
+    <string name="forgot_password__send">ส่ง</string>
+
+
+    <string name="password_change__password">รหัสผ่าน</string>
+    <string name="password_change__save">บันทึก</string>
+    <string name="password_change__confirm_password">ยืนยันรหัสผ่าน</string>
+    <string name="password_change__password_change">เปลี่ยนรหัสผ่าน</string>
+
+
+    <string name="login__email">อีเมล์</string>
+    <string name="login__password">รหัสผ่าน</string>
+    <string name="login__not_a_member_join_now">ไม่ใช่สมาชิก? เข้าร่วมเดี๋ยวนี้</string>
+    <string name="login__forgot_your_password">ลืมรหัสผ่านหรือไม่ ?</string>
+    <string name="login__login">เข้าสู่ระบบ</string>
+    <string name="login__welcome_title">ยินดีต้อนรับสู่วอลเปเปอร์ 4K / HD</string>
+    <string name="login__with_google">เข้าสู่ระบบด้วย Google</string>
+    <string name="login__with_phone">SignIn con el teléfono</string>
+
+
+
+    <string name="image__default_image">รูปภาพเริ่มต้น</string>
+
+
+    <string name="gallery__title">เฉลียง</string>
+    <string name="gallery__image_gallery">คลังภาพ</string>
+    <string name="gallery__img_desc">คำอธิบายรูปภาพ</string>
+
+
+    <string name="image_default__image">รูปภาพเริ่มต้น</string>
+
+
+    <string name="youtube__image">รูปภาพ YouTube</string>
+
+
+    <string name="no_data">ไม่มีข้อมูล.</string>
+    <string name="search__zero">0</string>
+    <string name="search_five">5</string>
+
+
+    <string name="rating__min">%1$s </string>
+    <string name="rating__max"> %1$s</string>
+
+
+    <string name="premium__point">$ %1$s</string>
+    <string name="premium__premium">เบี้ยประกันภัย</string>
+
+
+    <string name="contact_us__name">ชื่อผู้ติดต่อ</string>
+    <string name="contact_us__email">อีเมลติดต่อ</string>
+    <string name="contact_us__message">ข้อความติดต่อ</string>
+    <string name="contact_us__phone">เบอร์โทรติดต่อ</string>
+    <string name="contact_us__submit">เสนอ</string>
+
+
+    <string name="notification__notification_setting_on_off">การตั้งค่าการแจ้งเตือน (เปิด / ปิด)</string>
+    <string name="notification__latest_message_from_system">ข้อความล่าสุดจากระบบ</string>
+    <string name="notification__notification">การแจ้งเตือน!</string>
+    <string name="notification__alert">เตือนภัย</string>
+
+
+    <string name="language__english">อังกฤษ</string>
+    <string name="language__arabic">ภาษาอาหรับ</string>
+    <string name="language__spanish">สเปน</string>
+    <string name="language__language_change">คุณแน่ใจหรือว่าต้องการเปลี่ยนเป็น %1$s</string>
+    <string name="language__title">ภาษา</string>
+
+
+    <string name="message__register_success">ลงทะเบียนสำเร็จ</string>
+    <string name="message__loading">กำลังโหลด ...</string>
+    <string name="message__please_wait">โปรดรอ…</string>
+    <string name="message__welcome">ยินดีต้อนรับแบบฟอร์ม PSNews</string>
+    <string name="message__want_to_quit">คุณต้องการที่จะเลิกจริงเหรอ?</string>
+    <string name="message__select_category">กรุณาเลือกหมวดหมู่ที่คุณต้องการดู !!!</string>
+    <string name="message__ok_close">ปิด</string>
+    <string name="message__cancel_close">ยกเลิก</string>
+    <string name="message__want_to_logout">คุณต้องการออกจากระบบจริงๆหรือไม่?</string>
+    <string name="message__logout">ออกจากระบบ</string>
+    <string name="message__download_success">ดาวน์โหลดสำเร็จ</string>
+    <string name="message__downloading">กำลังดาวน์โหลดไฟล์ ..</string>
+    <string name="message__crop_image">คุณต้องการครอบตัดภาพนี้หรือไม่</string>
+
+
+
+    <string name="error_message__select_location">กรุณาเลือกสถานที่ตั้ง!</string>
+    <string name="error_message__login_first">กรุณาเข้าสู่ระบบก่อน!</string>
+    <string name="error_message__youtube_not_valid">YouTube ไม่ถูกต้อง</string>
+    <string name="error_message__blank_email">กรุณาใส่อีเมล์</string>
+    <string name="error_message__blank_contact_message">กรุณาใส่ข้อความติดต่อ</string>
+    <string name="error_message__blank_password">กรุณาใส่รหัสผ่าน</string>
+    <string name="error_message__blank_name">กรุณาใส่ชื่อ</string>
+    <string name="error_message__blank_keyword">กรุณาใส่คำค้นหา</string>
+    <string name="error_message__password_not_equal">รหัสผ่านไม่เท่ากัน!</string>
+    <string name="error_message__no_internet">ไม่มีการเชื่อมต่ออินเทอร์เน็ต.</string>
+    <string name="error_message__img_not_selected">ไม่ได้เลือกรูปภาพ</string>
+    <string name="error_message__image_cannot_upload">ไม่สามารถอัพโหลดภาพ</string>
+    <string name="error_message__required_fields">ช่องที่จำเป็นต้องไม่ว่างเปล่า</string>
+    <string name="error_message__to_check_agreement">คุณต้องตรวจสอบข้อตกลงความเป็นส่วนตัวและนโยบาย</string>
+    <string name="error_message__blank_phone_no">กรุณาใส่หมายเลขโทรศัพท์</string>
+
+
+    <string name="confirm_message__set_wallpaper">ยืนยันการตั้งวอลล์เปเปอร์</string>
+    <string name="confirm_message__ok">ตกลง</string>
+    <string name="confirm_message__cancel">ยกเลิก</string>
+    <string name="success_message__set_wallpaper">ประสบความสำเร็จในการตั้งวอลล์เปเปอร์</string>
+    <string name="success_message__upload_successful">อัปโหลดสำเร็จแล้ว</string>
+
+
+
+    <string name="hello_blank_fragment">สวัสดีส่วนที่ว่างเปล่า</string>
+
+
+    <string name="dashboard__title">ค้นหาวอลเปเปอร์</string>
+    <string name="dashboard__search">ค้นหาภาพพื้นหลัง</string>
+    <string name="dashboard__latest_wallpaper">วอลล์เปเปอร์ล่าสุด</string>
+    <string name="dashboard__category">ประเภท</string>
+    <string name="dashboard__trending">ได้รับความนิยม</string>
+    <string name="dashboard__landscape">ภูมิประเทศ</string>
+    <string name="dashboard__potrait">ภาพเหมือน</string>
+    <string name="dashboard__square">สี่เหลี่ยม</string>
+    <string name="dashboard__gif">GIFs</string>
+
+    <string name="dashboard__view_all">ดูทั้งหมด&gt;</string>
+    <string name="dashboard__wallpaper_by_category">วอลล์เปเปอร์ตามหมวดหมู่</string>
+    <string name="dashboard__pts">%1$s pts</string>
+
+
+
+    <string name="dashboard__premium_latest">ล่าสุด</string>
+    <string name="dashboard__premium_trending">ได้รับความนิยม</string>
+    <string name="dashboard__premium_recommended">แนะนำ</string>
+    <string name="dashboard__premium_download">ดาวน์โหลดมากที่สุด</string>
+
+
+    <string name="search__recommanded">แนะนำ</string>
+
+
+    <string name="dashboard__wallpaper_latest">ล่าสุด</string>
+    <string name="dashboard__wallpaper_trending">ได้รับความนิยม</string>
+    <string name="dashboard__wallpaper_recommended">แนะนำ</string>
+    <string name="dashboard__wallpaper_download">ดาวน์โหลดมากที่สุด</string>
+
+
+    <string name="category__category">ประเภท</string>
+    <string name="category__30wallpaper">วอลล์เปเปอร์</string>
+    <string name="category__wallpaperCount">%1$s  %2$s</string>
+
+
+    <string name="wallpaper__detail">วอลล์เปเปอร์</string>
+
+
+
+    <string name="search__notSet">ไม่ได้ตั้งค่า</string>
+    <string name="search_button_searh">ค้นหา / กรอง</string>
+    <string name="search_button_sorting">การเรียงลำดับ</string>
+
+
+
+    <string name="dialog__title_m_mun">การเรียงลำดับ</string>
+    <string name="popular__m_mun">เป็นที่นิยม</string>
+    <string name="recent__m_mun">ล่าสุด</string>
+    <string name="most_download__m_mun">ดาวน์โหลดมากที่สุด</string>
+    <string name="low_price__m_mun">คะแนนต่ำสุด</string>
+    <string name="high_price__m_mun">คะแนนสูงสุด</string>
+
+
+    <string name="sf__notSet">ไม่ได้ตั้งค่า</string>
+    <string name="sf__notSet_zg">ไม่ได้ตั้งค่า</string>
+    <string name="sf__ByKeyWord">คำสำคัญ</string>
+    <string name="sf__ByPrice">ตั้งราคา</string>
+    <string name="sf__free">ฟรี</string>
+    <string name="sf__premium">เบี้ยประกันภัย</string>
+    <string name="sf__AdvanceFiltering">การกรองขั้นสูง</string>
+    <string name="sf__Recommend">ขอแนะนำ</string>
+    <string name="sf__Portrait">เป็นแนวตั้ง</string>
+    <string name="sf__Filter_Button">กรอง</string>
+    <string name="sf__Category">ประเภท</string>
+    <string name="sf__Landscape">เป็นแนวนอน</string>
+    <string name="sf__Square">เป็นสี่เหลี่ยมจัตุรัส</string>
+    <string name="sf__Gif">คือ Gif</string>
+    <string name="sf__live_wallpaper">เป็นวอลล์เปเปอร์สด</string>
+    <string name="sf__Color">สี</string>
+    <string name="sf__Points">จุด</string>
+    <string name="sf__Rating">ช่วงคะแนน</string>
+    <string name="sf__Minimum">ขั้นต่ำ</string>
+    <string name="sf__Maximum">สูงสุด</string>
+    <string name="sf__0_5"> TO</string>
+
+
+
+    <string name="dbs__viewCount">ดูจำนวน</string>
+    <string name="dbs__downloadCount">ดาวน์โหลดจำนวน</string>
+    <string name="dbs__favouriteCount">ที่ชื่นชอบการนับ</string>
+    <string name="dbs__setAs">กำหนดให้เป็น</string>
+    <string name="dbs__download">ดาวน์โหลด</string>
+    <string name="dbs__share">หุ้น</string>
+    <string name="dbs__favourite">ที่ชื่นชอบ</string>
+    <string name="dbs__rate">ประเมินค่า</string>
+    <string name="dbs__name">ชื่อ</string>
+    <string name="dbs__orientation">ปฐมนิเทศ</string>
+    <string name="dbs__category">ประเภท</string>
+    <string name="dbs__addedDate">วันที่เพิ่ม</string>
+    <string name="dbs__width">ความกว้างความสูง</string>
+    <string name="dbs__color">สี</string>
+    <string name="dbs__size">ขนาด</string>
+    <string name="dbs__credit">เครดิต</string>
+    <string name="dbs__tags">แท็ก</string>
+    <string name="dbs__setWallpaperTo">ตั้งค่าวอลเปเปอร์เป็น</string>
+    <string name="dbs__setWallpaperToHome">หน้าจอหลัก</string>
+    <string name="dbs__setWallpaperToLock">ล็อกหน้าจอ</string>
+    <string name="dbs__setWallpaperToBoth">หน้าแรกและล็อคหน้าจอ</string>
+
+
+
+    <string name="claim__pts_100">100 pts</string>
+    <string name="claim__pts_200">200 pts</string>
+    <string name="claim__pts_300">300 pts</string>
+    <string name="claim__daily_reward">คะแนนสะสมรายวัน</string>
+    <string name="claim__watch_for_reward">คอยดูรางวัล</string>
+    <string name="daily_point">กลับมาทุกวันเพื่อรับคะแนน</string>
+    <string name="watch_point">ดูเพื่อรับคะแนนมากขึ้น</string>
+
+
+    <string name="toast_unexpected_error">ข้อผิดพลาดที่ไม่คาดคิด</string>
+    <string name="toast_crop_successful">ที่ประสบความสำเร็จ</string>
+    <string name="your_rating">คะแนนของคุณ</string>
+    <string name="user_rating">คะแนนจากผู้ใช้!</string>
+    <string name="button_submit">เสนอ</string>
+
+    <string name="set_as_home_screen">ตั้งเป็นหน้าจอหลัก</string>
+    <string name="set_as_home_lock_screen">ตั้งเป็นหน้าจอหลักและล็อคหน้าจอ</string>
+
+    <string name="Landscape">ภูมิประเทศ</string>
+    <string name="Portrait">ภาพเหมือน</string>
+    <string name="Square">สี่เหลี่ยม</string>
+
+    <string name="premium_count_purchased">%1$s pts (ซื้อแล้ว)</string>
+    <string name="premium_count">%1$s pts</string>
+
+
+    <string name="buy_first">คุณต้องซื้อวอลเปเปอร์นี้เพื่อดำเนินการตามที่คุณขอ ซื้อตอนนี้</string>
+    <string name="Top_Up">คุณยังไม่มีคะแนนเพียงพอ! อ้างสิทธิ์เพิ่มเติม</string>
+    <string name="purchased">สั่งซื้อ</string>
+    <string name="purchase_successful">ขอบคุณสำหรับการซื้อวอลล์เปเปอร์ของคุณ</string>
+    <string name="purchase_unsuccessful">มีข้อผิดพลาดเกิดขึ้นกับการซื้อของคุณโปรดลองอีกครั้ง</string>
+
+    <string name="loading">กำลังโหลด</string>
+
+    <string name="free">ฟรี</string>
+    <string name="premium">พรีเมี่ยม</string>
+
+
+
+    <string name="wallpaper_name">ชื่อวอลล์เปเปอร์ *</string>
+    <string name="wallpaper_search_tags">แท็กค้นหาวอลล์เปเปอร์</string>
+    <string name="wallpaper_types">ประเภทวอลเปเปอร์ *</string>
+    <string name="wallpaper_point">จุดวอลเปเปอร์</string>
+    <string name="wallpaper_image">ภาพพื้นหลัง</string>
+    <string name="wallpaper_category_name">ชื่อหมวดหมู่ *</string>
+    <string name="wallpaper_select_color">สีวอลล์เปเปอร์ *</string>
+    <string name="wallpaper_select_credit">เครดิต</string>
+    <string name="wallpaper_image_type">ประเภทภาพ</string>
+    <string name="wallpaper_published">วอลล์เปเปอร์เผยแพร่หรือไม่</string>
+    <string name="wallpaper_recommended">แนะนำให้ใช้วอลเปเปอร์หรือไม่</string>
+    <string name="wallpaper_portrait">รูปพื้นหลังเป็นวอลล์เปเปอร์หรือไม่?</string>
+    <string name="wallpaper_landscape">แนวนอนของวอลล์เปเปอร์คืออะไร?</string>
+    <string name="wallpaper_square">สี่เหลี่ยมจตุรัสเป็นวอลล์เปเปอร์ไหม?</string>
+    <string name="wallpaper_submit_button">ที่อัพโหลด</string>
+    <string name="wallpaper_choose_button">เลือกรูปภาพ</string>
+    <string name="wallpaper_image_upload_title">วอลล์เปเปอร์อัพโหลด</string>
+    <string name="wallpaper_error__required_name">ต้องระบุชื่อวอลเปเปอร์</string>
+    <string name="wallpaper_error__required_point">จำเป็นต้องใช้วอลเปเปอร์จุด</string>
+    <string name="wallpaper_error__not_required_point">ไม่จำเป็นต้องป้อน Wallpaper Wallpaper</string>
+    <string name="wallpaper_error__required_category">กรุณาเลือกหมวดหมู่</string>
+    <string name="wallpaper_error__required_color">กรุณาเลือกสี</string>
+    <string name="wallpaper_error__required_image_type">โปรดเลือกประเภทของภาพคือแนวตั้ง, แนวนอนหรือสี่เหลี่ยม</string>
+    <string name="wallpaper_error__gif_radio_on">โปรดเลือกประเภทภาพคือ GIF</string>
+    <string name="wallpaper_error__image_wallpaper_on">โปรดเลือกประเภทภาพที่ต้องการ</string>
+    <string name="wallpaper_error__required_wallpaper_type">กรุณาเลือกประเภทวอลเปเปอร์</string>
+    <string name="upload_photo__delete">คุณแน่ใจที่จะลบภาพนี้?</string>
+    <string name="upload_photo__delete_status">ลบสำเร็จแล้ว</string>
+    <string name="upload_photo__point_greater_0">คะแนนต้องมากกว่า 0</string>
+    <string name="upload_photo__image_wallpapers">วอลล์เปเปอร์รูปภาพ</string>
+    <string name="upload_photo__gif">GIF</string>
+
+
+
+    <string name="walk_through__next">ต่อไป</string>
+    <string name="walk_through__skip">ข้าม</string>
+    <string name="walk_through__free_wallpaper">วอลเปเปอร์ฟรี</string>
+    <string name="walk_through__premium_wallpaper">วอลเปเปอร์พรีเมี่ยม</string>
+    <string name="walk_through__advanced_search">การค้นหาขั้นสูง</string>
+    <string name="walk_through__unlimited_wallpapers">อัพโหลดวอลเปเปอร์</string>
+    <string name="walk_through__text_1">ผู้ใช้สามารถรับและใช้สิ่งที่พวกเขาต้องการ \ n สำหรับวอลเปเปอร์ฟรีใด ๆ</string>
+    <string name="walk_through__text_2">ผู้ใช้สามารถซื้อ Premium Wallpapers \ n โดยใช้คะแนนสะสม</string>
+    <string name="walk_through__text_3">ผู้ใช้สามารถค้นหาภาพพื้นหลังด้วยฟิลเตอร์ขั้นสูง \ n บางตัว</string>
+    <string name="walk_through__text_4">ผู้ใช้สามารถอัปโหลดวอลล์เปเปอร์และ \ nadmin จะทำเพื่อกระบวนการอนุมัติ</string>
+    <string name="walk_through__check_option">อย่าแสดงอินโทรอีกครั้งในครั้งต่อไปที่เปิด</string>
+    <string name="walk_through__let_explore">มาสำรวจกันเถอะ</string>
+
+
+
+    <string name="setting__privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="setting__privacy_policy_desc">แถลงนโยบาย</string>
+    <string name="setting__notification_setting">การตั้งค่าการแจ้งเตือน</string>
+    <string name="setting__notification_setting_desc">ควบคุมการตั้งค่าสำหรับการแจ้งเตือน</string>
+    <string name="setting__app_version">เวอร์ชันแอป</string>
+    <string name="setting__cache_size">ขนาดแคชรูปภาพ</string>
+    <string name="setting__clear_cache">ล้างแคชรูปภาพ</string>
+    <string name="setting__clear_cache_confirm">คุณแน่ใจหรือไม่ว่าต้องการล้างแคชรูปภาพ</string>
+    <string name="setting__change_gdpr">เปลี่ยนการตั้งค่า GDPR</string>
+
+
+
+    <string name="force_update_true">มีการอัปเดต</string>
+    <string name="force_update__button_update"> ปรับปรุง</string>
+    <string name="version_update"> อัพเดตเวอร์ชั่น</string>
+
+
+    <string name="fb_register__welcome">ยินดีต้อนรับจาก %1$s</string>
+    <string name="fb_register__desc">กรุณาเข้าสู่ระบบเพื่อใช้คุณสมบัติทั้งหมดของแอปพลิเคชัน</string>
+
+
+    <string name="verify_email__informateion">คุณเพิ่งได้รับอีเมลที่มีรหัสยืนยัน</string>
+    <string name="verify_email__enter_code">ใส่รหัสยืนยัน</string>
+    <string name="verify_email__change_email">เปลี่ยนอีเมล</string>
+    <string name="verify_email__resent_code">รหัสไม่พอใจ</string>
+    <string name="verify_email__submit">เสนอ</string>
+    <string name="verify_email__title">การยืนยันอีเมล</string>
+
+
+    <string name="verify_phone__informateion">คุณเพิ่งได้รับข้อความโทรศัพท์ที่มีรหัส OTP ใน</string>
+    <string name="verify_phone__back_login">กลับสู่ระบบเข้าสู่ระบบ?</string>
+    <string name="verify_phone__title">การยืนยันทางโทรศัพท์</string>
+    <string name="verify_phone_code">ใส่รหัส OTP</string>
+</resources>

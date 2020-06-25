@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">4K / HD обои</string>
+    <string name="app__app_name">4K / HD обои</string>
+    <string name="app__ok">Хорошо</string>
+    <string name="app__drawer_open">Ящик открыт</string>
+    <string name="app__drawer_close">Ящик Закрыть</string>
+    <string name="app__cancel">Отмена</string>
+    <string name="success">УСПЕХ</string>
+    <string name="confirm">ПОДТВЕРДИТЬ</string>
+    <string name="info">ИНФОРМАЦИЯ</string>
+    <string name="error">ОШИБКА</string>
+    <string name="warning">ПРЕДУПРЕЖДЕНИЕ</string>
+
+
+    <string name="menu__home">Главная</string>
+    <string name="menu__profile">Профиль</string>
+    <string name="menu__favourite_items">любимец</string>
+    <string name="menu__logout">Выйти</string>
+    <string name="menu__about_app">Насчет нас</string>
+    <string name="menu__setting">настройка</string>
+    <string name="menu__privacy_app">политика конфиденциальности</string>
+    <string name="menu__dashboard">Приборная доска</string>
+    <string name="menu__contact_us">Свяжитесь с нами</string>
+    <string name="menu__notification_setting">Настройка уведомлений</string>
+    <string name="menu__language">язык</string>
+    <string name="menu__app_setting">Приложение</string>
+    <string name="menu__user_info">Информация о пользователе</string>
+    <string name="menu__save">Сохранить</string>
+    <string name="menu__search">Поиск</string>
+    <string name="menu__filter">Фильтр</string>
+    <string name="menu__category_list">Списки категорий</string>
+    <string name="menu__wallpaper_by_category">Обои по категориям</string>
+    <string name="menu__latest_wallpapers">Последние Обои</string>
+    <string name="menu__wallpapers_list">Список обоев</string>
+    <string name="menu__category">категория</string>
+    <string name="menu_wallpaper">Обои</string>
+    <string name="menu__premium">премия</string>
+    <string name="menu__trending">Trending</string>
+    <string name="menu__claimPoint">Претензия</string>
+    <string name="menu__trending_list">Список трендов</string>
+    <string name="menu__fav">любимец</string>
+    <string name="menu__fav_live_wallpaper">Любимые живые обои</string>
+    <string name="menu__downloaded">Скачанные обои</string>
+    <string name="menu__downloaded_live_wallpaper">Скачанные живые обои</string>
+    <string name="menu__upload_photo">Загрузить обои</string>
+    <string name="menu__fav_list">Список избранного</string>
+    <string name="menu__latest_wallpaper">Последние обои</string>
+    <string name="menu__latest_live_wallpaper">Последние Живые Обои</string>
+    <string name="menu__premium_wallpapers">Премиум Обои</string>
+    <string name="menu__gif_wallpapers">GIFs</string>
+    <string name="menu__live_wallpapers">Живые обои</string>
+    <string name="menu__free_wallpapers">Бесплатные обои</string>
+    <string name="menu__rate">Оцените это приложение</string>
+    <string name="menu__imageTypes">Типы обоев</string>
+    <string name="menu__privacy_policy">Условия и положения</string>
+
+
+<!--    <string name="about_us__phone">Телефон</string>-->
+<!--    <string name="about_us__facebook">facebook</string>-->
+<!--    <string name="about_us__gplus">Google Plus</string>-->
+<!--    <string name="about_us__instagram">Instagram</string>-->
+<!--    <string name="about_us__youtube">YouTube</string>-->
+<!--    <string name="about_us__pinterest">Pinterest</string>-->
+<!--    <string name="about_us__twitter">щебет</string>-->
+<!--    <string name="about_us__visit_website">Посетите наш сайт</string>-->
+<!--    <string name="about_us__email">Электронное письмо</string>-->
+
+
+    <string name="favourite__favourites">Избранные</string>
+
+
+    <string name="profile__title">Профиль</string>
+    <string name="profile__about_me">Обо мне</string>
+    <string name="profile__joined_date">Дата регистрации</string>
+    <string name="profile__email">Электронное письмо</string>
+    <string name="profile__review">Отзывы</string>
+
+
+    <string name="edit_profile__title">Редактировать профиль</string>
+    <string name="edit_profile__user_name">Имя пользователя</string>
+    <string name="edit_profile__about_me">Обо мне</string>
+    <string name="edit_profile__email">Электронное письмо</string>
+    <string name="edit_profile__password">пароль</string>
+    <string name="edit_profile__password_change">Смена пароля</string>
+    <string name="edit_profile__save">Сохранить</string>
+
+
+    <string name="register__user_name">Имя пользователя</string>
+    <string name="register__email">Электронное письмо</string>
+    <string name="register__password">пароль</string>
+    <string name="register__back_to_login">Уже зарегистрированы? Авторизоваться</string>
+    <string name="register__register">регистр</string>
+    <string name="register__new_account">Зарегистрировать новую учетную запись пользователя</string>
+    <string name="register__check_option">Согласны ли вы с этой политикой конфиденциальности?</string>
+
+
+    <string name="forgot_password__title">Забыл пароль</string>
+    <string name="forgot_password__email">Электронное письмо</string>
+    <string name="forgot_password__back_to_login">Уже зарегистрированы? Авторизоваться</string>
+    <string name="forgot_password__password_recovery">Восстановление пароля</string>
+    <string name="forgot_password__save">Сохранить</string>
+    <string name="forgot_password__send">послать</string>
+
+
+    <string name="password_change__password">пароль</string>
+    <string name="password_change__save">Сохранить</string>
+    <string name="password_change__confirm_password">Подтвердить Пароль</string>
+    <string name="password_change__password_change">Смена пароля</string>
+
+
+    <string name="login__email">Электронное письмо</string>
+    <string name="login__password">пароль</string>
+    <string name="login__not_a_member_join_now">Не участник? Присоединяйся сейчас</string>
+    <string name="login__forgot_your_password">Забыли свой пароль ?</string>
+    <string name="login__login">Авторизоваться</string>
+    <string name="login__welcome_title">Добро пожаловать в 4K / HD обои</string>
+    <string name="login__with_google">Войти через Google</string>
+    <string name="login__with_phone">Телефон с входа в аккаунт</string>
+
+
+
+    <string name="image__default_image">Изображение по умолчанию</string>
+
+
+    <string name="gallery__title">Галерея</string>
+    <string name="gallery__image_gallery">Галерея</string>
+    <string name="gallery__img_desc">Описание изображения</string>
+
+
+    <string name="image_default__image">Изображение по умолчанию</string>
+
+
+    <string name="youtube__image">Изображение YouTube</string>
+
+
+    <string name="no_data">Нет данных.</string>
+    <string name="search__zero">0</string>
+    <string name="search_five">5</string>
+
+
+    <string name="rating__min">%1$s </string>
+    <string name="rating__max"> %1$s</string>
+
+
+    <string name="premium__point">$ %1$s</string>
+    <string name="premium__premium">премия</string>
+
+
+    <string name="contact_us__name">Контактное лицо</string>
+    <string name="contact_us__email">Почта для связи</string>
+    <string name="contact_us__message">Контактное сообщение</string>
+    <string name="contact_us__phone">Контактный телефон</string>
+    <string name="contact_us__submit">представить</string>
+
+
+    <string name="notification__notification_setting_on_off">Настройка уведомлений (вкл / выкл)</string>
+    <string name="notification__latest_message_from_system">Последнее сообщение от системы</string>
+    <string name="notification__notification">Уведомление!</string>
+    <string name="notification__alert">бдительный</string>
+
+
+    <string name="language__english">английский</string>
+    <string name="language__arabic">арабский</string>
+    <string name="language__spanish">испанский</string>
+    <string name="language__language_change">Вы уверены, что хотите изменить на %1$s?</string>
+    <string name="language__title">язык</string>
+
+
+    <string name="message__register_success">Успешно зарегистрироваться.</string>
+    <string name="message__loading">Loading ...</string>
+    <string name="message__please_wait">Пожалуйста, подождите…</string>
+    <string name="message__welcome">Приветственная форма PSNews</string>
+    <string name="message__want_to_quit">Вы действительно хотите бросить?</string>
+    <string name="message__select_category">Пожалуйста, выберите категорию, которую вы хотите увидеть !!!</string>
+    <string name="message__ok_close">близко</string>
+    <string name="message__cancel_close">Отмена</string>
+    <string name="message__want_to_logout">Вы действительно хотите выйти?</string>
+    <string name="message__logout">Выйти</string>
+    <string name="message__download_success">Успешно загружен.</string>
+    <string name="message__downloading">Скачивание файла ..</string>
+    <string name="message__crop_image">Вы хотите обрезать это изображение</string>
+
+
+
+    <string name="error_message__select_location">Пожалуйста, выберите местоположение.!</string>
+    <string name="error_message__login_first">Пожалуйста, войдите сначала!</string>
+    <string name="error_message__youtube_not_valid">YouTube недействителен.</string>
+    <string name="error_message__blank_email">Пожалуйста, введите адрес электронной почты.</string>
+    <string name="error_message__blank_contact_message">Пожалуйста, введите контактное сообщение.</string>
+    <string name="error_message__blank_password">Пожалуйста, введите пароль.</string>
+    <string name="error_message__blank_name">Пожалуйста, введите имя.</string>
+    <string name="error_message__blank_keyword">Пожалуйста, введите поисковое ключевое слово.</string>
+    <string name="error_message__password_not_equal">Пароль не равен!</string>
+    <string name="error_message__no_internet">Подключение к Интернету отсутствует.</string>
+    <string name="error_message__img_not_selected">Изображение не выбрано</string>
+    <string name="error_message__image_cannot_upload">Изображение не может быть загружено</string>
+    <string name="error_message__required_fields">Обязательные поля не могут быть пустыми</string>
+    <string name="error_message__to_check_agreement">Вам необходимо проверить соглашение о конфиденциальности и политике.</string>
+    <string name="error_message__blank_phone_no">Пожалуйста, введите номер телефона.</string>
+
+
+    <string name="confirm_message__set_wallpaper">Подтвердите установку обоев</string>
+    <string name="confirm_message__ok">Хорошо</string>
+    <string name="confirm_message__cancel">Отмена</string>
+    <string name="success_message__set_wallpaper">Успешно установить обои</string>
+    <string name="success_message__upload_successful">Успешно загружено</string>
+
+
+
+    <string name="hello_blank_fragment">Привет пустой фрагмент</string>
+
+
+    <string name="dashboard__title">Найти обои</string>
+    <string name="dashboard__search">Поиск обоев</string>
+    <string name="dashboard__latest_wallpaper">Последние обои</string>
+    <string name="dashboard__category">категория</string>
+    <string name="dashboard__trending">Trending</string>
+    <string name="dashboard__landscape">Пейзаж</string>
+    <string name="dashboard__potrait">Портрет</string>
+    <string name="dashboard__square">Площадь</string>
+    <string name="dashboard__gif">GIFs</string>
+
+    <string name="dashboard__view_all">Просмотреть все&gt;</string>
+    <string name="dashboard__wallpaper_by_category">Обои по категориям</string>
+    <string name="dashboard__pts">%1$s pts</string>
+
+
+
+    <string name="dashboard__premium_latest">Последний</string>
+    <string name="dashboard__premium_trending">Trending</string>
+    <string name="dashboard__premium_recommended">рекомендуемые</string>
+    <string name="dashboard__premium_download">Большинство Скачать</string>
+
+
+    <string name="search__recommanded">рекомендуемые</string>
+
+
+    <string name="dashboard__wallpaper_latest">Последний</string>
+    <string name="dashboard__wallpaper_trending">Trending</string>
+    <string name="dashboard__wallpaper_recommended">рекомендуемые</string>
+    <string name="dashboard__wallpaper_download">Большинство Скачать</string>
+
+
+    <string name="category__category">категория</string>
+    <string name="category__30wallpaper">Обои</string>
+    <string name="category__wallpaperCount">%1$s  %2$s</string>
+
+
+    <string name="wallpaper__detail">Обои</string>
+
+
+
+    <string name="search__notSet">Не задано</string>
+    <string name="search_button_searh">Поиск / Фильтр</string>
+    <string name="search_button_sorting">Сортировка</string>
+
+
+
+    <string name="dialog__title_m_mun">Сортировка</string>
+    <string name="popular__m_mun">Популярный</string>
+    <string name="recent__m_mun">Последний</string>
+    <string name="most_download__m_mun">Большинство Скачать</string>
+    <string name="low_price__m_mun">Самый низкий рейтинг</string>
+    <string name="high_price__m_mun">Самый высокий рейтинг</string>
+
+
+    <string name="sf__notSet">Не задано</string>
+    <string name="sf__notSet_zg">Не задано</string>
+    <string name="sf__ByKeyWord">Ключевое слово</string>
+    <string name="sf__ByPrice">Установить цену</string>
+    <string name="sf__free">Свободно</string>
+    <string name="sf__premium">премия</string>
+    <string name="sf__AdvanceFiltering">Расширенная фильтрация</string>
+    <string name="sf__Recommend">Рекомендовано</string>
+    <string name="sf__Portrait">Портрет</string>
+    <string name="sf__Filter_Button">Фильтр</string>
+    <string name="sf__Category">категория</string>
+    <string name="sf__Landscape">Пейзаж</string>
+    <string name="sf__Square">Площадь</string>
+    <string name="sf__Gif">Это Gif</string>
+    <string name="sf__live_wallpaper">Живые обои</string>
+    <string name="sf__Color">цвет</string>
+    <string name="sf__Points">Точки</string>
+    <string name="sf__Rating">Рейтинговый диапазон</string>
+    <string name="sf__Minimum">Minimum</string>
+    <string name="sf__Maximum">максимальная</string>
+    <string name="sf__0_5"> К</string>
+
+
+
+    <string name="dbs__viewCount">Количество просмотров</string>
+    <string name="dbs__downloadCount">Количество загрузок</string>
+    <string name="dbs__favouriteCount">Любимый граф</string>
+    <string name="dbs__setAs">Установить как</string>
+    <string name="dbs__download">Скачать</string>
+    <string name="dbs__share">доля</string>
+    <string name="dbs__favourite">любимец</string>
+    <string name="dbs__rate">Ставка</string>
+    <string name="dbs__name">имя</string>
+    <string name="dbs__orientation">ориентация</string>
+    <string name="dbs__category">категория</string>
+    <string name="dbs__addedDate">Дата добавления</string>
+    <string name="dbs__width">Ширина высота</string>
+    <string name="dbs__color">цвет</string>
+    <string name="dbs__size">Размер</string>
+    <string name="dbs__credit">кредит</string>
+    <string name="dbs__tags">Теги</string>
+    <string name="dbs__setWallpaperTo">Установить обои на</string>
+    <string name="dbs__setWallpaperToHome">Домашний экран</string>
+    <string name="dbs__setWallpaperToLock">Экран блокировки</string>
+    <string name="dbs__setWallpaperToBoth">Дом и экран блокировки</string>
+
+
+
+    <string name="claim__pts_100">100 pts</string>
+    <string name="claim__pts_200">200 pts</string>
+    <string name="claim__pts_300">300 pts</string>
+    <string name="claim__daily_reward">Ежедневные бонусные баллы</string>
+    <string name="claim__watch_for_reward">Следи за вознаграждением</string>
+    <string name="daily_point">Возвращайся ежедневно, чтобы получить очки</string>
+    <string name="watch_point">Смотреть, чтобы получить больше очков</string>
+
+
+    <string name="toast_unexpected_error">Непредвиденная ошибка</string>
+    <string name="toast_crop_successful">успешный</string>
+    <string name="your_rating">Ваш рейтинг</string>
+    <string name="user_rating">Пользовательская оценка!</string>
+    <string name="button_submit">представить</string>
+
+    <string name="set_as_home_screen">Установить как домашний экран</string>
+    <string name="set_as_home_lock_screen">Установить как дома и экран блокировки</string>
+
+    <string name="Landscape">Пейзаж</string>
+    <string name="Portrait">Портрет</string>
+    <string name="Square">Площадь</string>
+
+    <string name="premium_count_purchased">%1$s pts (приобретено)</string>
+    <string name="premium_count">%1$s pts</string>
+
+
+    <string name="buy_first">Вам нужно купить эти обои, чтобы выполнить требуемое действие. Купить это сейчас?</string>
+    <string name="Top_Up">У вас еще недостаточно очков! Требовать еще</string>
+    <string name="purchased">купленный</string>
+    <string name="purchase_successful">Спасибо за покупку обоев</string>
+    <string name="purchase_unsuccessful">Что-то пошло не так с вашей покупкой, пожалуйста, попробуйте еще раз</string>
+
+    <string name="loading">загрузка</string>
+
+    <string name="free">СВОБОДНО</string>
+    <string name="premium">PREMIUM</string>
+
+
+
+    <string name="wallpaper_name">Название обоев *</string>
+    <string name="wallpaper_search_tags">Теги поиска обоев</string>
+    <string name="wallpaper_types">Типы обоев *</string>
+    <string name="wallpaper_point">Обои Точка</string>
+    <string name="wallpaper_image">Обои изображения</string>
+    <string name="wallpaper_category_name">Название категории обоев *</string>
+    <string name="wallpaper_select_color">Цвет обоев *</string>
+    <string name="wallpaper_select_credit">кредит</string>
+    <string name="wallpaper_image_type">Тип изображения</string>
+    <string name="wallpaper_published">Опубликованы ли обои?</string>
+    <string name="wallpaper_recommended">Рекомендуется ли обои?</string>
+    <string name="wallpaper_portrait">Это обои портрет?</string>
+    <string name="wallpaper_landscape">Является ли обои пейзаж?</string>
+    <string name="wallpaper_square">Квадратные ли обои?</string>
+    <string name="wallpaper_submit_button">Загрузить</string>
+    <string name="wallpaper_choose_button">Выбрать фото</string>
+    <string name="wallpaper_image_upload_title">Загрузка обоев</string>
+    <string name="wallpaper_error__required_name">Имя обои обязательно</string>
+    <string name="wallpaper_error__required_point">Требуется точка обоев</string>
+    <string name="wallpaper_error__not_required_point">Точка обоев не требуется для ввода.</string>
+    <string name="wallpaper_error__required_category">Пожалуйста, выберите категорию.</string>
+    <string name="wallpaper_error__required_color">Пожалуйста, выберите цвет.</string>
+    <string name="wallpaper_error__required_image_type">Пожалуйста, выберите тип изображения - портрет, пейзаж или квадрат.</string>
+    <string name="wallpaper_error__gif_radio_on">Пожалуйста, выберите тип изображения GIF.</string>
+    <string name="wallpaper_error__image_wallpaper_on">Пожалуйста, выберите тип изображения Image Wallpaper.</string>
+    <string name="wallpaper_error__required_wallpaper_type">Пожалуйста, выберите тип обоев.</string>
+    <string name="upload_photo__delete">Вы уверены, что хотите удалить это фото?</string>
+    <string name="upload_photo__delete_status">Успешно удален</string>
+    <string name="upload_photo__point_greater_0">Точка должна быть больше 0</string>
+    <string name="upload_photo__image_wallpapers">Обои изображения</string>
+    <string name="upload_photo__gif">GIF</string>
+
+
+
+    <string name="walk_through__next">СЛЕДУЮЩИЙ</string>
+    <string name="walk_through__skip">ПРОПУСКАТЬ</string>
+    <string name="walk_through__free_wallpaper">Бесплатные обои</string>
+    <string name="walk_through__premium_wallpaper">Премиум Обои</string>
+    <string name="walk_through__advanced_search">Расширенный поиск</string>
+    <string name="walk_through__unlimited_wallpapers">Загрузить обои</string>
+    <string name="walk_through__text_1">Пользователь может получить и использовать все, что он хочет \ n для любых бесплатных обоев.</string>
+    <string name="walk_through__text_2">Пользователь может купить Премиум Обои \ nby, используя свои очки.</string>
+    <string name="walk_through__text_3">Пользователь может искать обои с расширенными фильтрами.</string>
+    <string name="walk_through__text_4">Пользователь может загрузить свои обои, и \ nadmin сделает это для процесса утверждения.</string>
+    <string name="walk_through__check_option">Не показывать вступление снова в следующий раз.</string>
+    <string name="walk_through__let_explore">Давайте исследуем</string>
+
+
+
+    <string name="setting__privacy_policy">политика конфиденциальности</string>
+    <string name="setting__privacy_policy_desc">Заявление о политике</string>
+    <string name="setting__notification_setting">Настройка уведомлений</string>
+    <string name="setting__notification_setting_desc">Настройка управления для уведомления</string>
+    <string name="setting__app_version">Версия приложения</string>
+    <string name="setting__cache_size">Размер кэша изображения</string>
+    <string name="setting__clear_cache">Очистить кэш изображений</string>
+    <string name="setting__clear_cache_confirm">Вы уверены, что очистите кэш изображений?</string>
+    <string name="setting__change_gdpr">Изменить настройку GDPR</string>
+
+
+
+    <string name="force_update_true">Доступно обновление</string>
+    <string name="force_update__button_update"> Обновить</string>
+    <string name="version_update"> Обновление версии</string>
+
+
+    <string name="fb_register__welcome">Добро пожаловать от %1$s</string>
+    <string name="fb_register__desc">Пожалуйста, войдите, чтобы использовать все возможности приложения.</string>
+
+
+    <string name="verify_email__informateion">Вы только что получили письмо с кодом подтверждения на</string>
+    <string name="verify_email__enter_code">введите код подтверждения</string>
+    <string name="verify_email__change_email">Изменить e-mail</string>
+    <string name="verify_email__resent_code">Повторный код</string>
+    <string name="verify_email__submit">представить</string>
+    <string name="verify_email__title">Подтверждение по элетронной почте</string>
+
+
+    <string name="verify_phone__informateion">Вы только что получили телефонное сообщение с кодом OTP на</string>
+    <string name="verify_phone__back_login">ВЕРНУТЬСЯ НА СТРАНИЦУ ВХОДА ?</string>
+    <string name="verify_phone__title">Проверка телефона</string>
+    <string name="verify_phone_code">Введите код OTP</string>
+</resources>

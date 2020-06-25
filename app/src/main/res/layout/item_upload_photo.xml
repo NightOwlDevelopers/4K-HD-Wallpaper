@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="uploadPhoto"
+            type="com.panaceasoft.pswallpaper.viewobject.Wallpaper" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_8"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="@dimen/space_8"
+        android:layout_marginBottom="4dp"
+        app:cardElevation="0.5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/imageHolderCardView"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                app:cardCornerRadius="@dimen/space_4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/latestCategoryImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:baselineAlignBottom="false"
+                    android:contentDescription="@string/image__default_image"
+                    android:scaleType="centerCrop"
+                    app:imageUrl="@{uploadPhoto.default_photo.img_path}"
+
+                    tools:srcCompat="@drawable/placeholder_image" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="4dp"
+                android:text="@{uploadPhoto.wallpaper_name}"
+                android:textColor="@color/text__primary_dark"
+                android:textSize="@dimen/font_title_size"
+                app:font='@{"bold"}'
+                app:layout_constraintEnd_toStartOf="@+id/deleteImageView"
+                app:layout_constraintStart_toEndOf="@+id/imageHolderCardView"
+                app:layout_constraintTop_toTopOf="@+id/imageHolderCardView"
+                tools:text="Name" />
+
+            <TextView
+                android:id="@+id/categoryTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="4dp"
+                android:text="@{uploadPhoto.category.cat_name}"
+                android:textSize="14sp"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toStartOf="@+id/deleteImageView"
+                app:layout_constraintStart_toEndOf="@+id/imageHolderCardView"
+                app:layout_constraintTop_toBottomOf="@+id/nameTextView"
+                tools:text="Category" />
+
+            <TextView
+                android:id="@+id/addedDateTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="@{uploadPhoto.added_date}"
+                android:textColor="@color/text__primary_light"
+                android:textSize="12sp"
+                app:font='@{"normal"}'
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageHolderCardView"
+                app:layout_constraintTop_toBottomOf="@+id/categoryTextView"
+                tools:text="added date" />
+
+            <ImageView
+                android:id="@+id/deleteImageView"
+                android:layout_width="30dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:contentDescription="@string/image__default_image"
+                app:layout_constraintBottom_toBottomOf="@+id/addedDateTextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/nameTextView"
+                app:srcCompat="@android:drawable/ic_menu_delete" />
+            <!--//android:backgroundTint="@color/md_deep_orange_500"-->
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+</layout>

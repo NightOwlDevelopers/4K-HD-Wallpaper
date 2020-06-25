@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="loadingMore"
+            type="boolean" />
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/md_grey_100">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/sf__ByKeyWord"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/font_title_size"
+                app:font='@{"bold"}'
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/setKeyWord"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/custom_progress_bar_horizontal"
+                android:ems="10"
+                android:hint="@string/sf__notSet"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/text__primary"
+                android:textSize="14sp"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView32"
+                tools:ignore="Autofill,RtlHardcoded,RtlSymmetry" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView33"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="16dp"-->
+<!--                android:layout_marginTop="16dp"-->
+<!--                android:text="@string/sf__ByPrice"-->
+<!--                android:textAlignment="viewStart"-->
+<!--                android:textSize="16sp"-->
+<!--                app:font='@{"normal"}'-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/setCategoryEditText"-->
+<!--                tools:ignore="MissingConstraints" />-->
+
+<!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                android:id="@+id/typeConstraintLayout"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="12dp"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/textView33">-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/premiumButton"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="44dp"-->
+<!--                    android:layout_marginTop="1dp"-->
+<!--                    android:layout_marginBottom="8dp"-->
+<!--                    android:background="@color/md_white_1000"-->
+<!--                    android:enabled="false"-->
+
+<!--                    android:paddingLeft="@dimen/space_16"-->
+<!--                    android:text="@string/sf__premium"-->
+<!--                    android:textAlignment="viewStart"-->
+<!--                    android:textAllCaps="false"-->
+<!--                    android:textSize="@dimen/font_body_size"-->
+<!--                    app:font='@{"normal"}'-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@+id/freeButton"-->
+<!--                    tools:ignore="RtlHardcoded,RtlSymmetry" />-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/freeButton"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:background="@color/md_white_1000"-->
+<!--                    android:enabled="false"-->
+
+<!--                    android:paddingLeft="@dimen/space_16"-->
+<!--                    android:text="@string/sf__free"-->
+<!--                    android:textAlignment="viewStart"-->
+<!--                    android:textAllCaps="false"-->
+<!--                    android:textSize="@dimen/font_body_size"-->
+<!--                    app:font='@{"normal"}'-->
+<!--                    app:layout_constraintBottom_toTopOf="@+id/premiumButton"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.0"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    tools:ignore="RtlHardcoded,RtlSymmetry" />-->
+
+<!--                <androidx.appcompat.widget.SwitchCompat-->
+<!--                    android:id="@+id/freeSwitch"-->
+<!--                    style="@style/SwitchCompatStyle"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginEnd="16dp"-->
+<!--                    app:layout_constraintBottom_toBottomOf="@+id/freeButton"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="@+id/freeButton" />-->
+
+<!--                <androidx.appcompat.widget.SwitchCompat-->
+<!--                    android:id="@+id/premiumSwitch"-->
+<!--                    style="@style/SwitchCompatStyle"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginEnd="16dp"-->
+<!--                    app:layout_constraintBottom_toBottomOf="@+id/premiumButton"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@+id/freeButton" />-->
+
+<!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+            <TextView
+                android:id="@+id/pointTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/sf__Points"
+                android:textAlignment="viewStart"
+                android:textSize="16sp"
+                app:font='@{"normal"}'
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/setCategoryEditText" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/pointRangeConstraintLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pointTextView">
+
+                <Button
+                    android:id="@+id/setPointMaximum"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/md_white_1000"
+                    android:enabled="false"
+                    android:paddingLeft="@dimen/space_16"
+                    android:text="@string/sf__Maximum"
+                    android:textAlignment="viewStart"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/font_body_size"
+                    app:font='@{"normal"}'
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/setPointMinimum"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+                <Button
+                    android:id="@+id/setPointMinimum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/md_white_1000"
+                    android:enabled="false"
+                    android:paddingLeft="@dimen/space_16"
+                    android:text="@string/sf__Minimum"
+                    android:textAlignment="viewStart"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/font_body_size"
+                    app:font='@{"normal"}'
+                    app:layout_constraintBottom_toTopOf="@+id/setPointMaximum"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+                <EditText
+                    android:id="@+id/minimumEditText"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/custom_edit_text_design"
+                    android:ems="10"
+                    android:hint="@string/sf__notSet"
+                    android:inputType="number"
+                    android:padding="@dimen/space_8"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text__primary"
+                    android:textSize="@dimen/font_body_size"
+                    app:font='@{"normal"}'
+                    app:layout_constraintBottom_toBottomOf="@+id/setPointMinimum"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="Autofill" />
+
+                <EditText
+                    android:id="@+id/maximumEditText"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/custom_edit_text_design"
+                    android:ems="10"
+                    android:hint="@string/sf__notSet"
+                    android:inputType="number"
+                    android:padding="@dimen/space_8"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text__primary"
+                    android:textSize="@dimen/font_body_size"
+                    app:font='@{"normal"}'
+                    app:layout_constraintBottom_toBottomOf="@+id/setPointMinimum"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/setPointMaximum"
+                    tools:ignore="Autofill" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/ratingRangeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/sf__Rating"
+                android:textAlignment="viewStart"
+                android:textSize="16sp"
+                app:font='@{"normal"}'
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pointRangeConstraintLayout" />
+
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/sf__AdvanceFiltering"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/font_title_size"
+                app:font='@{"normal"}'
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/price_range_bar_container" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/dealOptionsConstraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView35">
+
+<!--                <Button-->
+<!--                    android:id="@+id/isPotraitButton"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="44dp"-->
+<!--                    android:layout_marginTop="1dp"-->
+<!--                    android:background="@color/md_white_1000"-->
+<!--                    android:drawablePadding="@dimen/space_12"-->
+<!--                    android:enabled="false"-->
+<!--                    android:paddingLeft="@dimen/space_16"-->
+<!--                    android:text="@string/sf__Portrait"-->
+<!--                    android:textAlignment="viewStart"-->
+<!--                    android:textAllCaps="false"-->
+<!--                    android:textSize="@dimen/font_body_size"-->
+<!--                    app:font='@{"normal"}'-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@+id/isRecommendedButton"-->
+<!--                    tools:ignore="RtlHardcoded,RtlSymmetry" />-->
+
+                <Button
+                    android:id="@+id/isRecommendedButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/md_white_1000"
+                    android:enabled="false"
+                    android:paddingLeft="@dimen/space_16"
+                    android:text="@string/sf__Recommend"
+                    android:textAlignment="viewStart"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/font_body_size"
+                    app:font='@{"normal"}'
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.118"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/isRecommendSwitch"
+                    style="@style/SwitchCompatStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/isRecommendedButton"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/isRecommendedButton" />
+
+<!--                <androidx.appcompat.widget.SwitchCompat-->
+<!--                    android:id="@+id/isPortraitSwitch"-->
+<!--                    style="@style/SwitchCompatStyle"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="8dp"-->
+<!--                    android:layout_marginEnd="8dp"-->
+<!--                    android:layout_marginBottom="8dp"-->
+<!--                    app:layout_constraintBottom_toBottomOf="@+id/isPotraitButton"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@+id/isRecommendedButton" />-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/isLandscapeButton"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="44dp"-->
+<!--                    android:background="@color/md_white_1000"-->
+<!--                    android:drawablePadding="@dimen/space_12"-->
+<!--                    android:enabled="false"-->
+<!--                    android:paddingLeft="@dimen/space_16"-->
+<!--                    android:text="@string/sf__Landscape"-->
+<!--                    android:textAlignment="viewStart"-->
+<!--                    android:textAllCaps="false"-->
+<!--                    android:textSize="@dimen/font_body_size"-->
+<!--                    app:font='@{"normal"}'-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="1.0"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@+id/isPotraitButton"-->
+<!--                    tools:ignore="RtlHardcoded,RtlSymmetry" />-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/isGifButton"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:background="@color/md_white_1000"-->
+<!--                    android:enabled="false"-->
+<!--                    android:paddingLeft="@dimen/space_16"-->
+<!--                    android:text="@string/sf__Gif"-->
+<!--                    android:textAlignment="viewStart"-->
+<!--                    android:textAllCaps="false"-->
+<!--                    android:textSize="@dimen/font_body_size"-->
+<!--                    app:font='@{"normal"}'-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.0"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@+id/isSquareButton" />-->
+
+
+<!--                <Button-->
+<!--                    android:id="@+id/isSquareButton"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:background="@color/md_white_1000"-->
+<!--                    android:enabled="false"-->
+<!--                    android:paddingLeft="@dimen/space_16"-->
+<!--                    android:text="@string/sf__Square"-->
+<!--                    android:textAlignment="viewStart"-->
+<!--                    android:textAllCaps="false"-->
+<!--                    android:textSize="@dimen/font_body_size"-->
+<!--                    app:font='@{"normal"}'-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.0"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@+id/isLandscapeButton"-->
+<!--                    tools:ignore="RtlHardcoded,RtlSymmetry" />-->
+
+<!--                <androidx.appcompat.widget.SwitchCompat-->
+<!--                    android:id="@+id/isLandscapeSwitch"-->
+<!--                    style="@style/SwitchCompatStyle"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginEnd="8dp"-->
+<!--                    app:layout_constraintBottom_toTopOf="@+id/isSquareButton"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="@+id/isLandscapeButton" />-->
+
+<!--                <androidx.appcompat.widget.SwitchCompat-->
+<!--                    android:id="@+id/isGifSwitch"-->
+<!--                    style="@style/SwitchCompatStyle"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginEnd="8dp"-->
+<!--                    app:layout_constraintBottom_toBottomOf="@+id/isGifButton"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="@+id/isGifButton" />-->
+
+<!--                <androidx.appcompat.widget.SwitchCompat-->
+<!--                    android:id="@+id/isSquareSwitch"-->
+<!--                    style="@style/SwitchCompatStyle"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginEnd="8dp"-->
+<!--                    app:layout_constraintBottom_toBottomOf="@+id/isSquareButton"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="@+id/isSquareButton" />-->
+
+                <Button
+                    android:id="@+id/filter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="45dp"
+                    android:text="@string/sf__Filter_Button"
+                    android:textColor="@color/md_white_1000"
+                    app:font='@{"normal"}'
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintCircleRadius="@dimen/space_16"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/isRecommendedButton" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/sf__Category"
+                android:textAlignment="viewStart"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/setKeyWord"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/setCategoryEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/custom_progress_bar_horizontal"
+                android:ems="10"
+                android:hint="@string/sf__notSet"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/text__primary"
+                android:textSize="14sp"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4"
+                tools:ignore="RtlHardcoded,RtlSymmetry,TextViewEdits" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/colorTextView"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="16dp"-->
+<!--                android:layout_marginTop="16dp"-->
+<!--                android:text="@string/sf__Color"-->
+<!--                android:textAlignment="viewStart"-->
+<!--                android:textSize="16sp"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/setCategoryEditText" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/colorEditText"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="16dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:layout_marginEnd="8dp"-->
+<!--                android:background="@drawable/custom_progress_bar_horizontal"-->
+<!--                android:ems="10"-->
+<!--                android:hint="@string/sf__notSet"-->
+<!--                android:inputType="textPersonName"-->
+<!--                android:paddingLeft="10dp"-->
+<!--                android:paddingTop="8dp"-->
+<!--                android:paddingBottom="8dp"-->
+<!--                android:textAlignment="viewStart"-->
+<!--                android:textColor="@color/text__primary"-->
+<!--                android:textSize="14sp"-->
+<!--                app:font='@{"normal"}'-->
+<!--                app:layout_constraintEnd_toStartOf="@+id/view11"-->
+<!--                app:layout_constraintHorizontal_bias="0.5"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/colorTextView"-->
+<!--                tools:ignore="RtlHardcoded,RtlSymmetry,TextViewEdits" />-->
+
+            <LinearLayout
+                android:id="@+id/price_range_bar_container"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/minRatingTextView">
+
+            </LinearLayout>
+
+<!--            <View-->
+<!--                android:id="@+id/view11"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:layout_marginEnd="16dp"-->
+<!--                android:background="@drawable/circular_shape"-->
+<!--                app:layout_constraintBottom_toBottomOf="@+id/colorEditText"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintHorizontal_bias="0.5"-->
+<!--                app:layout_constraintStart_toEndOf="@+id/colorEditText"-->
+<!--                app:layout_constraintTop_toTopOf="@+id/colorEditText" />-->
+
+            <TextView
+                android:id="@+id/minRatingTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/search__zero"
+                app:layout_constraintEnd_toStartOf="@+id/toTextView"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/toTextView" />
+
+            <TextView
+                android:id="@+id/toTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/sf__0_5"
+                app:layout_constraintEnd_toStartOf="@+id/maxRatingTextView"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/minRatingTextView"
+                app:layout_constraintTop_toBottomOf="@+id/ratingRangeTextView" />
+
+            <TextView
+                android:id="@+id/maxRatingTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/search_five"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/toTextView"
+                app:layout_constraintTop_toTopOf="@+id/toTextView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

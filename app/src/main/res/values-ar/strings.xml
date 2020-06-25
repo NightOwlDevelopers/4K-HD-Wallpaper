@@ -1,0 +1,434 @@
+<resources>
+
+    <!-- App General -->
+    <string name="app_name">خلفيات 4K / HD</string>
+    <string name="app__app_name">خلفيات 4K / HD</string>
+    <string name="app__ok">حسنا</string>
+    <string name="app__drawer_open">درج مفتوح</string>
+    <string name="app__drawer_close">إغلاق الدرج</string>
+    <string name="app__cancel">إلغاء</string>
+    <string name="success">نجاح</string>
+    <string name="confirm">تؤكد</string>
+    <string name="info">INFO</string>
+    <string name="error">خطأ</string>
+    <string name="warning">تحذير</string>
+
+    <!-- Menu -->
+    <string name="menu__home">الصفحة الرئيسية</string>
+    <string name="menu__profile">الملف الشخصي</string>
+    <string name="menu__favourite_items">مفضل</string>
+    <string name="menu__logout">الخروج</string>
+    <string name="menu__about_app">معلومات عنا</string>
+    <string name="menu__setting">Setting</string>
+    <string name="menu__privacy_app">سياسة خاصة</string>
+    <string name="menu__dashboard">لوحة القيادة</string>
+    <string name="menu__contact_us">اتصل بنا</string>
+    <string name="menu__notification_setting">إعداد الإعلام</string>
+    <string name="menu__language">لغة</string>
+    <string name="menu__app_setting">التطبيق</string>
+    <string name="menu__user_info">معلومات المستخدم</string>
+    <string name="menu__save">حفظ</string>
+    <string name="menu__search">بحث</string>
+    <string name="menu__filter">منقي</string>
+    <string name="menu__category_list">قوائم الفئات</string>
+    <string name="menu__wallpaper_by_category">خلفية حسب الفئة</string>
+    <string name="menu__latest_wallpapers">أحدث خلفيات</string>
+    <string name="menu__wallpapers_list">قائمة خلفيات</string>
+    <string name="menu__category">الفئة</string>
+    <string name="menu_wallpaper">ورق الجدران</string>
+    <string name="menu__premium">علاوة</string>
+    <string name="menu__trending">الشائع</string>
+    <string name="menu__trending_list">قائمة المؤشرات</string>
+    <string name="menu__claimPoint">نقطة المطالبة</string>
+    <string name="menu__fav">مفضل</string>
+    <string name="menu__fav_live_wallpaper">خلفيات لايف المفضلة</string>
+    <string name="menu__upload_photo">تحميل خلفيات</string>
+    <string name="menu__downloaded">تحميل خلفيات</string>
+    <string name="menu__downloaded_live_wallpaper">تحميلا خلفيات حية</string>
+    <string name="menu__fav_list">قائمة المفضلة</string>
+    <string name="menu__latest_wallpaper">أحدث خلفيات</string>
+    <string name="menu__latest_live_wallpaper">أحدث خلفيات لايف</string>
+    <string name="menu__premium_wallpapers">خلفيات ممتازة</string>
+    <string name="menu__free_wallpapers">خلفيات مجانية</string>
+    <string name="menu__gif_wallpapers">صور GIF</string>
+    <string name="menu__live_wallpapers">خلفيات حية</string>
+    <string name="menu__rate">قيم هذا التطبيق</string>
+    <string name="menu__imageTypes">أنواع خلفيات</string>
+    <string name="menu__privacy_policy">الأحكام والشروط</string>
+
+    <!-- About Us -->
+<!--    <string name="about_us__phone">هاتف</string>-->
+<!--    <string name="about_us__facebook">فيس بوك</string>-->
+<!--    <string name="about_us__gplus">جوجل بلس</string>-->
+<!--    <string name="about_us__instagram">إينستاجرام</string>-->
+<!--    <string name="about_us__youtube">موقع YouTube</string>-->
+<!--    <string name="about_us__pinterest">موقع Pinterest</string>-->
+<!--    <string name="about_us__twitter">تغريد</string>-->
+<!--    <string name="about_us__visit_website">زيارة إلى موقعنا</string>-->
+<!--    <string name="about_us__email">البريد الإلكتروني</string>-->
+
+    <!-- Favourite -->
+    <string name="favourite__favourites">المفضلة</string>
+
+    <!-- Profile -->
+    <string name="profile__title">الملف الشخصي</string>
+    <string name="profile__about_me">عني</string>
+    <string name="profile__joined_date">تاريخ الانضمام</string>
+    <string name="profile__email">البريد الإلكتروني</string>
+    <string name="profile__review">التعليقات</string>
+
+    <!-- Edit Profile -->
+    <string name="edit_profile__title">تعديل الملف الشخصي</string>
+    <string name="edit_profile__user_name">اسم المستخدم</string>
+    <string name="edit_profile__about_me">عني</string>
+    <string name="edit_profile__email">البريد الإلكتروني</string>
+    <string name="edit_profile__password">كلمه السر</string>
+    <string name="edit_profile__password_change">تغيير كلمة السر</string>
+    <string name="edit_profile__save">حفظ</string>
+
+    <!-- Register -->
+    <string name="register__user_name">اسم المستخدم</string>
+    <string name="register__email">البريد الإلكتروني</string>
+    <string name="register__password">كلمه السر</string>
+    <string name="register__back_to_login">عضو بالفعل؟ تسجيل الدخول</string>
+    <string name="register__register">تسجيل</string>
+    <string name="register__new_account">تسجيل حساب مستخدم جديد</string>
+    <string name="register__check_option">هل توافق على هذه الخصوصية والسياسة؟</string>
+
+    <!-- Forgot Password -->
+    <string name="forgot_password__title">هل نسيت كلمة المرور</string>
+    <string name="forgot_password__email">البريد الإلكتروني</string>
+    <string name="forgot_password__back_to_login">عضو بالفعل؟ تسجيل الدخول</string>
+    <string name="forgot_password__password_recovery">استعادة كلمة السر</string>
+    <string name="forgot_password__save">حفظ</string>
+    <string name="forgot_password__send">إرسال</string>
+
+    <!-- Password Change -->
+    <string name="password_change__password">كلمه السر</string>
+    <string name="password_change__save">حفظ</string>
+    <string name="password_change__confirm_password">تأكيد كلمة المرور</string>
+    <string name="password_change__password_change">تغيير كلمة السر</string>
+
+    <!-- Login -->
+    <string name="login__email">البريد الإلكتروني</string>
+    <string name="login__password">كلمه السر</string>
+    <string name="login__not_a_member_join_now">ليس عضوا؟ نضم الان</string>
+    <string name="login__forgot_your_password">نسيت رقمك السري ؟</string>
+    <string name="login__login">تسجيل الدخول</string>
+    <string name="login__welcome_title">مرحبا بكم في خلفيات 4K / HD</string>
+    <string name="login__with_google">الدخول مع جوجل</string>
+    <string name="login__with_phone">في تسجيل الدخول مع الهاتف</string>
+
+
+    <!-- Image Related -->
+    <string name="image__default_image">الصورة الافتراضية</string>
+
+    <!-- Gallery -->
+    <string name="gallery__title">صالة عرض</string>
+    <string name="gallery__image_gallery">معرض الصور</string>
+    <string name="gallery__img_desc">وصف الصورة</string>
+
+
+    <!-- Image Related -->
+    <string name="image_default__image">الصورة الافتراضية</string>
+
+    <!-- Youtube -->
+    <string name="youtube__image">صورة يوتيوب</string>
+
+    <!-- Search -->
+    <string name="no_data">لايوجد بيانات.</string>
+    <string name="search__notSet">غير مضبوط</string>
+    <string name="search__zero">0</string>
+    <string name="search_five">5</string>
+
+    <!-- Rating -->
+    <string name="rating__min">%1$s </string>
+    <string name="rating__max"> %1$s</string>
+
+    <!-- Premium -->
+    <string name="premium__point">$ %1$s</string>
+    <string name="premium__premium">علاوة</string>
+
+    <!-- Recommended -->
+    <string name="search__recommanded">recommended</string>
+
+    <!-- Contact Us -->
+    <string name="contact_us__name">اسم الاتصال</string>
+    <string name="contact_us__email">تواصل بالبريد الاكتروني</string>
+    <string name="contact_us__message">رسالة الاتصال</string>
+    <string name="contact_us__phone">الاتصال الهاتف</string>
+    <string name="contact_us__submit">خضع</string>
+
+    <!-- Notification Setting -->
+    <string name="notification__notification_setting_on_off">إعداد الإشعارات (تشغيل / إيقاف)</string>
+    <string name="notification__latest_message_from_system">آخر رسالة من النظام</string>
+    <string name="notification__notification">إخطار!</string>
+    <string name="notification__alert">محزر</string>
+
+    <!-- Language -->
+    <string name="language__english">الإنجليزية</string>
+    <string name="language__arabic">عربى</string>
+    <string name="language__spanish">الأسبانية</string>
+    <string name="language__language_change">هل تريد بالتأكيد التغيير إلى %1$s؟</string>
+    <string name="language__title">لغة</string>
+
+    <!-- Message -->
+    <string name="message__register_success">التسجيل بنجاح.</string>
+    <string name="message__loading">التسجيل بنجاح....</string>
+    <string name="message__please_wait">التسجيل بنجاح....</string>
+    <string name="message__welcome">ترحيب شكل PSNews</string>
+    <string name="message__want_to_quit">حقيقة تريد الاستقالة؟</string>
+    <string name="message__select_category">يرجى تحديد الفئة التي تريد رؤيتها !!!</string>
+    <string name="message__ok_close">قريب</string>
+    <string name="message__cancel_close">إلغاء</string>
+    <string name="message__want_to_logout">هل تريد حقًا الخروج؟</string>
+    <string name="message__logout">الخروج</string>
+    <string name="message__download_success">تم التنزيل بنجاح.</string>
+    <string name="message__downloading">تحميل الملف..</string>
+    <string name="message__crop_image">هل تريد اقتصاص هذه الصورة</string>
+
+    <!-- Error Message -->
+    <string name="error_message__select_location">يرجى تحديد الموقع.</string>
+    <string name="error_message__login_first">الرجاء تسجيل الدخول أولا!</string>
+    <string name="error_message__youtube_not_valid">YouTube غير صالح.</string>
+    <string name="error_message__blank_email">يرجى إدخال البريد الإلكتروني.</string>
+    <string name="error_message__blank_contact_message">يرجى إدخال رسالة الاتصال.</string>
+    <string name="error_message__blank_password">يرجى إدخال كلمة السر.</string>
+    <string name="error_message__blank_name">يرجى إدخال الاسم.</string>
+    <string name="error_message__blank_keyword">يرجى إدخال كلمة البحث.</string>
+    <string name="error_message__password_not_equal">كلمة المرور غير متساوية!</string>
+    <string name="error_message__no_internet">لا يوجد اتصال بالإنترنت.</string>
+    <string name="error_message__img_not_selected">لا توجد صورة محددة</string>
+    <string name="error_message__image_cannot_upload">لا يمكن تحميل الصورة</string>
+    <string name="error_message__required_fields">الحقول المطلوبة لا يمكن أن تكون فارغة</string>
+    <string name="error_message__to_check_agreement">تحتاج إلى التحقق من اتفاق الخصوصية والسياسة.</string>
+    <string name="error_message__blank_phone_no">الرجاء إدخال رقم الهاتف.</string>
+
+
+    <!-- Dialog Message -->
+    <string name="confirm_message__set_wallpaper">تأكد لضبط الخلفية</string>
+    <string name="confirm_message__ok">حسنا</string>
+    <string name="confirm_message__cancel">إلغاء</string>
+    <string name="success_message__set_wallpaper">تعيين خلفية بنجاح</string>
+    <string name="success_message__upload_successful">تم التحميل بنجاح</string>
+
+    <string name="hello_blank_fragment">مرحبا جزء فارغ</string>
+
+    <!-- DashBoard -->
+    <string name="dashboard__title">البحث عن خلفيات</string>
+    <string name="dashboard__search">خلفيات البحث</string>
+    <string name="dashboard__latest_wallpaper">أحدث خلفيات</string>
+    <string name="dashboard__category">فئة</string>
+    <string name="dashboard__trending">تتجه</string>
+    <string name="dashboard__landscape">صور الطبيعة</string>
+    <string name="dashboard__potrait">صورة</string>
+    <string name="dashboard__square">مربع</string>
+    <string name="dashboard__view_all">عرض الكل></string>
+    <string name="dashboard__wallpaper_by_category">خلفية حسب الفئة</string>
+    <string name="dashboard__pts">pts %1$s</string>
+    <string name="dashboard__gif">صور GIF</string>
+    <!-- END -->
+
+    <!-- Premium -->
+    <string name="dashboard__premium_latest">آخر</string>
+    <string name="dashboard__premium_trending">تتجه</string>
+    <string name="dashboard__premium_recommended">موصى به</string>
+    <string name="dashboard__premium_download">معظم التنزيل</string>
+
+    <!-- Wallpaper -->
+    <string name="dashboard__wallpaper_latest">آخر</string>
+    <string name="dashboard__wallpaper_trending">تتجه</string>
+    <string name="dashboard__wallpaper_recommended">موصى به</string>
+    <string name="dashboard__wallpaper_download">معظم التنزيل</string>
+
+    <!-- Category -->
+    <string name="category__category">الفئة</string>
+    <string name="category__30wallpaper">خلفيات</string>
+    <string name="category__wallpaperCount">%1$s  %2$s</string>
+
+    <!-- WallpaperDetail -->
+    <string name="wallpaper__detail">ورق الجدران</string>
+    <!-- END -->
+
+    <!--Search Buttons -->
+    <string name="search_button_searh">تصفية البحث</string>
+    <string name="search_button_sorting">فرز</string>
+    <!--Search Buttons -->
+
+    <!--Button Sheet Dialog Messages-->
+    <string name="dialog__title_m_mun">فرز</string>
+    <string name="popular__m_mun">جمع</string>
+    <string name="recent__m_mun">آخر</string>
+    <string name="most_download__m_mun">معظم التنزيل</string>
+    <string name="low_price__m_mun">أدنى تقييم</string>
+    <string name="high_price__m_mun">أعلى تقييم</string>
+
+    <!--Special_Filtering-->
+    <string name="sf__notSet">لم يتم التعيين</string>
+    <string name="sf__notSet_zg">غير مضبوط</string>
+    <string name="sf__ByKeyWord">الكلمة</string>
+    <string name="sf__ByPrice">ضع سعر</string>
+    <string name="sf__free">حر</string>
+    <string name="sf__premium">علاوة</string>
+    <string name="sf__AdvanceFiltering">تصفية متقدمة</string>
+    <string name="sf__Recommend">موصى به</string>
+    <string name="sf__Portrait">هو عمودي</string>
+    <string name="sf__Filter_Button">منقي</string>
+    <string name="sf__Category">الفئة</string>
+    <string name="sf__Landscape">هو المشهد</string>
+    <string name="sf__Square">هل الساحة</string>
+    <string name="sf__Gif">غير المتحركة</string>
+    <string name="sf__live_wallpaper">هل لايف للجدران</string>
+    <string name="sf__Color">اللون</string>
+    <string name="sf__Points">نقاط</string>
+    <string name="sf__Rating">نطاق التصنيف</string>
+    <string name="sf__Minimum">الحد الأدنى</string>
+    <string name="sf__Maximum">أقصى</string>
+    <string name="sf__0_5">إلى</string>
+
+    <!--Detail BottomSheet-->
+    <string name="dbs__viewCount">عرض العدد</string>
+    <string name="dbs__downloadCount">تنزيل العدد</string>
+    <string name="dbs__favouriteCount">العد المفضل</string>
+    <string name="dbs__setAs">جلس مثل</string>
+    <string name="dbs__download">تحميل</string>
+    <string name="dbs__share">شارك</string>
+    <string name="dbs__favourite">مفضل</string>
+    <string name="dbs__rate">معدل</string>
+    <string name="dbs__name">اسم</string>
+    <string name="dbs__orientation">اتجاه</string>
+    <string name="dbs__category">الفئة</string>
+    <string name="dbs__addedDate">تاريخ الاضافة</string>
+    <string name="dbs__width">عرض ارتفاع</string>
+    <string name="dbs__color">اللون</string>
+    <string name="dbs__size">بحجم</string>
+    <string name="dbs__credit">ائتمان</string>
+    <string name="dbs__tags">الكلمات</string>
+    <string name="dbs__setWallpaperTo">تعيين خلفية ل</string>
+    <string name="dbs__setWallpaperToHome">الشاشة الرئيسية</string>
+    <string name="dbs__setWallpaperToLock">اقفل الشاشة</string>
+    <string name="dbs__setWallpaperToBoth">الشاشة الرئيسية والقفل</string>
+    <!--Detail BottomSheet-->
+
+    <!-- Claim Point -->
+    <string name="claim__pts_100">100 pts</string>
+    <string name="claim__pts_200">200 pts</string>
+    <string name="claim__pts_300">300 pts</string>
+    <string name="claim__daily_reward">نقاط المكافأة اليومية</string>
+    <string name="claim__watch_for_reward">مشاهدة للمكافأة</string>
+    <string name="daily_point">أعود يوميا للحصول على نقاط</string>
+    <string name="watch_point">مشاهدة لكسب المزيد من النقاط</string>
+    <!-- Claim Point -->
+
+    <string name="toast_unexpected_error">خطأ غير متوقع</string>
+    <string name="toast_crop_successful">ناجح</string>
+    <string name="your_rating">تقييمك</string>
+    <string name="user_rating">تقييم المستخدم!</string>
+    <string name="button_submit">خضع</string>
+
+    <string name="set_as_home_screen">مجموعة والشاشة الرئيسية</string>
+    <string name="set_as_home_lock_screen">تعيين كالمنزل وقفل الشاشة</string>
+
+    <string name="Landscape">المناظر الطبيعيه</string>
+    <string name="Portrait">صورة</string>
+    <string name="Square">ميدان</string>
+
+    <string name="premium_count_purchased">pts %1$s (اشترى)</string>
+    <string name="premium_count">pts %1$s</string>
+
+    <string name="buy_first">تحتاج إلى شراء هذه الخلفية للقيام بعملك المطلوب. اشتر هذا الآن؟</string>
+    <string name="Top_Up">ليس لديك ما يكفي من النقاط حتى الآن! المطالبة أكثر من ذلك</string>
+    <string name="purchased">اشترى</string>
+    <string name="purchase_successful">شكرا لك على شراء ورق الحائط الخاص بك</string>
+    <string name="purchase_unsuccessful">حدث خطأ في عملية الشراء ، يرجى المحاولة مرة أخرى</string>
+
+    <string name="loading">جار التحميل</string>
+
+
+    <!-- Walk Through -->
+    <string name="walk_through__next">التالى</string>
+    <string name="walk_through__skip">تخطى</string>
+    <string name="walk_through__free_wallpaper">خلفيات مجانية</string>
+    <string name="walk_through__premium_wallpaper">خلفيات رائعة</string>
+    <string name="walk_through__advanced_search">البحث المتقدم</string>
+    <string name="walk_through__unlimited_wallpapers">تحميل خلفيات</string>
+    <string name="walk_through__text_1">يمكن للمستخدم الحصول على ما يريده \ n واستخدامه لأي خلفيات مجانية.</string>
+    <string name="walk_through__text_2">يمكن للمستخدم شراء خلفيات Premium \ n باستخدام نقاطه</string>
+    <string name="walk_through__text_3">يمكن للمستخدم البحث في خلفيات باستخدام \ n بعض المرشحات المتقدمة.</string>
+    <string name="walk_through__text_4">يمكن للمستخدم تحميل خلفياته و \ n ستفعلها عملية الموافقة.</string>
+    <string name="walk_through__check_option">لا تظهر مقدمة مرة أخرى في المرة القادمة مفتوحة.</string>
+    <string name="walk_through__let_explore">دعنا نستكشف</string>
+
+    <!--Wallpaper Upload-->
+
+    <string name="wallpaper_name">اسم الجدار *</string>
+    <string name="wallpaper_search_tags">خلفيات البحث العلامات</string>
+    <string name="wallpaper_types">أنواع ورق الحائط *</string>
+    <string name="wallpaper_point">خلفية نقطة </string>
+    <string name="wallpaper_image_type">نوع الصورة</string>
+    <string name="wallpaper_image">صورة خلفية</string>
+    <string name="wallpaper_category_name">اسم فئة ورق الحائط *</string>
+    <string name="wallpaper_select_color">لون ورق الجدران *</string>
+    <string name="wallpaper_select_credit">ائتمان</string>
+    <string name="wallpaper_published">هل تم نشر خلفية الشاشة؟</string>
+    <string name="wallpaper_recommended">هل خلفية الموصى بها؟</string>
+    <string name="wallpaper_portrait">هو خلفية صورة؟</string>
+    <string name="wallpaper_landscape">هو خلفية المشهد؟</string>
+    <string name="wallpaper_square">هو مربع ورق الجدران؟</string>
+    <string name="wallpaper_submit_button">رفع</string>
+    <string name="wallpaper_choose_button">اختر الصورة</string>
+    <string name="wallpaper_image_upload_title">تحميل خلفية</string>
+    <string name="free">حر</string>
+    <string name="premium">PREMIUM</string>
+    <string name="wallpaper_error__required_name">اسم الخلفية مطلوب</string>
+    <string name="wallpaper_error__required_point">مطلوب خلفية نقطة</string>
+    <string name="wallpaper_error__not_required_point">خلفية نقطة ليست مطلوبة لإدخال.</string>
+    <string name="wallpaper_error__required_category">يرجى اختيار الفئة.</string>
+    <string name="wallpaper_error__required_color">يرجى اختيار اللون.</string>
+    <string name="wallpaper_error__required_image_type">يرجى تحديد نوع الصورة هو عمودي أو أفقي أو مربع.</string>
+    <string name="wallpaper_error__gif_radio_on">يرجى تحديد نوع الصورة GIF.</string>
+    <string name="wallpaper_error__image_wallpaper_on">يرجى اختيار نوع ورق الحائط.</string>
+    <string name="wallpaper_error__required_wallpaper_type">Please select wallpaper type.</string>
+    <string name="upload_photo__delete">هل أنت متأكد من حذف هذه الصورة؟</string>
+    <string name="upload_photo__delete_status">تم الحذف بنجاح</string>
+    <string name="upload_photo__point_greater_0">يجب أن تكون النقطة أكبر من 0</string>
+    <string name="upload_photo__image_wallpapers">خلفية الصورة</string>
+    <string name="upload_photo__gif">GIF</string>
+
+    <!--Wallpaper Upload-->
+    <!-- Setting fragment -->
+    <string name="setting__privacy_policy">سياسة خاصة</string>
+    <string name="setting__privacy_policy_desc">بيان السياسة</string>
+    <string name="setting__notification_setting">إعداد الإخطار</string>
+    <string name="setting__notification_setting_desc">إعداد التحكم للإعلام</string>
+    <string name="setting__app_version">نسخة التطبيق</string>
+    <string name="setting__cache_size">حجم ذاكرة التخزين المؤقت للصور</string>
+    <string name="setting__clear_cache">مسح صورة ذاكرة التخزين المؤقت</string>
+    <string name="setting__clear_cache_confirm">هل أنت متأكد من مسح ذاكرة التخزين المؤقت للصور؟</string>
+    <string name="setting__change_gdpr">تغيير إعداد الناتج القومي الإجمالي</string>
+
+
+    <!--force update-->
+    <string name="force_update_true">يتوفر التحديث</string>
+    <string name="force_update__button_update"> تحديث </string>
+    <string name="version_update"> تحديث الإصدار </string>
+
+
+    <!-- FB Register -->
+    <string name="fb_register__welcome">مرحبا من %1$s </string>
+    <string name="fb_register__desc">يرجى تسجيل الدخول لاستخدام جميع ميزات التطبيق.</string>
+
+    <!-- Verify Email -->
+    <string name="verify_email__informateion">لقد تلقيت للتو رسالة بريد إلكتروني تحتوي على رمز التحقق في</string>
+    <string name="verify_email__enter_code">أدخل رمز التحقق</string>
+    <string name="verify_email__change_email">تغيير الايميل</string>
+    <string name="verify_email__resent_code">رمز الاستياء</string>
+    <string name="verify_email__submit">خضع</string>
+    <string name="verify_email__title">تأكيد بواسطة البريد الالكتروني</string>
+
+    <!-- Verify Phone -->
+    <string name="verify_phone__informateion">لقد تلقيت للتو رسالة هاتفية تحتوي على كود مكتب المدعي العام على</string>
+    <string name="verify_phone__back_login">العودة إلى تسجيل الدخول؟</string>
+    <string name="verify_phone__title">التحقق من رقم الهاتف</string>
+    <string name="verify_phone_code">أدخل رمز OTP</string>
+</resources>

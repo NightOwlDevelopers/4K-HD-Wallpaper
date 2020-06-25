@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="allWallpapers"
+            type="com.panaceasoft.pswallpaper.viewobject.Wallpaper" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        app:cardElevation="0.5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/latestCategoryImageView"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:baselineAlignBottom="false"
+                android:contentDescription="@string/image__default_image"
+                android:scaleType="centerCrop"
+                app:imageUrl="@{allWallpapers.default_photo.image_path_thumb}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@drawable/placeholder_image" />
+
+            <View
+                android:id="@+id/view8"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:background="@color/md_white_1000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/latestCategoryImageView" />
+
+            <com.like.LikeButton
+                android:id="@+id/heartButton"
+                android:layout_width="0dp"
+                android:layout_height="17dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                app:anim_scale_factor="2"
+                app:circle_end_color="@color/md_red_600"
+                app:circle_start_color="@color/md_white_1000"
+                app:dots_primary_color="@color/md_green_600"
+                app:dots_secondary_color="@color/md_blue_300"
+                app:icon_size="20dp"
+                app:icon_type="heart"
+                app:is_enabled="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/view8"
+                app:layout_constraintVertical_bias="0.538"
+                app:like_drawable="@drawable/heart_on"
+                app:unlike_drawable="@drawable/heart_off" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="12dp"
+                android:contentDescription="@string/image__default_image"
+                android:scaleType="centerInside"
+                android:tint="@color/md_icon_color"
+                app:layout_constraintBottom_toBottomOf="@+id/count1TextView"
+                app:layout_constraintStart_toEndOf="@+id/count1TextView"
+                app:layout_constraintTop_toTopOf="@+id/count1TextView"
+                app:srcCompat="@drawable/baseline_trending_black_24" />
+
+            <TextView
+                android:id="@+id/count1TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/space_8"
+                android:paddingBottom="@dimen/space_8"
+                android:textColor="@color/text__primary"
+                app:font='@{"normal"}'
+                app:layout_constraintBottom_toBottomOf="@+id/heartButton"
+                app:layout_constraintStart_toEndOf="@+id/heartButton"
+                app:layout_constraintTop_toTopOf="@+id/heartButton"
+                tools:text="30 " />
+
+            <TextView
+                android:id="@+id/count2TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:paddingTop="@dimen/space_8"
+                android:paddingBottom="@dimen/space_8"
+                android:textColor="@color/text__primary"
+                app:font='@{"normal"}'
+                app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+                app:layout_constraintStart_toEndOf="@+id/imageView3"
+                app:layout_constraintTop_toTopOf="@+id/imageView3"
+                tools:text="30 " />
+
+            <ImageView
+                android:id="@+id/premiumImageView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:adjustViewBounds="true"
+                android:alpha="0.4"
+                android:baselineAlignBottom="false"
+                android:contentDescription="@string/image__default_image"
+                android:scaleType="fitXY"
+                android:src="@drawable/baseline_cross_white_bg_2"
+                android:visibility="gone"
+                app:layout_constraintBottom_toTopOf="@+id/view8"
+                app:layout_constraintDimensionRatio=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/premiumTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.5"
+                android:text="@string/premium__premium"
+                android:textColorHint="@color/md_white_1000"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/premiumImageView"
+                app:layout_constraintEnd_toEndOf="@+id/latestCategoryImageView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/premiumPriceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/rounded_corner_shape_button"
+                android:textColor="@color/text__white"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="$ 100" />
+
+            <ImageView
+                android:id="@+id/gifImageView"
+                android:layout_width="@dimen/space_60"
+                android:layout_height="@dimen/space_32"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:scaleType="fitCenter"
+                android:visibility="gone"
+                app:layout_constraintBottom_toTopOf="@+id/view8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:srcCompat="@drawable/baseline_gif_logo" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</layout>

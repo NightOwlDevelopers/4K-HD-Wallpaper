@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="allWallpapers"
+            type="com.panaceasoft.pswallpaper.viewobject.Wallpaper" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/recycler_item_bg">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="6dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/latestCategoryImageView"
+                    imageUrl="@{allWallpapers.default_photo.img_path}"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:adjustViewBounds="false"
+                    android:baselineAlignBottom="false"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:srcCompat="@drawable/app_icon" />
+
+                <View
+                    android:id="@+id/view8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:background="@drawable/black_alpha_50"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <com.like.LikeButton
+                    android:id="@+id/heartButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/view8"
+                    app:layout_constraintStart_toStartOf="@+id/view8"
+                    app:layout_constraintTop_toTopOf="@+id/view8"
+                    app:layout_constraintVertical_bias="0.538"
+                    app:anim_scale_factor="2"
+                    app:circle_end_color="@color/md_red_600"
+                    app:circle_start_color="@color/md_white_1000"
+                    app:dots_primary_color="@color/md_green_600"
+                    app:dots_secondary_color="@color/md_blue_300"
+                    app:icon_size="20dp"
+                    app:icon_type="heart"
+                    app:is_enabled="true"
+                    app:like_drawable="@drawable/heart_on"
+                    app:unlike_drawable="@drawable/baseline_heart_white" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="16dp"
+                    android:tint="@color/md_icon_color"
+                    app:layout_constraintBottom_toBottomOf="@+id/count1TextView"
+                    app:layout_constraintStart_toEndOf="@+id/count1TextView"
+                    app:layout_constraintTop_toTopOf="@+id/count1TextView"
+                    app:srcCompat="@drawable/baseline_trending_grey_24" />
+
+                <TextView
+                    android:id="@+id/count1TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:paddingTop="@dimen/space_8"
+                    android:paddingBottom="@dimen/space_8"
+                    android:text="@{allWallpapers.is_favourited}"
+                    android:textColor="@color/md_white_1000"
+                    app:layout_constraintBottom_toBottomOf="@+id/heartButton"
+                    app:layout_constraintStart_toEndOf="@+id/heartButton"
+                    app:layout_constraintTop_toTopOf="@+id/heartButton"
+                    tools:text="Favourite Count" />
+
+                <TextView
+                    android:id="@+id/count2TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:paddingTop="@dimen/space_8"
+                    android:paddingBottom="@dimen/space_8"
+                    android:text="@{Integer.toString(allWallpapers.touch_count)}"
+                    android:textColor="@color/md_white_1000"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+                    app:layout_constraintStart_toEndOf="@+id/imageView3"
+                    app:layout_constraintTop_toTopOf="@+id/imageView3"
+                    tools:text="Touch Count" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">4K / HD Duvar Kağıtları</string>
+    <string name="app__app_name">4K / HD Duvar Kağıtları</string>
+    <string name="app__ok">tamam</string>
+    <string name="app__drawer_open">Çekmece Açık</string>
+    <string name="app__drawer_close">Çekmece Kapat</string>
+    <string name="app__cancel">İptal etmek</string>
+    <string name="success">BAŞARI</string>
+    <string name="confirm">ONAYLAMAK</string>
+    <string name="info">BİLGİ</string>
+    <string name="error">HATA</string>
+    <string name="warning">UYARI</string>
+
+
+    <string name="menu__home">Ev</string>
+    <string name="menu__profile">Profil</string>
+    <string name="menu__favourite_items">Favori</string>
+    <string name="menu__logout">Çıkış Yap</string>
+    <string name="menu__about_app">Hakkımızda</string>
+    <string name="menu__setting">Ayar</string>
+    <string name="menu__privacy_app">Gizlilik Politikası</string>
+    <string name="menu__dashboard">Gösterge Paneli</string>
+    <string name="menu__contact_us">Bizimle iletişime geçin</string>
+    <string name="menu__notification_setting">Bildirim ayarı</string>
+    <string name="menu__language">Dil</string>
+    <string name="menu__app_setting">Uygulama</string>
+    <string name="menu__user_info">Kullanıcı bilgisi</string>
+    <string name="menu__save">Kayıt etmek</string>
+    <string name="menu__search">Ara</string>
+    <string name="menu__filter">filtre</string>
+    <string name="menu__category_list">Kategori Listeleri</string>
+    <string name="menu__wallpaper_by_category">Kategoriye Göre Duvar Kağıdı</string>
+    <string name="menu__latest_wallpapers">Son Duvar Kağıtları</string>
+    <string name="menu__wallpapers_list">Duvar Kağıtları Listesi</string>
+    <string name="menu__category">Kategori</string>
+    <string name="menu_wallpaper">Duvar kağıdı</string>
+    <string name="menu__premium">Ödül</string>
+    <string name="menu__trending">Trend</string>
+    <string name="menu__claimPoint">Talep Noktası</string>
+    <string name="menu__trending_list">Trend Listesi</string>
+    <string name="menu__fav">Favori</string>
+    <string name="menu__fav_live_wallpaper">Favori Canlı Duvar Kağıtları</string>
+    <string name="menu__downloaded">İndirilen Duvar Kağıdı</string>
+    <string name="menu__downloaded_live_wallpaper">İndirilen Canlı Duvar Kağıtları</string>
+    <string name="menu__upload_photo">Duvar Kağıtları Yükle</string>
+    <string name="menu__fav_list">Favori liste</string>
+    <string name="menu__latest_wallpaper">Son duvar kağıdı</string>
+    <string name="menu__latest_live_wallpaper">Son Canlı Duvar Kağıdı</string>
+    <string name="menu__premium_wallpapers">Premium Duvar Kağıtları</string>
+    <string name="menu__gif_wallpapers">GIFler</string>
+    <string name="menu__live_wallpapers">Canlı Duvarkağıtları</string>
+    <string name="menu__free_wallpapers">Ücretsiz duvar kağıtları</string>
+    <string name="menu__rate">Bu uygulamayı oyla</string>
+    <string name="menu__imageTypes">Duvar Kağıdı Türleri</string>
+    <string name="menu__privacy_policy">Şartlar ve koşullar</string>
+
+
+<!--    <string name="about_us__phone">Telefon</string>-->
+<!--    <string name="about_us__facebook">Facebook</string>-->
+<!--    <string name="about_us__gplus">Google Plus</string>-->
+<!--    <string name="about_us__instagram">Instagram</string>-->
+<!--    <string name="about_us__youtube">Youtube</string>-->
+<!--    <string name="about_us__pinterest">pinterest</string>-->
+<!--    <string name="about_us__twitter">heyecan</string>-->
+<!--    <string name="about_us__visit_website">Web Sitemizi Ziyaret Edin</string>-->
+<!--    <string name="about_us__email">E-posta</string>-->
+
+
+    <string name="favourite__favourites">Favoriler</string>
+
+
+    <string name="profile__title">Profil</string>
+    <string name="profile__about_me">Benim hakkımda</string>
+    <string name="profile__joined_date">Katıldığı Tarih</string>
+    <string name="profile__email">E-posta</string>
+    <string name="profile__review">yorumlar</string>
+
+
+    <string name="edit_profile__title">Profili Düzenle</string>
+    <string name="edit_profile__user_name">Kullanıcı adı</string>
+    <string name="edit_profile__about_me">Benim hakkımda</string>
+    <string name="edit_profile__email">E-posta</string>
+    <string name="edit_profile__password">Parola</string>
+    <string name="edit_profile__password_change">Parola değişimi</string>
+    <string name="edit_profile__save">Kayıt etmek</string>
+
+
+    <string name="register__user_name">Kullanıcı adı</string>
+    <string name="register__email">E-posta</string>
+    <string name="register__password">Parola</string>
+    <string name="register__back_to_login">Zaten üye misiniz? Oturum aç</string>
+    <string name="register__register">Kayıt ol</string>
+    <string name="register__new_account">Yeni Kullanıcı Hesabı Kaydı</string>
+    <string name="register__check_option">Bu gizlilik ve politikayı kabul ediyor musunuz?</string>
+
+
+    <string name="forgot_password__title">Parolanızı mı unuttunuz</string>
+    <string name="forgot_password__email">E-posta</string>
+    <string name="forgot_password__back_to_login">Zaten üye misiniz? Oturum aç</string>
+    <string name="forgot_password__password_recovery">Şifre kurtarma</string>
+    <string name="forgot_password__save">Kayıt etmek</string>
+    <string name="forgot_password__send">Gönder</string>
+
+
+    <string name="password_change__password">Parola</string>
+    <string name="password_change__save">Kayıt etmek</string>
+    <string name="password_change__confirm_password">Şifreyi Onayla</string>
+    <string name="password_change__password_change">Parola değişimi</string>
+
+
+    <string name="login__email">E-posta</string>
+    <string name="login__password">Parola</string>
+    <string name="login__not_a_member_join_now">Üye değil? Şimdi Katıl</string>
+    <string name="login__forgot_your_password">Parolanızı mı unuttunuz ?</string>
+    <string name="login__login">Oturum aç</string>
+    <string name="login__welcome_title">4K / HD Duvar Kağıtlarına Hoşgeldiniz</string>
+    <string name="login__with_google">Google ile giriş yap</string>
+    <string name="login__with_phone">เข้าสู่ระบบด้วยโทรศัพท์</string>
+
+
+    <string name="image__default_image">Varsayılan Resim</string>
+
+
+
+    <string name="gallery__title">galeri</string>
+    <string name="gallery__image_gallery">Resim Galerisi</string>
+    <string name="gallery__img_desc">Görüntü açıklaması</string>
+
+
+    <string name="image_default__image">Varsayılan Resim</string>
+
+
+    <string name="youtube__image">YouTube Resmi</string>
+
+
+    <string name="no_data">Veri yok.</string>
+    <string name="search__zero">0</string>
+    <string name="search_five">5</string>
+
+
+    <string name="rating__min">%1$s </string>
+    <string name="rating__max"> %1$s</string>
+
+
+    <string name="premium__point">$ %1$s</string>
+    <string name="premium__premium">Ödül</string>
+
+
+    <string name="contact_us__name">Kişi Adı</string>
+    <string name="contact_us__email">İletişim E-posta</string>
+    <string name="contact_us__message">İletişim Mesajı</string>
+    <string name="contact_us__phone">İletişim Telefonu</string>
+    <string name="contact_us__submit">Sunmak</string>
+
+
+    <string name="notification__notification_setting_on_off">Bildirim Ayarı (Açık / Kapalı)</string>
+    <string name="notification__latest_message_from_system">Sistemden Son Mesaj</string>
+    <string name="notification__notification">Bildirim!</string>
+    <string name="notification__alert">Alarm</string>
+
+
+    <string name="language__english">ingilizce</string>
+    <string name="language__arabic">Arapça</string>
+    <string name="language__spanish">İspanyol</string>
+    <string name="language__language_change"> %1$s olarak değiştirmek istediğinize emin misiniz?</string>
+    <string name="language__title">Dil</string>
+
+
+    <string name="message__register_success">Başarıyla Kayıt Olun.</string>
+    <string name="message__loading">Yükleniyor…</string>
+    <string name="message__please_wait">Lütfen bekle…</string>
+    <string name="message__welcome">Hoşgeldin formu PSNews</string>
+    <string name="message__want_to_quit">Gerçekten çıkmak istiyor musun?</string>
+    <string name="message__select_category">Lütfen görmek istediğiniz kategoriyi seçiniz !!!</string>
+    <string name="message__ok_close">Kapat</string>
+    <string name="message__cancel_close">İptal etmek</string>
+    <string name="message__want_to_logout">Gerçekten çıkış yapmak istiyor musun?</string>
+    <string name="message__logout">Çıkış Yap</string>
+    <string name="message__download_success">Başarıyla İndirildi.</string>
+    <string name="message__downloading">Dosya indiriliyor..</string>
+    <string name="message__crop_image">Bu resmi kırpmak istiyor musunuz</string>
+
+
+
+    <string name="error_message__select_location">Lütfen yer seçiniz.</string>
+    <string name="error_message__login_first">Lütfen önce giriş yapın!</string>
+    <string name="error_message__youtube_not_valid">YouTube geçerli değil.</string>
+    <string name="error_message__blank_email">Lütfen Email\'i giriniz.</string>
+    <string name="error_message__blank_contact_message">Lütfen İletişim Mesajını girin.</string>
+    <string name="error_message__blank_password">Lütfen şifrenizi girin.</string>
+    <string name="error_message__blank_name">Lütfen isim giriniz.</string>
+    <string name="error_message__blank_keyword">Lütfen arama anahtar kelimesini girin.</string>
+    <string name="error_message__password_not_equal">Parola eşit değil!</string>
+    <string name="error_message__no_internet">İnternet bağlantısı yok.</string>
+    <string name="error_message__img_not_selected">Resim Seçilmedi</string>
+    <string name="error_message__image_cannot_upload">Resim Yüklenemiyor</string>
+    <string name="error_message__required_fields">Zorunlu Alanlar boş bırakılamaz</string>
+    <string name="error_message__to_check_agreement">Gizlilik ve politika sözleşmesini kontrol etmeniz gerekir.</string>
+    <string name="error_message__blank_phone_no">girişi telefon numarasını lütfen.</string>
+
+
+    <string name="confirm_message__set_wallpaper">Duvar Kağıdını ayarlamak için onayla</string>
+    <string name="confirm_message__ok">tamam</string>
+    <string name="confirm_message__cancel">İptal etmek</string>
+    <string name="success_message__set_wallpaper">Duvar kağıdı başarıyla ayarlandı</string>
+    <string name="success_message__upload_successful">Başarıyla Yüklendi</string>
+
+
+
+    <string name="hello_blank_fragment">Merhaba boş parça</string>
+
+
+    <string name="dashboard__title">Duvar Kağıdı Bul</string>
+    <string name="dashboard__search">Duvar Kağıdı Ara</string>
+    <string name="dashboard__latest_wallpaper">Son duvar kağıdı</string>
+    <string name="dashboard__category">Kategori</string>
+    <string name="dashboard__trending">Trend</string>
+    <string name="dashboard__landscape">peyzaj</string>
+    <string name="dashboard__potrait">Vesika</string>
+    <string name="dashboard__square">Meydan</string>
+    <string name="dashboard__gif">GIFler</string>
+
+    <string name="dashboard__view_all">Tümünü Göster&gt;</string>
+    <string name="dashboard__wallpaper_by_category">Kategoriye Göre Duvar Kağıdı</string>
+    <string name="dashboard__pts">%1$s pts</string>
+
+
+
+    <string name="dashboard__premium_latest">son</string>
+    <string name="dashboard__premium_trending">Trend</string>
+    <string name="dashboard__premium_recommended">Önerilen</string>
+    <string name="dashboard__premium_download">En çok indirilen</string>
+
+
+    <string name="search__recommanded">önerilen</string>
+
+
+    <string name="dashboard__wallpaper_latest">son</string>
+    <string name="dashboard__wallpaper_trending">Trend</string>
+    <string name="dashboard__wallpaper_recommended">Önerilen</string>
+    <string name="dashboard__wallpaper_download">En çok indirilen</string>
+
+
+    <string name="category__category">Kategori</string>
+    <string name="category__30wallpaper">Duvar</string>
+    <string name="category__wallpaperCount">%1$s  %2$s</string>
+
+
+    <string name="wallpaper__detail">Duvar kağıdı</string>
+
+
+
+    <string name="search__notSet">Ayarlanmadı</string>
+    <string name="search_button_searh">Ara / Filtre</string>
+    <string name="search_button_sorting">sınıflandırma</string>
+
+
+
+    <string name="dialog__title_m_mun">sınıflandırma</string>
+    <string name="popular__m_mun">Popüler</string>
+    <string name="recent__m_mun">son</string>
+    <string name="most_download__m_mun">En çok indirilen</string>
+    <string name="low_price__m_mun">En Düşük Puan</string>
+    <string name="high_price__m_mun">En Yüksek Puan</string>
+
+
+    <string name="sf__notSet">Ayarlanmadı</string>
+    <string name="sf__notSet_zg">Ayarlanmadı</string>
+    <string name="sf__ByKeyWord">Kelimeler</string>
+    <string name="sf__ByPrice">Fiyat ayarla</string>
+    <string name="sf__free">Beleş</string>
+    <string name="sf__premium">Ödül</string>
+    <string name="sf__AdvanceFiltering">Gelişmiş Filtreleme</string>
+    <string name="sf__Recommend">Tavsiye edilir</string>
+    <string name="sf__Portrait">Portre mi</string>
+    <string name="sf__Filter_Button">filtre</string>
+    <string name="sf__Category">Kategori</string>
+    <string name="sf__Landscape">Manzara mı</string>
+    <string name="sf__Square">Kare mi</string>
+    <string name="sf__Gif">Gif</string>
+    <string name="sf__live_wallpaper">Canlı duvar kağıdı mı</string>
+    <string name="sf__Color">Renk</string>
+    <string name="sf__Points">makas</string>
+    <string name="sf__Rating">Derecelendirme Aralığı</string>
+    <string name="sf__Minimum">minimum</string>
+    <string name="sf__Maximum">Maksimum</string>
+    <string name="sf__0_5"> TO</string>
+
+
+
+    <string name="dbs__viewCount">Sayımı Görüntüle</string>
+    <string name="dbs__downloadCount">İndirme Sayısı</string>
+    <string name="dbs__favouriteCount">Favori Sayım</string>
+    <string name="dbs__setAs">Olarak ayarla</string>
+    <string name="dbs__download">İndir</string>
+    <string name="dbs__share">Paylaş</string>
+    <string name="dbs__favourite">Favori</string>
+    <string name="dbs__rate">oran</string>
+    <string name="dbs__name">isim</string>
+    <string name="dbs__orientation">Oryantasyon</string>
+    <string name="dbs__category">Kategori</string>
+    <string name="dbs__addedDate">Eklenme Tarihi</string>
+    <string name="dbs__width">En boy</string>
+    <string name="dbs__color">Renk</string>
+    <string name="dbs__size">Size</string>
+    <string name="dbs__credit">Kredi</string>
+    <string name="dbs__tags">Etiketler</string>
+    <string name="dbs__setWallpaperTo">Duvar Kağıdını Küme Yap</string>
+    <string name="dbs__setWallpaperToHome">Ana ekran</string>
+    <string name="dbs__setWallpaperToLock">Ekranı Kilitle</string>
+    <string name="dbs__setWallpaperToBoth">Ev ve Kilit Ekranı</string>
+
+
+
+    <string name="claim__pts_100">100 pts</string>
+    <string name="claim__pts_200">200 pts</string>
+    <string name="claim__pts_300">300 pts</string>
+    <string name="claim__daily_reward">Günlük Ödül Puanları</string>
+    <string name="claim__watch_for_reward">Ödül için dikkat et</string>
+    <string name="daily_point">Puan almak için günlük geri gel</string>
+    <string name="watch_point">Daha fazla puan kazanmak için izleyin</string>
+
+
+    <string name="toast_unexpected_error">Beklenmeyen hata</string>
+    <string name="toast_crop_successful">Başarılı</string>
+    <string name="your_rating">Sizin dereceniz</string>
+    <string name="user_rating">Kullanıcı oyu!</string>
+    <string name="button_submit">Sunmak</string>
+
+    <string name="set_as_home_screen">Ana Ekran Olarak Ayarla</string>
+    <string name="set_as_home_lock_screen">Giriş ve Kilit Ekranı Olarak Ayarla</string>
+
+    <string name="Landscape">peyzaj</string>
+    <string name="Portrait">Vesika</string>
+    <string name="Square">Meydan</string>
+
+    <string name="premium_count_purchased">%1$s pts (Satın alındı)</string>
+    <string name="premium_count">%1$s pts</string>
+
+
+    <string name="buy_first">İstediğiniz işlemi yapmak için bu duvar kağıdını satın almanız gerekir. Bunu şimdi satın alıyor musun?</string>
+    <string name="Top_Up">Henüz yeterli puanınız yok! Biraz daha talep et</string>
+    <string name="purchased">satın alındı</string>
+    <string name="purchase_successful">Duvar kağıdı satın aldığınız için teşekkür ederiz</string>
+    <string name="purchase_unsuccessful">Satın alma işleminizde bir sorun oluştu, lütfen tekrar deneyin</string>
+
+    <string name="loading">Yükleniyor</string>
+
+    <string name="free">BELEŞ</string>
+    <string name="premium">ÖDÜL</string>
+
+
+
+    <string name="wallpaper_name">Duvar Kağıdı Adı *</string>
+    <string name="wallpaper_search_tags">Duvar Kağıdı Arama Etiketleri</string>
+    <string name="wallpaper_types">Duvar Kağıdı Türleri *</string>
+    <string name="wallpaper_point">Duvar Kağıdı Noktası</string>
+    <string name="wallpaper_image">Duvar Kağıdı Resmi</string>
+    <string name="wallpaper_category_name">Duvar Kağıdı Kategorisi Adı *</string>
+    <string name="wallpaper_select_color">Duvar Kağıdı Rengi *</string>
+    <string name="wallpaper_select_credit">Kredi</string>
+    <string name="wallpaper_image_type">Resim türü</string>
+    <string name="wallpaper_published">Duvar kağıdı yayınlandı mı?</string>
+    <string name="wallpaper_recommended">Duvar kağıdı önerilir mi?</string>
+    <string name="wallpaper_portrait">Duvar kağıdı portre mi?</string>
+    <string name="wallpaper_landscape">Duvar kağıdı manzarası mı?</string>
+    <string name="wallpaper_square">Duvar kağıdı kare mi?</string>
+    <string name="wallpaper_submit_button">Yükleme</string>
+    <string name="wallpaper_choose_button">Fotoğraf seç</string>
+    <string name="wallpaper_image_upload_title">Duvar Kağıdı Yükle</string>
+    <string name="wallpaper_error__required_name">Duvar kağıdı adı gerekli</string>
+    <string name="wallpaper_error__required_point">Duvar Kağıdı Noktası gerekli</string>
+    <string name="wallpaper_error__not_required_point">Duvar Kağıdı Noktası girişi için gerekli değildir.</string>
+    <string name="wallpaper_error__required_category">Lütfen kategori seçiniz.</string>
+    <string name="wallpaper_error__required_color">Lütfen renk seç.</string>
+    <string name="wallpaper_error__required_image_type">Lütfen görüntü türünü dikey, yatay veya kare olarak seçin.</string>
+    <string name="wallpaper_error__gif_radio_on">Lütfen görüntü türünü seçin GIF.</string>
+    <string name="wallpaper_error__image_wallpaper_on">Lütfen resim türünü seçin Image Wallpaper.</string>
+    <string name="wallpaper_error__required_wallpaper_type">Lütfen duvar kağıdı türünü seçin.</string>
+    <string name="upload_photo__delete">Bu fotoğrafı silmek istediğinize emin misiniz?</string>
+    <string name="upload_photo__delete_status">Başarıyla Silindi</string>
+    <string name="upload_photo__point_greater_0">Nokta 0\'dan büyük olmalıdır</string>
+    <string name="upload_photo__image_wallpapers">Görüntü duvar kağıdı</string>
+    <string name="upload_photo__gif">GIF</string>
+
+
+
+    <string name="walk_through__next">SONRAKİ</string>
+    <string name="walk_through__skip">ATLA</string>
+    <string name="walk_through__free_wallpaper">Ücretsiz duvar kağıtları</string>
+    <string name="walk_through__premium_wallpaper">Premium Duvar Kağıtları</string>
+    <string name="walk_through__advanced_search">gelişmiş Arama</string>
+    <string name="walk_through__unlimited_wallpapers">Duvar Kağıtları Yükle</string>
+    <string name="walk_through__text_1">Kullanıcı herhangi bir Ücretsiz Duvar Kağıdı için istediğini alabilir ve kullanabilir.</string>
+    <string name="walk_through__text_2">Kullanıcı puanlarını kullanarak Premium Duvar Kağıtları \ nby satın alabilir.</string>
+    <string name="walk_through__text_3">Kullanıcı duvar kağıtlarını \ nsome advanced filtreleriyle arayabilir.</string>
+    <string name="walk_through__text_4">Kullanıcı duvar kağıtlarını yükleyebilir ve \ nadmin onay işlemi için yapar.</string>
+    <string name="walk_through__check_option">Bir dahaki sefere tekrar intro gösterme.</string>
+    <string name="walk_through__let_explore">Hadi keşfedelim</string>
+
+
+
+    <string name="setting__privacy_policy">Gizlilik Politikası</string>
+    <string name="setting__privacy_policy_desc">Politika Bildirimi</string>
+    <string name="setting__notification_setting">Bildirim ayarı</string>
+    <string name="setting__notification_setting_desc">Bildirim için kontrol ayarı</string>
+    <string name="setting__app_version">Uygulama sürümü</string>
+    <string name="setting__cache_size">Görüntü Önbellek Boyutu</string>
+    <string name="setting__clear_cache">Görüntü Önbelleğini Temizle</string>
+    <string name="setting__clear_cache_confirm">Görüntü önbelleğini temizlediğinizden emin misiniz?</string>
+    <string name="setting__change_gdpr">GDPR ayarını değiştir</string>
+
+
+
+    <string name="force_update_true">Güncelleme mevcut</string>
+    <string name="force_update__button_update"> Güncelleme</string>
+    <string name="version_update"> Sürüm Güncellemesi</string>
+
+
+    <string name="fb_register__welcome">%1$s’den hoş geldiniz</string>
+    <string name="fb_register__desc">Uygulamanın tüm özelliklerini kullanmak için lütfen giriş yapın.</string>
+
+
+    <string name="verify_email__informateion">Tarihinde doğrulama kodunu içeren bir e-posta aldınız</string>
+    <string name="verify_email__enter_code">dogrulama kodunu giriniz</string>
+    <string name="verify_email__change_email">Değişim e-posta</string>
+    <string name="verify_email__resent_code">Tekrar Gönderme Kodu</string>
+    <string name="verify_email__submit">Sunmak</string>
+    <string name="verify_email__title">Eposta Doğrulama</string>
+
+
+    <string name="verify_phone__informateion">Az önce OTP Kodu içeren bir telefon mesajı aldınız.</string>
+    <string name="verify_phone__back_login">GİRİŞE GERİ DÖN?</string>
+    <string name="verify_phone__title">Telefon Doğrulama</string>
+    <string name="verify_phone_code">OTP Kodunu Girin</string>
+</resources>

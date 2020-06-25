@@ -1,0 +1,227 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="user"
+            type="com.panaceasoft.pswallpaper.viewobject.User" />
+    </data>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/space_16"
+                tools:context="com.panaceasoft.pswallpaper.ui.user.ProfileFragment">
+
+                <ImageView
+                    android:id="@+id/user_cover_imageview"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/image__default_image"
+                    android:src="@drawable/default_profile"
+                    app:imageProfileUrl="@{user.user_profile_photo}"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/user_cover_blur_imageview"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/blur"
+                    android:contentDescription="@string/image__default_image"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/profileImageview"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="100dp"
+                    android:contentDescription="@string/image__default_image"
+                    android:src="@drawable/default_profile"
+                    app:imageProfileUrl="@{user.user_profile_photo}"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/user_cover_blur_imageview" />
+
+                <ImageView
+                    android:id="@+id/profileeditImageview"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:contentDescription="@string/image__default_image"
+                    android:background="@drawable/rounded_corner_shape"
+                    android:src="@android:drawable/ic_menu_edit"
+                    app:layout_constraintEnd_toEndOf="@+id/profileImageview"
+                    app:layout_constraintTop_toTopOf="@+id/profileImageview"
+                    app:srcCompat="@android:drawable/ic_menu_edit" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/text_input_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/profileImageview"
+                    >
+
+                    <EditText
+                        android:id="@+id/nameEditText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_40"
+                        android:hint="@string/edit_profile__user_name"
+                        android:imeOptions="actionNext"
+                        android:inputType="textEmailAddress"
+                        android:isScrollContainer="true"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:text="@{user.user_name}"
+                        android:singleLine="true"
+                        android:textColor="@color/text__primary"
+                        app:textSize='@{"edit_text"}'
+                        tools:text="user name" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/text_input_email"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text_input_name"
+                    >
+
+                    <EditText
+                        android:id="@+id/emailEditText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_40"
+                        android:hint="@string/edit_profile__email"
+                        android:imeOptions="actionNext"
+                        android:inputType="textEmailAddress"
+                        android:isScrollContainer="true"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:text="@{user.user_email}"
+                        android:singleLine="true"
+                        android:textColor="@color/text__primary"
+                        app:textSize='@{"edit_text"}'
+                        tools:text="user@gmail.com" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/text_input_phone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text_input_email"
+                    >
+
+                    <EditText
+                        android:id="@+id/phoneEditText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_40"
+                        android:hint="@string/about_us__phone"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPhonetic"
+                        android:isScrollContainer="true"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:text='@{user.user_phone.equals("") ? "-" : user.user_phone}'
+                        android:singleLine="true"
+                        android:textColor="@color/text__primary"
+                        app:textSize='@{"edit_text"}'
+                        tools:text="+653432323" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/text_input_about_me"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text_input_phone"
+                    >
+
+                    <EditText
+                        android:id="@+id/aboutMeEditText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_40"
+                        android:hint="@string/edit_profile__about_me"
+                        android:text='@{user.user_about_me.equals("") ? "-" : user.user_about_me }'
+                        android:imeOptions="actionDone"
+                        android:inputType="textMultiLine"
+                        android:isScrollContainer="true"
+                        android:singleLine="false"
+                        android:textColor="@color/text__primary"
+                        app:textSize='@{"edit_text"}'
+                        tools:text="About Me" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/saveButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/rounded_corner_shape_button"
+                    android:text="@string/edit_profile__save"
+                    android:textColor="@color/button__primary_text"
+                    app:font='@{"normal"}'
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text_input_about_me"
+                    app:textSize='@{"button_text"}'
+                    tools:text="Save" />
+
+                <Button
+                    android:id="@+id/passwordChangeButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/rounded_corner_shape_button"
+                    android:text="@string/edit_profile__password_change"
+                    android:textColor="@color/button__primary_text"
+                    app:font='@{"normal"}'
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/saveButton"
+                    tools:text="Change Password" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+
+</layout>
+

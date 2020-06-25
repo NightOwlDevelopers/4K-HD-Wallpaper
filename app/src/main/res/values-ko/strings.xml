@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">4K / HD 배경 화면</string>
+    <string name="app__app_name">4K / HD 배경 화면</string>
+    <string name="app__ok">승인</string>
+    <string name="app__drawer_open">서랍 열기</string>
+    <string name="app__drawer_close">서랍 닫기</string>
+    <string name="app__cancel">취소</string>
+    <string name="success">성공</string>
+    <string name="confirm">확인</string>
+    <string name="info">정보</string>
+    <string name="error">오류</string>
+    <string name="warning">경고</string>
+
+
+    <string name="menu__home">집</string>
+    <string name="menu__profile">프로필</string>
+    <string name="menu__favourite_items">인기 있는 말</string>
+    <string name="menu__logout">로그 아웃</string>
+    <string name="menu__about_app">회사 소개</string>
+    <string name="menu__setting">환경</string>
+    <string name="menu__privacy_app">개인 정보 정책</string>
+    <string name="menu__dashboard">계기반</string>
+    <string name="menu__contact_us">문의하기</string>
+    <string name="menu__notification_setting">알림 설정</string>
+    <string name="menu__language">언어</string>
+    <string name="menu__app_setting">앱</string>
+    <string name="menu__user_info">사용자 정보</string>
+    <string name="menu__save">저장하기</string>
+    <string name="menu__search">검색</string>
+    <string name="menu__filter">필터</string>
+    <string name="menu__category_list">카테고리 목록</string>
+    <string name="menu__wallpaper_by_category">카테고리 별 배경 화면</string>
+    <string name="menu__latest_wallpapers">최신 월페이퍼</string>
+    <string name="menu__wallpapers_list">월페이퍼 목록</string>
+    <string name="menu__category">범주</string>
+    <string name="menu_wallpaper">벽지</string>
+    <string name="menu__premium">프리미엄</string>
+    <string name="menu__trending">동향</string>
+    <string name="menu__claimPoint">클레임 포인트</string>
+    <string name="menu__trending_list">트렌드리스트</string>
+    <string name="menu__fav">인기 있는 말</string>
+    <string name="menu__fav_live_wallpaper">좋아하는 라이브 월페이퍼</string>
+    <string name="menu__downloaded">다운로드 한 배경 화면</string>
+    <string name="menu__downloaded_live_wallpaper">라이브 배경 화면 다운로드</string>
+    <string name="menu__upload_photo">월페이퍼 업로드</string>
+    <string name="menu__fav_list">즐겨 찾기 목록</string>
+    <string name="menu__latest_wallpaper">최신 월페이퍼</string>
+    <string name="menu__latest_live_wallpaper">최신 라이브 배경 화면</string>
+    <string name="menu__premium_wallpapers">프리미엄 월페이퍼</string>
+    <string name="menu__gif_wallpapers">GIF</string>
+    <string name="menu__live_wallpapers">라이브 월페이퍼</string>
+    <string name="menu__free_wallpapers">무료 월페이퍼</string>
+    <string name="menu__rate">이 앱을 평가 해주세요</string>
+    <string name="menu__imageTypes">벽지 유형</string>
+    <string name="menu__privacy_policy">이용 약관</string>
+
+
+<!--    <string name="about_us__phone">전화</string>-->
+<!--    <string name="about_us__facebook">페이스 북</string>-->
+<!--    <string name="about_us__gplus">구글 플러스</string>-->
+<!--    <string name="about_us__instagram">인스 타 그램</string>-->
+<!--    <string name="about_us__youtube">유튜브</string>-->
+<!--    <string name="about_us__pinterest">Pinterest</string>-->
+<!--    <string name="about_us__twitter">트위터</string>-->
+<!--    <string name="about_us__visit_website">웹 사이트 방문</string>-->
+<!--    <string name="about_us__email">이메일</string>-->
+
+
+    <string name="favourite__favourites">즐겨 찾기</string>
+
+
+    <string name="profile__title">프로필</string>
+    <string name="profile__about_me">나에 대해서</string>
+    <string name="profile__joined_date">가입 날짜</string>
+    <string name="profile__email">이메일</string>
+    <string name="profile__review">리뷰</string>
+
+
+    <string name="edit_profile__title">프로필 편집</string>
+    <string name="edit_profile__user_name">사용자 이름</string>
+    <string name="edit_profile__about_me">나에 대해서</string>
+    <string name="edit_profile__email">이메일</string>
+    <string name="edit_profile__password">암호</string>
+    <string name="edit_profile__password_change">비밀번호 변경</string>
+    <string name="edit_profile__save">저장하기</string>
+
+
+    <string name="register__user_name">사용자 이름</string>
+    <string name="register__email">이메일</string>
+    <string name="register__password">암호</string>
+    <string name="register__back_to_login">이미 회원이십니까? 로그인</string>
+    <string name="register__register">레지스터</string>
+    <string name="register__new_account">새로운 사용자 계정 등록</string>
+    <string name="register__check_option">이 개인 정보 보호 및 정책에 동의하십니까?</string>
+
+
+    <string name="forgot_password__title">비밀번호를 잊으 셨나요</string>
+    <string name="forgot_password__email">이메일</string>
+    <string name="forgot_password__back_to_login">이미 회원이십니까? 로그인</string>
+    <string name="forgot_password__password_recovery">비밀번호 복구</string>
+    <string name="forgot_password__save">저장하기</string>
+    <string name="forgot_password__send">보내다</string>
+
+
+    <string name="password_change__password">암호</string>
+    <string name="password_change__save">저장하기</string>
+    <string name="password_change__confirm_password">비밀번호 확인</string>
+    <string name="password_change__password_change">비밀번호 변경</string>
+
+
+    <string name="login__email">이메일</string>
+    <string name="login__password">암호</string>
+    <string name="login__not_a_member_join_now">회원이 아니십니까? 지금 가입하세요</string>
+    <string name="login__forgot_your_password">비밀번호를 잊어 버렸습니까 ?</string>
+    <string name="login__login">로그인</string>
+    <string name="login__welcome_title">4K / HD 배경 화면에 오신 것을 환영합니다</string>
+    <string name="login__with_google">Google로 로그인</string>
+    <string name="login__with_phone">전화로 로그인했습니다</string>
+
+    <string name="image__default_image">기본 이미지</string>
+
+
+    <string name="gallery__title">갤러리</string>
+    <string name="gallery__image_gallery">이미지 갤러리</string>
+    <string name="gallery__img_desc">이미지 설명</string>
+
+
+    <string name="image_default__image">기본 이미지</string>
+
+
+    <string name="youtube__image">YouTube 이미지</string>
+
+
+    <string name="no_data">데이터가 없습니다.</string>
+    <string name="search__zero">0</string>
+    <string name="search_five">5</string>
+
+
+    <string name="rating__min">%1$s </string>
+    <string name="rating__max"> %1$s</string>
+
+
+    <string name="premium__point">$ %1$s</string>
+    <string name="premium__premium">프리미엄</string>
+
+
+    <string name="contact_us__name">담당자 이름</string>
+    <string name="contact_us__email">이메일 연락처</string>
+    <string name="contact_us__message">연락 메시지</string>
+    <string name="contact_us__phone">연락 전화 번호</string>
+    <string name="contact_us__submit">제출</string>
+
+
+    <string name="notification__notification_setting_on_off">알림 설정 (켜기 / 끄기)</string>
+    <string name="notification__latest_message_from_system">시스템의 최신 메시지</string>
+    <string name="notification__notification">공고!</string>
+    <string name="notification__alert">경보</string>
+
+
+    <string name="language__english">영어</string>
+    <string name="language__arabic">아라비아 말</string>
+    <string name="language__spanish">스페인의</string>
+    <string name="language__language_change">%1$s (으)로 변경 하시겠습니까?</string>
+    <string name="language__title">언어</string>
+
+
+    <string name="message__register_success">성공적으로 등록하십시오.</string>
+    <string name="message__loading">로드 중…</string>
+    <string name="message__please_wait">기다려주세요…</string>
+    <string name="message__welcome">PSNews 양식 시작</string>
+    <string name="message__want_to_quit">정말로 끝내고 싶습니까?</string>
+    <string name="message__select_category">보고 싶은 카테고리를 선택하십시오 !!!</string>
+    <string name="message__ok_close">닫기</string>
+    <string name="message__cancel_close">취소</string>
+    <string name="message__want_to_logout">정말로 로그 아웃 하시겠습니까?</string>
+    <string name="message__logout">로그 아웃</string>
+    <string name="message__download_success">성공적으로 다운로드되었습니다.</string>
+    <string name="message__downloading">파일 다운로드 중 ..</string>
+    <string name="message__crop_image">이 이미지를 자르시겠습니까</string>
+
+
+
+    <string name="error_message__select_location">위치를 선택하십시오.!</string>
+    <string name="error_message__login_first">먼저 로그인하시기 바랍니다!</string>
+    <string name="error_message__youtube_not_valid">YouTube가 유효하지 않습니다.</string>
+    <string name="error_message__blank_email">이메일을 입력하십시오.</string>
+    <string name="error_message__blank_contact_message">연락처 메시지를 입력하십시오.</string>
+    <string name="error_message__blank_password">비밀번호를 입력하십시오.</string>
+    <string name="error_message__blank_name">이름을 입력하십시오.</string>
+    <string name="error_message__blank_keyword">검색 키워드를 입력하십시오.</string>
+    <string name="error_message__password_not_equal">비밀번호가 동일하지 않습니다!</string>
+    <string name="error_message__no_internet">인터넷에 연결되지 않음.</string>
+    <string name="error_message__img_not_selected">선택된 이미지가 없습니다</string>
+    <string name="error_message__image_cannot_upload">이미지를 업로드 할 수 없습니다</string>
+    <string name="error_message__required_fields">필수 입력란은 비워 둘 수 없습니다</string>
+    <string name="error_message__to_check_agreement">개인 정보 보호 및 정책 계약을 확인해야합니다.</string>
+    <string name="error_message__blank_phone_no">입력에게 전화 번호를 바랍니다.</string>
+
+
+    <string name="confirm_message__set_wallpaper">배경 화면 설정 확인</string>
+    <string name="confirm_message__ok">승인</string>
+    <string name="confirm_message__cancel">취소</string>
+    <string name="success_message__set_wallpaper">성공적으로 배경 화면 설정</string>
+    <string name="success_message__upload_successful">성공적으로 업로드</string>
+
+
+
+    <string name="hello_blank_fragment">안녕 빈 조각</string>
+
+
+    <string name="dashboard__title">바탕 화면 찾기</string>
+    <string name="dashboard__search">배경 화면 검색</string>
+    <string name="dashboard__latest_wallpaper">최신 월페이퍼</string>
+    <string name="dashboard__category">범주</string>
+    <string name="dashboard__trending">동향</string>
+    <string name="dashboard__landscape">경치</string>
+    <string name="dashboard__potrait">초상화</string>
+    <string name="dashboard__square">광장</string>
+    <string name="dashboard__gif">GIF</string>
+
+    <string name="dashboard__view_all">모두보기&gt;</string>
+    <string name="dashboard__wallpaper_by_category">카테고리 별 배경 화면</string>
+    <string name="dashboard__pts">%1$s pts</string>
+
+
+
+    <string name="dashboard__premium_latest">최근</string>
+    <string name="dashboard__premium_trending">동향</string>
+    <string name="dashboard__premium_recommended">추천</string>
+    <string name="dashboard__premium_download">대부분 다운로드</string>
+
+
+    <string name="search__recommanded">추천</string>
+
+
+    <string name="dashboard__wallpaper_latest">최근</string>
+    <string name="dashboard__wallpaper_trending">동향</string>
+    <string name="dashboard__wallpaper_recommended">추천</string>
+    <string name="dashboard__wallpaper_download">대부분 다운로드</string>
+
+
+    <string name="category__category">범주</string>
+    <string name="category__30wallpaper">월페이퍼</string>
+    <string name="category__wallpaperCount">%1$s  %2$s</string>
+
+
+    <string name="wallpaper__detail">벽지</string>
+
+
+
+    <string name="search__notSet">미 설정</string>
+    <string name="search_button_searh">검색 / 필터</string>
+    <string name="search_button_sorting">정렬</string>
+
+
+
+    <string name="dialog__title_m_mun">정렬</string>
+    <string name="popular__m_mun">인기 있는</string>
+    <string name="recent__m_mun">최근</string>
+    <string name="most_download__m_mun">대부분 다운로드</string>
+    <string name="low_price__m_mun">최저 등급</string>
+    <string name="high_price__m_mun">최고 등급</string>
+
+
+    <string name="sf__notSet">미 설정</string>
+    <string name="sf__notSet_zg">미 설정</string>
+    <string name="sf__ByKeyWord">예어</string>
+    <string name="sf__ByPrice">가격 설정</string>
+    <string name="sf__free">비어 있는</string>
+    <string name="sf__premium">프리미엄</string>
+    <string name="sf__AdvanceFiltering">고급 필터링</string>
+    <string name="sf__Recommend">추천</string>
+    <string name="sf__Portrait">초상화인가</string>
+    <string name="sf__Filter_Button">필터</string>
+    <string name="sf__Category">범주</string>
+    <string name="sf__Landscape">풍경이다</string>
+    <string name="sf__Square">광장</string>
+    <string name="sf__Gif">Gif인가</string>
+    <string name="sf__live_wallpaper">라이브 배경 화면입니다</string>
+    <string name="sf__Color">색깔</string>
+    <string name="sf__Points">포인트들</string>
+    <string name="sf__Rating">등급 범위</string>
+    <string name="sf__Minimum">최저한의</string>
+    <string name="sf__Maximum">최고</string>
+    <string name="sf__0_5"> 에</string>
+
+
+
+    <string name="dbs__viewCount">조회수</string>
+    <string name="dbs__downloadCount">다운로드 수</string>
+    <string name="dbs__favouriteCount">좋아하는 수</string>
+    <string name="dbs__setAs">로 설정</string>
+    <string name="dbs__download">다운로드</string>
+    <string name="dbs__share">공유</string>
+    <string name="dbs__favourite">인기 있는 말</string>
+    <string name="dbs__rate">율</string>
+    <string name="dbs__name">이름</string>
+    <string name="dbs__orientation">정위</string>
+    <string name="dbs__category">범주</string>
+    <string name="dbs__addedDate">추가 된 날짜</string>
+    <string name="dbs__width">폭 / 높이</string>
+    <string name="dbs__color">색깔</string>
+    <string name="dbs__size">크기</string>
+    <string name="dbs__credit">신용</string>
+    <string name="dbs__tags">태그</string>
+    <string name="dbs__setWallpaperTo">배경 화면 설정</string>
+    <string name="dbs__setWallpaperToHome">홈 화면</string>
+    <string name="dbs__setWallpaperToLock">잠금 화면</string>
+    <string name="dbs__setWallpaperToBoth">홈 및 잠금 화면</string>
+
+
+
+    <string name="claim__pts_100">100 pts</string>
+    <string name="claim__pts_200">200 pts</string>
+    <string name="claim__pts_300">300 pts</string>
+    <string name="claim__daily_reward">일일 보상 포인트</string>
+    <string name="claim__watch_for_reward">보상 조심</string>
+    <string name="daily_point">포인트를 얻으려면 매일 돌아와</string>
+    <string name="watch_point">더 많은 포인트를 얻으려면 시계</string>
+
+
+    <string name="toast_unexpected_error">예상치 못한 에러</string>
+    <string name="toast_crop_successful">성공한</string>
+    <string name="your_rating">당신의 순위</string>
+    <string name="user_rating">사용자 평가!</string>
+    <string name="button_submit">제출</string>
+
+    <string name="set_as_home_screen">홈 화면으로 설정</string>
+    <string name="set_as_home_lock_screen">홈 및 잠금 화면으로 설정</string>
+
+    <string name="Landscape">경치</string>
+    <string name="Portrait">초상화</string>
+    <string name="Square">광장</string>
+
+    <string name="premium_count_purchased">%1$s pts (구매)</string>
+    <string name="premium_count">%1$s pts</string>
+
+
+    <string name="buy_first">요청한 작업을 수행하려면이 배경 화면을 구매해야합니다. 지금 사세요?</string>
+    <string name="Top_Up">아직 포인트가 충분하지 않습니다! 좀 더 주장</string>
+    <string name="purchased">구매 한</string>
+    <string name="purchase_successful">월페이퍼를 구입해 주셔서 감사합니다</string>
+    <string name="purchase_unsuccessful">구매에 문제가 있습니다. 다시 시도하십시오</string>
+
+    <string name="loading">로딩</string>
+
+    <string name="free">비어 있는</string>
+    <string name="premium">프리미엄</string>
+
+
+
+    <string name="wallpaper_name">벽지 이름 *</string>
+    <string name="wallpaper_search_tags">벽지 검색 태그</string>
+    <string name="wallpaper_types">벽지 종류 *</string>
+    <string name="wallpaper_point">월페이퍼 포인트</string>
+    <string name="wallpaper_image">바탕 화면 이미지</string>
+    <string name="wallpaper_category_name">월페이퍼 카테고리 이름 *</string>
+    <string name="wallpaper_select_color">벽지 색상 *</string>
+    <string name="wallpaper_select_credit">신용</string>
+    <string name="wallpaper_image_type">이미지 타입</string>
+    <string name="wallpaper_published">벽지가 게시됩니까?</string>
+    <string name="wallpaper_recommended">벽지가 권장됩니까?</string>
+    <string name="wallpaper_portrait">벽지 초상화입니까?</string>
+    <string name="wallpaper_landscape">벽지 풍경입니까?</string>
+    <string name="wallpaper_square">벽지가 정사각형입니까?</string>
+    <string name="wallpaper_submit_button">업로드</string>
+    <string name="wallpaper_choose_button">사진을 선택하십시오</string>
+    <string name="wallpaper_image_upload_title">월페이퍼 업로드</string>
+    <string name="wallpaper_error__required_name">벽지 이름이 필요합니다</string>
+    <string name="wallpaper_error__required_point">월페이퍼 포인트가 필요합니다</string>
+    <string name="wallpaper_error__not_required_point">월페이퍼 포인트는 입력 할 필요가 없습니다.</string>
+    <string name="wallpaper_error__required_category">카테고리를 선택하십시오.</string>
+    <string name="wallpaper_error__required_color">색상을 선택하십시오.</string>
+    <string name="wallpaper_error__required_image_type">이미지 유형을 세로, 가로 또는 사각형으로 선택하십시오.</string>
+    <string name="wallpaper_error__gif_radio_on">이미지 유형은 GIF를 선택하십시오.</string>
+    <string name="wallpaper_error__image_wallpaper_on">이미지 유형은 이미지 배경 화면을 선택하십시오.</string>
+    <string name="wallpaper_error__required_wallpaper_type">벽지 유형을 선택하십시오.</string>
+    <string name="upload_photo__delete">이 사진을 삭제 하시겠습니까?</string>
+    <string name="upload_photo__delete_status">성공적으로 삭제되었습니다</string>
+    <string name="upload_photo__point_greater_0">포인트는 0보다 커야합니다</string>
+    <string name="upload_photo__image_wallpapers">이미지 월페이퍼</string>
+    <string name="upload_photo__gif">GIF</string>
+
+
+
+    <string name="walk_through__next">다음</string>
+    <string name="walk_through__skip">건너 뛰기</string>
+    <string name="walk_through__free_wallpaper">무료 월페이퍼</string>
+    <string name="walk_through__premium_wallpaper">프리미엄 월페이퍼</string>
+    <string name="walk_through__advanced_search">고급 검색</string>
+    <string name="walk_through__unlimited_wallpapers">월페이퍼 업로드</string>
+    <string name="walk_through__text_1">사용자는 원하는 모든 것을 \ n 모든 무료 배경 화면으로 가져 와서 사용할 수 있습니다.</string>
+    <string name="walk_through__text_2">사용자는 포인트를 사용하여 \ nby 프리미엄 월페이퍼를 구입할 수 있습니다.</string>
+    <string name="walk_through__text_3">사용자는 \ nsome 고급 필터를 사용하여 배경 화면을 검색 할 수 있습니다.</string>
+    <string name="walk_through__text_4">사용자는 배경 화면을 업로드 할 수 있으며 \ nadmin은 승인 프로세스를 위해 수행합니다.</string>
+    <string name="walk_through__check_option">다음에 열 때 소개를 다시 표시하지 마십시오.</string>
+    <string name="walk_through__let_explore">탐색하자</string>
+
+
+
+    <string name="setting__privacy_policy">개인 정보 정책</string>
+    <string name="setting__privacy_policy_desc">정책 성명</string>
+    <string name="setting__notification_setting">알림 설정</string>
+    <string name="setting__notification_setting_desc">통지 제어 설정</string>
+    <string name="setting__app_version">앱 버전</string>
+    <string name="setting__cache_size">이미지 캐시 크기</string>
+    <string name="setting__clear_cache">클리어 이미지 캐시</string>
+    <string name="setting__clear_cache_confirm">이미지 캐시를 지우시겠습니까?</string>
+    <string name="setting__change_gdpr">GDPR 설정 변경</string>
+
+
+
+    <string name="force_update_true">업데이트 가능</string>
+    <string name="force_update__button_update"> 최신 정보</string>
+    <string name="version_update"> 버전 업데이트</string>
+
+
+    <string name="fb_register__welcome">%1$s 님을 환영합니다</string>
+    <string name="fb_register__desc">응용 프로그램의 모든 기능을 사용하려면 로그인하십시오.</string>
+
+
+    <string name="verify_email__informateion">에 인증 코드가 포함 된 이메일을 받았습니다.</string>
+    <string name="verify_email__enter_code">인증 코드를 입력하십시오</string>
+    <string name="verify_email__change_email">이메일을 바꾸다</string>
+    <string name="verify_email__resent_code">재전송 코드</string>
+    <string name="verify_email__submit">제출</string>
+    <string name="verify_email__title">이메일 확인</string>
+
+
+    <string name="verify_phone__informateion">OTP 코드가 포함 된 전화 메시지를 받았습니다.</string>
+    <string name="verify_phone__back_login">다시 로그인?</string>
+    <string name="verify_phone__title">전화 확인</string>
+    <string name="verify_phone_code">OTP 코드를 입력</string>
+</resources>

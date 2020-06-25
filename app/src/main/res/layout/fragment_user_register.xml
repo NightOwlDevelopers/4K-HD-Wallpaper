@@ -1,0 +1,198 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:scrollbarAlwaysDrawVerticalTrack="false">
+
+
+            <ImageView
+                android:id="@+id/bgImageView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:contentDescription="@string/image__default_image"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@drawable/wallpaper_login_bg" />
+
+
+            <View
+                android:id="@+id/roundedCornerRectangleView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/rounded_corner_shape_button"
+                android:backgroundTint="@color/md_white_1000"
+                app:layout_constraintBottom_toTopOf="@+id/loginButton"
+                app:layout_constraintDimensionRatio="1:1.2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/loginTextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/register__new_account"
+                app:font='@{"bold"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/roundedCornerRectangleView"
+                app:textSize='@{"font_title_size"}'
+                tools:text="@string/register__new_account" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/userNameTextInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="@+id/roundedCornerRectangleView"
+                app:layout_constraintStart_toStartOf="@+id/roundedCornerRectangleView"
+                app:layout_constraintTop_toBottomOf="@+id/loginTextview">
+
+                <EditText
+                    android:id="@+id/nameEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_40"
+                    android:hint="@string/register__user_name"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:isScrollContainer="true"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/text__primary"
+                    app:textSize='@{"edit_text"}' />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailTextInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="@+id/roundedCornerRectangleView"
+                app:layout_constraintStart_toStartOf="@+id/roundedCornerRectangleView"
+                app:layout_constraintTop_toBottomOf="@+id/userNameTextInput">
+
+                <EditText
+                    android:id="@+id/emailEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_40"
+                    android:hint="@string/register__email"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:isScrollContainer="true"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/text__primary"
+                    app:textSize='@{"edit_text"}' />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/passwordTextInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="@+id/roundedCornerRectangleView"
+                app:layout_constraintStart_toStartOf="@+id/roundedCornerRectangleView"
+                app:layout_constraintTop_toBottomOf="@+id/emailTextInput">
+
+                <EditText
+                    android:id="@+id/passwordEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_40"
+                    android:hint="@string/register__password"
+                    android:inputType="textPassword"
+                    android:isScrollContainer="true"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/text__primary"
+                    app:textSize='@{"edit_text"}' />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <CheckBox
+                android:id="@+id/policyAndPrivacyCheckBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/register__check_option"
+                android:textColor="@color/text__primary"
+                app:layout_constraintEnd_toEndOf="@+id/roundedCornerRectangleView"
+                app:layout_constraintHorizontal_bias="0.6"
+                app:layout_constraintStart_toStartOf="@+id/roundedCornerRectangleView"
+                app:layout_constraintTop_toBottomOf="@+id/passwordTextInput" />
+
+            <Button
+                android:id="@+id/registerButton"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/rounded_corner_shape_button"
+                android:text="@string/register__register"
+                android:textColor="@color/button__primary_text"
+                app:font='@{"normal"}'
+                app:layout_constraintBottom_toBottomOf="@+id/roundedCornerRectangleView"
+                app:layout_constraintEnd_toEndOf="@+id/roundedCornerRectangleView"
+                app:layout_constraintStart_toStartOf="@+id/roundedCornerRectangleView"
+                app:layout_constraintTop_toBottomOf="@+id/policyAndPrivacyCheckBox"
+                tools:text="Register" />
+
+            <Button
+                android:id="@+id/loginButton"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginBottom="16dp"
+                android:text="@string/register__back_to_login"
+                android:textAllCaps="false"
+                android:textColor="@color/text__secondary"
+                app:font='@{"normal"}'
+                app:layout_constraintBottom_toBottomOf="@+id/bgImageView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:textSize='@{"button_text"}'
+                tools:text="@string/register__back_to_login" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</layout>

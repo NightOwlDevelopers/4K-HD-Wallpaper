@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/searchButton"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        android:tooltipText="Search"
+        android:iconTint="@color/md_white_1000"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="collapseActionView|always" />
+
+    <item
+        android:id="@+id/refreshButton"
+        android:title="Refresh"
+        android:iconTint="@color/md_white_1000"
+        app:showAsAction="always|collapseActionView"
+        android:orderInCategory="0"/>
+
+</menu>
+

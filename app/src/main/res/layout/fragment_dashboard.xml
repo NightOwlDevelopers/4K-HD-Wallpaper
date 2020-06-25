@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="loadingMore"
+            type="boolean" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingActionButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/space_16"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/baseline_upload_grey_24"
+                android:tint="@color/md_white_1000"
+                app:backgroundTint="@color/md_orange_900"
+                app:fabSize="normal"
+                app:layout_behavior="@string/floating_button_behaviour" />
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/md_white_1000">
+
+                    <com.google.android.gms.ads.AdView
+                        android:id="@+id/adView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        app:adSize="SMART_BANNER"
+                        app:adUnitId="@string/adview_banner_ad_key"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/landScapeRecyclerView" />
+
+                    <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/imageViewPager"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        app:layout_constraintDimensionRatio="w,3:1"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <!--<androidx.viewpager.widget.ViewPager-->
+                    <!--android:id="@+id/recycler"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="400dp"-->
+                    <!--app:autoPlaying="true"-->
+                    <!--app:centerScale="1.3"-->
+                    <!--android:visibility="gone"-->
+                    <!--app:itemSpace="20"-->
+                    <!--app:moveSpeed="1.8"-->
+                    <!--tools:ignore="MissingConstraints" />-->
+
+                    <LinearLayout
+                        android:id="@+id/pagerIndicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="12dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingStart="@dimen/space_4"
+                        android:paddingTop="@dimen/space_4"
+                        android:paddingEnd="@dimen/space_4"
+                        android:paddingBottom="@dimen/space_4"
+                        android:scaleType="fitXY"
+                        app:layout_constraintBottom_toBottomOf="@+id/imageViewPager"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/latestRecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:clipToPadding="false"
+                        android:orientation="horizontal"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/LatestLiveWallpaperConstraintLayout"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@color/md_grey_50"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/latestRecyclerView">
+
+                        <TextView
+                            android:id="@+id/latestLiveWallpaperTextView"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:paddingStart="@dimen/space_8"
+                            android:paddingTop="@dimen/space_8"
+                            android:paddingBottom="@dimen/space_8"
+                            android:text="@string/menu__latest_live_wallpaper"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="@dimen/font_title_size"
+                            android:textStyle="bold"
+                            app:font='@{"bold"}'
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/latestLiveWallpaperViewAllTextView"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="RtlSymmetry" />
+
+                        <TextView
+                            android:id="@+id/latestLiveWallpaperViewAllTextView"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:paddingTop="@dimen/space_4"
+                            android:paddingBottom="@dimen/space_4"
+                            android:text="@string/dashboard__view_all"
+                            android:textColor="@color/md_blue_700"
+                            android:textSize="@dimen/font_body_size"
+                            app:layout_constraintBottom_toBottomOf="@+id/latestLiveWallpaperTextView"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/latestLiveWallpaperTextView"
+                            app:layout_constraintVertical_bias="0.9"
+                            tools:ignore="MissingConstraints" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/latestLiveWallpaperRecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:clipToPadding="false"
+                        android:orientation="horizontal"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/LatestLiveWallpaperConstraintLayout" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/squareRecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:clipToPadding="false"
+                        android:orientation="horizontal"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/squareconstraintLayout"
+                        tools:ignore="MissingConstraints" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/trendingRecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:clipToPadding="false"
+                        android:orientation="horizontal"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+                        tools:ignore="MissingConstraints" />
+
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/portraitRecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:clipToPadding="false"
+                        android:orientation="horizontal"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/portraitconstraintLayout"
+                        tools:ignore="MissingConstraints" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/landScapeRecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:clipToPadding="false"
+                        android:orientation="horizontal"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/landScapeconstraintLayout"
+                        tools:ignore="MissingConstraints" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/categoryConstraintLayout"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@color/md_grey_50"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageViewPager">
+
+                        <TextView
+                            android:id="@+id/categoryTextView"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:paddingStart="@dimen/space_8"
+                            android:paddingTop="@dimen/space_8"
+                            android:paddingBottom="@dimen/space_8"
+                            android:text="@string/dashboard__category"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="@dimen/font_title_size"
+                            android:textStyle="bold"
+                            app:font='@{"bold"}'
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/categoryViewAllTextView"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="RtlSymmetry" />
+
+                        <TextView
+                            android:id="@+id/categoryViewAllTextView"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="@dimen/space_4"
+                            android:paddingBottom="@dimen/space_4"
+                            android:text="@string/dashboard__view_all"
+                            android:textColor="@color/md_blue_700"
+                            android:textSize="@dimen/font_body_size"
+                            app:font='@{"normal"}'
+                            app:layout_constraintBottom_toBottomOf="@+id/categoryTextView"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/categoryTextView"
+                            app:layout_constraintVertical_bias="1.0"
+                            tools:ignore="MissingConstraints" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout2"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@color/md_grey_50"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/categoryRecycler">
+
+                        <TextView
+                            android:id="@+id/latestTextView"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:paddingStart="@dimen/space_8"
+                            android:paddingTop="@dimen/space_8"
+                            android:paddingBottom="@dimen/space_8"
+                            android:text="@string/dashboard__latest_wallpaper"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="@dimen/font_title_size"
+                            android:textStyle="bold"
+                            app:font='@{"bold"}'
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/latestWallpaperViewAllTextView"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="RtlSymmetry" />
+
+                        <TextView
+                            android:id="@+id/latestWallpaperViewAllTextView"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:paddingTop="@dimen/space_4"
+                            android:paddingBottom="@dimen/space_4"
+                            android:text="@string/dashboard__view_all"
+                            android:textColor="@color/md_blue_700"
+                            android:textSize="@dimen/font_body_size"
+                            app:layout_constraintBottom_toBottomOf="@+id/latestTextView"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/latestTextView"
+                            app:layout_constraintVertical_bias="0.9"
+                            tools:ignore="MissingConstraints" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout3"
+                        android:layout_width="0dp"
+                        android:layout_height="52dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@color/md_grey_50"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/latestLiveWallpaperRecyclerView">
+
+                        <TextView
+                            android:id="@+id/trendingTextView"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:paddingStart="@dimen/space_8"
+                            android:paddingTop="@dimen/space_8"
+                            android:paddingBottom="@dimen/space_8"
+                            android:text="@string/dashboard__trending"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="@dimen/font_title_size"
+                            android:textStyle="bold"
+                            app:font='@{"bold"}'
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/trendingViewAllTextView"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="RtlSymmetry" />
+
+                        <TextView
+                            android:id="@+id/trendingViewAllTextView"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:paddingTop="@dimen/space_4"
+                            android:paddingBottom="@dimen/space_4"
+                            android:text="@string/dashboard__view_all"
+                            android:textColor="@color/md_blue_700"
+                            android:textSize="@dimen/font_body_size"
+                            app:font='@{"normal"}'
+                            app:layout_constraintBottom_toBottomOf="@+id/trendingTextView"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/trendingTextView"
+                            app:layout_constraintVertical_bias="1.0"
+                            tools:ignore="MissingConstraints" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <com.google.android.gms.ads.AdView
+                        android:id="@+id/adView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        app:adSize="SMART_BANNER"
+                        app:adUnitId="@string/adview_banner_ad_key"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/trendingRecyclerView" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/portraitconstraintLayout"
+                        android:layout_width="0dp"
+                        android:layout_height="52dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@color/md_grey_50"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/gifRecyclerView"
+                        tools:ignore="MissingConstraints">
+
+                        <TextView
+                            android:id="@+id/portraitTextView"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:paddingStart="@dimen/space_8"
+                            android:paddingTop="@dimen/space_8"
+                            android:paddingBottom="@dimen/space_8"
+                            android:text="@string/dashboard__potrait"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="@dimen/font_title_size"
+                            android:textStyle="bold"
+                            app:font='@{"bold"}'
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/portraitViewAllTextView"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="RtlSymmetry" />
+
+                        <TextView
+                            android:id="@+id/portraitViewAllTextView"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:paddingTop="@dimen/space_4"
+                            android:paddingBottom="@dimen/space_4"
+                            android:text="@string/dashboard__view_all"
+                            android:textColor="@color/md_blue_700"
+                            android:textSize="@dimen/font_body_size"
+                            app:font='@{"normal"}'
+                            app:layout_constraintBottom_toBottomOf="@+id/portraitTextView"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/portraitTextView" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/landScapeconstraintLayout"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@color/md_grey_50"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/portraitRecyclerView"
+                        tools:ignore="MissingConstraints">
+
+                        <TextView
+                            android:id="@+id/landScapeTextView"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:paddingStart="@dimen/space_8"
+                            android:paddingTop="@dimen/space_8"
+                            android:paddingBottom="@dimen/space_8"
+                            android:text="@string/dashboard__landscape"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="@dimen/font_title_size"
+                            android:textStyle="bold"
+                            app:font='@{"bold"}'
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/landScapeViewAllTextView"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="RtlSymmetry" />
+
+                        <TextView
+                            android:id="@+id/landScapeViewAllTextView"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:paddingTop="@dimen/space_4"
+                            android:paddingBottom="@dimen/space_4"
+                            android:text="@string/dashboard__view_all"
+                            android:textColor="@color/md_blue_700"
+                            android:textSize="@dimen/font_body_size"
+                            app:font='@{"normal"}'
+                            app:layout_constraintBottom_toBottomOf="@+id/landScapeTextView"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/landScapeTextView"
+                            app:layout_constraintVertical_bias="0.0" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/squareconstraintLayout"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@color/md_grey_50"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/adView2"
+                        tools:ignore="MissingConstraints">
+
+                        <TextView
+                            android:id="@+id/squareTextView"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:paddingStart="@dimen/space_8"
+                            android:paddingTop="@dimen/space_8"
+                            android:paddingBottom="@dimen/space_8"
+                            android:text="@string/dashboard__square"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="@dimen/font_title_size"
+                            android:textStyle="bold"
+                            app:font='@{"bold"}'
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/squareViewAllTextView"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="RtlSymmetry" />
+
+                        <TextView
+                            android:id="@+id/squareViewAllTextView"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:paddingTop="@dimen/space_4"
+                            android:paddingBottom="@dimen/space_4"
+                            android:text="@string/dashboard__view_all"
+                            android:textColor="@color/md_blue_700"
+                            android:textSize="@dimen/font_body_size"
+                            app:font='@{"normal"}'
+                            app:layout_constraintBottom_toBottomOf="@+id/squareTextView"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/squareTextView"
+                            app:layout_constraintVertical_bias="0.9" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/categoryRecycler"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:clipToPadding="false"
+                        android:orientation="horizontal"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/categoryConstraintLayout" />
+
+
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/gifConstraintLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/adView">
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:paddingStart="@dimen/space_8"
+                            android:paddingTop="@dimen/space_8"
+                            android:paddingBottom="@dimen/space_8"
+                            android:text="@string/dashboard__gif"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="@dimen/font_title_size"
+                            android:textStyle="bold"
+                            app:font='@{"bold"}'
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/textView8"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="@dimen/space_4"
+                            android:paddingBottom="@dimen/space_4"
+                            android:text="@string/dashboard__view_all"
+                            android:textColor="@color/md_blue_700"
+                            android:textSize="@dimen/font_body_size"
+                            app:font='@{"normal"}'
+                            app:layout_constraintBottom_toBottomOf="@+id/textView7"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/textView7" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/gifRecyclerView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:clipToPadding="false"
+                        android:orientation="horizontal"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/gifConstraintLayout" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.core.widget.NestedScrollView>
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

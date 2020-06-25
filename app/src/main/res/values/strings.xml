@@ -1,0 +1,471 @@
+<resources>
+
+    <!--================-->
+    <!-- Keys to change -->
+    <!--================-->
+
+    <string name="facebook_app_id" translatable="false">519741425245797</string>
+    <!--<string name="facebook_app_id" translatable="false">0000000000000000</string>-->
+
+    <string name="fb_login_protocol_scheme" translatable="false">fb519741425245797</string>
+    <!--<string name="fb_login_protocol_scheme" translatable="false">fb0000000000000000</string>-->
+
+    <string name="adview_banner_ad_key" translatable="false">ca-app-pub-8907881762519005/8279397503</string>
+    <!--<string name="adview_banner_ad_key" translatable="false">ca-app-pub-0000000000000000/0000000000</string>-->
+
+    <string name="adview_interstitial_ad_key" translatable="false">ca-app-pub-8907881762519005/3027070826</string>
+    <!--<string name="adview_interstitial_ad_key" translatable="false">ca-app-pub-0000000000000000/0000000000</string>-->
+
+    <string name="adview_reward_ad_key" translatable="false">ca-app-pub-8907881762519005/9992058134</string>
+    <!--<string name="adview_reward_ad_key" translatable="false">ca-app-pub-0000000000000000/0000000000</string>-->
+
+    <string name="adview_publisher_key" translatable="false">pub-8907881762519005</string>
+    <!--<string name="adview_publisher_key" translatable="false">pub-0000000000000000</string>-->
+
+    <!--====================-->
+    <!-- End Keys to change -->
+    <!--====================-->
+
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="floating_button_behaviour" translatable="false">com.panaceasoft.pswallpaper.ui.dashboard.ScrollAwareFABBehavior</string>
+    <string name="phone_login_phone_hint" translatable="false">+959121212121</string>
+    <!-- App General -->
+    <string name="app_name">4K/HD Wallpapers</string>
+    <string name="app__app_name">4K/HD Wallpapers</string>
+    <string name="app__ok">OK</string>
+    <string name="app__drawer_open">Drawer Open</string>
+    <string name="app__drawer_close">Drawer Close</string>
+    <string name="app__cancel">Cancel</string>
+    <string name="success">SUCCESS</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="info">INFO</string>
+    <string name="error">ERROR</string>
+    <string name="warning">WARNING</string>
+
+    <!-- Menu -->
+    <string name="menu__home">Home</string>
+    <string name="menu__profile">Profile</string>
+    <string name="menu__favourite_items">Favourite</string>
+    <string name="menu__logout">Logout</string>
+    <string name="menu__about_app">About Us</string>
+    <string name="menu__setting">Setting</string>
+    <string name="menu__privacy_app">Privacy Policy</string>
+    <string name="menu__dashboard">Dashboard</string>
+    <string name="menu__contact_us">Contact Us</string>
+    <string name="menu__notification_setting">Notification Setting</string>
+    <string name="menu__language">Language</string>
+    <string name="menu__app_setting">App</string>
+    <string name="menu__user_info">User Info</string>
+    <string name="menu__save">Save</string>
+    <string name="menu__search">Search</string>
+    <string name="menu__filter">Filter</string>
+    <string name="menu__category_list">Category Lists</string>
+    <string name="menu__wallpaper_by_category">Wallpaper By Category</string>
+    <string name="menu__latest_wallpapers">Latest Wallpapers</string>
+    <string name="menu__wallpapers_list">Wallpapers List</string>
+    <string name="menu__category">Category</string>
+    <string name="menu_wallpaper">Wallpaper</string>
+    <string name="menu__premium">Premium</string>
+    <string name="menu__trending">Trending</string>
+    <string name="menu__claimPoint">Claim Point</string>
+    <string name="menu__trending_list">Trending List</string>
+    <string name="menu__fav">Favorite</string>
+    <string name="menu__fav_live_wallpaper">Favorite Live Wallpapers</string>
+    <string name="menu__downloaded">Downloaded Wallpapers</string>
+    <string name="menu__downloaded_live_wallpaper">Downloaded Live Wallpapers</string>
+    <string name="menu__upload_photo">Upload Wallpapers</string>
+    <string name="menu__fav_list">Favorite List</string>
+    <string name="menu__latest_wallpaper">Latest Wallpaper</string>
+    <string name="menu__latest_live_wallpaper">Latest Live Wallpaper</string>
+    <string name="menu__premium_wallpapers">Premium Wallpapers</string>
+    <string name="menu__gif_wallpapers">GIFs</string>
+    <string name="menu__live_wallpapers">Live Wallpapers</string>
+    <string name="menu__free_wallpapers">Free Wallpapers</string>
+    <string name="menu__rate">Rate this app</string>
+    <string name="menu__imageTypes">Wallpaper Types</string>
+    <string name="menu__privacy_policy">Terms And Conditions</string>
+
+    <!-- About Us -->
+    <string name="about_us__phone" translatable="false">Phone</string>
+    <string name="about_us__facebook" translatable="false">Facebook</string>
+    <string name="about_us__gplus" translatable="false">Google Plus</string>
+    <string name="about_us__instagram" translatable="false">Instagram</string>
+    <string name="about_us__youtube" translatable="false">Youtube</string>
+    <string name="about_us__pinterest" translatable="false">Pinterest</string>
+    <string name="about_us__twitter" translatable="false">Twitter</string>
+    <string name="about_us__visit_website" translatable="false">Visit To Our Website</string>
+    <string name="about_us__email" translatable="false">Email</string>
+
+    <!-- Favourite -->
+    <string name="favourite__favourites">Favourites</string>
+
+    <!-- Profile -->
+    <string name="profile__title">Profile</string>
+    <string name="profile__about_me">About Me</string>
+    <string name="profile__joined_date">Joined Date</string>
+    <string name="profile__email">Email</string>
+    <string name="profile__review">Reviews</string>
+
+    <!-- Edit Profile -->
+    <string name="edit_profile__title">Edit Profile</string>
+    <string name="edit_profile__user_name">User Name</string>
+    <string name="edit_profile__about_me">About Me</string>
+    <string name="edit_profile__email">Email</string>
+    <string name="edit_profile__password">Password</string>
+    <string name="edit_profile__password_change">Password Change</string>
+    <string name="edit_profile__save">Save</string>
+
+    <!-- Register -->
+    <string name="register__user_name">User Name</string>
+    <string name="register__email">Email</string>
+    <string name="register__password">Password</string>
+    <string name="register__back_to_login">Already member ? Login</string>
+    <string name="register__register">Register</string>
+    <string name="register__new_account">Register New User Account</string>
+    <string name="register__check_option">Are you agreement this privacy and policy?</string>
+
+    <!-- Forgot Password -->
+    <string name="forgot_password__title">Forgot Password</string>
+    <string name="forgot_password__email">Email</string>
+    <string name="forgot_password__back_to_login">Already member ? Login</string>
+    <string name="forgot_password__password_recovery">Password Recovery</string>
+    <string name="forgot_password__save">Save</string>
+    <string name="forgot_password__send">Send</string>
+
+    <!-- Password Change -->
+    <string name="password_change__password">Password</string>
+    <string name="password_change__save">Save</string>
+    <string name="password_change__confirm_password">Confirm Password</string>
+    <string name="password_change__password_change">Password Change</string>
+
+    <!-- Login -->
+    <string name="login__email">Email</string>
+    <string name="login__password">Password</string>
+    <string name="login__not_a_member_join_now">Not a member? Join Now</string>
+    <string name="login__forgot_your_password">Forgot your password ?</string>
+    <string name="login__login">Login</string>
+    <string name="login__welcome_title">Welcome To 4K/HD Wallpapers</string>
+    <string name="login__with_google">SignIn with Google</string>
+    <string name="login__with_phone">SigIn with Phone</string>
+
+
+    <!-- Image Related -->
+    <string name="image__default_image">Default Image</string>
+
+    <!-- Gallery -->
+    <string name="gallery__title">Gallery</string>
+    <string name="gallery__image_gallery">Image Gallery</string>
+    <string name="gallery__img_desc">Image Description</string>
+
+    <!-- Image Related -->
+    <string name="image_default__image">Default Image</string>
+
+    <!-- Youtube -->
+    <string name="youtube__image">YouTube Image</string>
+
+    <!-- Search -->
+    <string name="no_data">No Data.</string>
+    <string name="search__zero">0</string>
+    <string name="search_five">5</string>
+
+    <!-- Rating -->
+    <string name="rating__min">%1$s </string>
+    <string name="rating__max"> %1$s</string>
+
+    <!-- Premium -->
+    <string name="premium__point">$ %1$s</string>
+    <string name="premium__premium">Premium</string>
+
+    <!-- Contact Us -->
+    <string name="contact_us__name">Contact Name</string>
+    <string name="contact_us__email">Contact Email</string>
+    <string name="contact_us__message">Contact Message</string>
+    <string name="contact_us__phone">Contact Phone</string>
+    <string name="contact_us__submit">Submit</string>
+
+    <!-- Notification Setting -->
+    <string name="notification__notification_setting_on_off">Notification Setting ( On/Off )</string>
+    <string name="notification__latest_message_from_system">Latest Message From System</string>
+    <string name="notification__notification">Notification!</string>
+    <string name="notification__alert">Alert</string>
+
+    <!-- Language -->
+    <string name="language__english">English</string>
+    <string name="language__arabic">Arabic</string>
+    <string name="language__spanish">Spanish</string>
+    <string name="language__language_change">Are you sure you want to change to %1$s?</string>
+    <string name="language__title">Language</string>
+
+    <!-- Message -->
+    <string name="message__register_success">Successfully Register.</string>
+    <string name="message__loading">Loading…</string>
+    <string name="message__please_wait">Please wait…</string>
+    <string name="message__welcome">Welcome form PSNews</string>
+    <string name="message__want_to_quit">Do you really want to quit?</string>
+    <string name="message__select_category">Please select the category you want to see!!!</string>
+    <string name="message__ok_close">Close</string>
+    <string name="message__cancel_close">Cancel</string>
+    <string name="message__want_to_logout">Do you really want to logout?</string>
+    <string name="message__logout">Logout</string>
+    <string name="message__download_success">Successfully Downloaded.</string>
+    <string name="message__downloading">Downloading file..</string>
+    <string name="message__crop_image">Do you want to crop this image</string>
+
+
+    <!-- Error Message -->
+    <string name="error_message__select_location">Please select location.!</string>
+    <string name="error_message__login_first">Please login first!</string>
+    <string name="error_message__youtube_not_valid">YouTube is not valid.</string>
+    <string name="error_message__blank_email">Please input Email.</string>
+    <string name="error_message__blank_contact_message">Please input Contact Message.</string>
+    <string name="error_message__blank_password">Please input password.</string>
+    <string name="error_message__blank_name">Please input name.</string>
+    <string name="error_message__blank_keyword">Please input search keyword.</string>
+    <string name="error_message__password_not_equal">Password are not equal!</string>
+    <string name="error_message__no_internet">No internet connection.</string>
+    <string name="error_message__img_not_selected">No Image Selected</string>
+    <string name="error_message__image_cannot_upload">Image cannot be Uploaded</string>
+    <string name="error_message__required_fields">Required Fields cannot be blank</string>
+    <string name="error_message__to_check_agreement">You need to check an agreement of privacy and policy.</string>
+    <string name="error_message__blank_phone_no">Please input the phone number.</string>
+
+    <!-- Dialog Message -->
+    <string name="confirm_message__set_wallpaper">Confirm to set Wallpaper</string>
+    <string name="confirm_message__ok">OK</string>
+    <string name="confirm_message__cancel">Cancel</string>
+    <string name="success_message__set_wallpaper">Successfully set wallpaper</string>
+    <string name="success_message__upload_successful">Uploaded Successfully</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- DashBoard -->
+    <string name="dashboard__title">Find Wallpaper</string>
+    <string name="dashboard__search">Search Wallpaper</string>
+    <string name="dashboard__latest_wallpaper">Latest Wallpaper</string>
+    <string name="dashboard__category">Category</string>
+    <string name="dashboard__trending">Trending</string>
+    <string name="dashboard__landscape">Landscape</string>
+    <string name="dashboard__potrait">Portrait</string>
+    <string name="dashboard__square">Square</string>
+    <string name="dashboard__gif">GIFs</string>
+
+    <string name="dashboard__view_all">View All ></string>
+    <string name="dashboard__wallpaper_by_category">Wallpaper By Category</string>
+    <string name="dashboard__pts">%1$s pts</string>
+    <!-- END -->
+
+    <!-- Premium -->
+    <string name="dashboard__premium_latest">Latest</string>
+    <string name="dashboard__premium_trending">Trending</string>
+    <string name="dashboard__premium_recommended">Recommended</string>
+    <string name="dashboard__premium_download">Most Download</string>
+
+    <!-- Recommended -->
+    <string name="search__recommanded">recommended</string>
+
+    <!-- Wallpaper -->
+    <string name="dashboard__wallpaper_latest">Latest</string>
+    <string name="dashboard__wallpaper_trending">Trending</string>
+    <string name="dashboard__wallpaper_recommended">Recommended</string>
+    <string name="dashboard__wallpaper_download">Most Download</string>
+
+    <!-- Category -->
+    <string name="category__category">Category</string>
+    <string name="category__30wallpaper">Wallpapers</string>
+    <string name="category__wallpaperCount">%1$s  %2$s</string>
+
+    <!-- WallpaperDetail -->
+    <string name="wallpaper__detail">Wallpaper</string>
+    <!-- END -->
+
+    <!--Search Buttons -->
+    <string name="search__notSet">Not Set</string>
+    <string name="search_button_searh">Search/Filter</string>
+    <string name="search_button_sorting">Sorting</string>
+    <!--Search Buttons -->
+
+    <!--Button Sheet Dialog Messages-->
+    <string name="dialog__title_m_mun">Sorting</string>
+    <string name="popular__m_mun">Popular</string>
+    <string name="recent__m_mun">Latest</string>
+    <string name="most_download__m_mun">Most Download</string>
+    <string name="low_price__m_mun">Lowest Rating</string>
+    <string name="high_price__m_mun">Highest Rating</string>
+
+    <!--Special_Filtering-->
+    <string name="sf__notSet">Not Set</string>
+    <string name="sf__notSet_zg">Not Set</string>
+    <string name="sf__ByKeyWord">Keyword</string>
+    <string name="sf__ByPrice">Set Price</string>
+    <string name="sf__free">Free</string>
+    <string name="sf__premium">Premium</string>
+    <string name="sf__AdvanceFiltering">Advanced Filtering</string>
+    <string name="sf__Recommend">Is Recommended</string>
+    <string name="sf__Portrait">Is Portrait</string>
+    <string name="sf__Filter_Button">Filter</string>
+    <string name="sf__Category">Category</string>
+    <string name="sf__Landscape">Is Landscape</string>
+    <string name="sf__Square">Is Square</string>
+    <string name="sf__Gif">Is Gif</string>
+    <string name="sf__live_wallpaper">Is Live Wallpaper</string>
+    <string name="sf__Color">Color</string>
+    <string name="sf__Points">Points</string>
+    <string name="sf__Rating">Rating Range</string>
+    <string name="sf__Minimum">Minimum</string>
+    <string name="sf__Maximum">Maximum</string>
+    <string name="sf__0_5"> TO </string>
+
+
+    <!--Detail BottomSheet-->
+    <string name="dbs__viewCount">View Count</string>
+    <string name="dbs__downloadCount">Download Count</string>
+    <string name="dbs__favouriteCount">Favourite Count</string>
+    <string name="dbs__setAs">Set as</string>
+    <string name="dbs__download">Download</string>
+    <string name="dbs__share">Share</string>
+    <string name="dbs__favourite">Favourite</string>
+    <string name="dbs__rate">Rate</string>
+    <string name="dbs__name">Name</string>
+    <string name="dbs__orientation">Orientation</string>
+    <string name="dbs__category">Category</string>
+    <string name="dbs__addedDate">Added Date</string>
+    <string name="dbs__width">Width / Height</string>
+    <string name="dbs__color">Color</string>
+    <string name="dbs__size">Size</string>
+    <string name="dbs__credit">Credit</string>
+    <string name="dbs__tags">Tags</string>
+    <string name="dbs__setWallpaperTo">Set Wallpaper To</string>
+    <string name="dbs__setWallpaperToHome">Home Screen</string>
+    <string name="dbs__setWallpaperToLock">Lock Screen</string>
+    <string name="dbs__setWallpaperToBoth">Home and Lock Screen</string>
+    <!--Detail BottomSheet-->
+
+    <!-- Claim Point -->
+    <string name="claim__pts_100">100 pts</string>
+    <string name="claim__pts_200">200 pts</string>
+    <string name="claim__pts_300">300 pts</string>
+    <string name="claim__daily_reward">Daily Reward Points</string>
+    <string name="claim__watch_for_reward">Watch for reward</string>
+    <string name="daily_point">Come Back Daily To Get Points</string>
+    <string name="watch_point">Watch to gain more points</string>
+    <!-- Claim Point -->
+
+    <string name="toast_unexpected_error">Unexpected error</string>
+    <string name="toast_crop_successful">Successful</string>
+    <string name="your_rating">Your Rating</string>
+    <string name="user_rating">User Rating!</string>
+    <string name="button_submit">Submit</string>
+
+    <string name="set_as_home_screen">Set As Home Screen</string>
+    <string name="set_as_home_lock_screen">Set As Home and Lock Screen</string>
+
+    <string name="Landscape">Landscape</string>
+    <string name="Portrait">Portrait</string>
+    <string name="Square">Square</string>
+
+    <string name="premium_count_purchased">%1$s pts (Purchased)</string>
+    <string name="premium_count">%1$s pts</string>
+
+
+    <string name="buy_first">You need to buy this wallpaper to do your requested action. Buy this now?</string>
+    <string name="Top_Up">You don\'t have enough points yet! Claim some more</string>
+    <string name="purchased">Purchased</string>
+    <string name="purchase_successful">Thank you for your Wallpaper purchase</string>
+    <string name="purchase_unsuccessful">Something went wrong with your purchase, please try again</string>
+
+    <string name="loading">Loading</string>
+
+    <string name="free">FREE</string>
+    <string name="premium">PREMIUM</string>
+
+
+    <!--Wallpaper Upload-->
+    <string name="wallpaper_name">Wallpaper Name *</string>
+    <string name="wallpaper_search_tags">Wallpaper Search Tags</string>
+    <string name="wallpaper_types">Wallpaper Types *</string>
+    <string name="wallpaper_point">Wallpaper Point</string>
+    <string name="wallpaper_image">Wallpaper Image</string>
+    <string name="wallpaper_category_name">Wallpaper Category Name *</string>
+    <string name="wallpaper_select_color">Wallpaper Color *</string>
+    <string name="wallpaper_select_credit">Credit</string>
+    <string name="wallpaper_image_type">Image Type</string>
+    <string name="wallpaper_published">Is wallpaper published?</string>
+    <string name="wallpaper_recommended">Is wallpaper recommended?</string>
+    <string name="wallpaper_portrait">Is wallpaper portrait?</string>
+    <string name="wallpaper_landscape">Is wallpaper landscape?</string>
+    <string name="wallpaper_square">Is wallpaper square?</string>
+    <string name="wallpaper_submit_button">Upload</string>
+    <string name="wallpaper_choose_button">Choose Photo</string>
+    <string name="wallpaper_image_upload_title">Wallpaper Upload</string>
+    <string name="wallpaper_error__required_name">Wallpaper Name is required</string>
+    <string name="wallpaper_error__required_point">Wallpaper Point is required</string>
+    <string name="wallpaper_error__not_required_point">Wallpaper Point is not required to input.</string>
+    <string name="wallpaper_error__required_category">Please select category.</string>
+    <string name="wallpaper_error__required_color">Please select color.</string>
+    <string name="wallpaper_error__required_image_type">Please select image type is portrait, landscape or square.</string>
+    <string name="wallpaper_error__gif_radio_on">Please select image type is GIF.</string>
+    <string name="wallpaper_error__image_wallpaper_on">Please select image type is Image Wallpaper.</string>
+    <string name="wallpaper_error__required_wallpaper_type">Please select wallpaper type.</string>
+    <string name="upload_photo__delete">Are you sure to delete this photo?</string>
+    <string name="upload_photo__delete_status">Successfully Deleted</string>
+    <string name="upload_photo__point_greater_0">Point must be greater than 0</string>
+    <string name="upload_photo__image_wallpapers">Image Wallpaper</string>
+    <string name="upload_photo__gif">GIF</string>
+    <!--Wallpaper Upload-->
+
+    <!-- Walk Through -->
+    <string name="walk_through__next">NEXT</string>
+    <string name="walk_through__skip">SKIP</string>
+    <string name="walk_through__free_wallpaper">Free Wallpapers</string>
+    <string name="walk_through__premium_wallpaper">Premium Wallpapers</string>
+    <string name="walk_through__advanced_search">Advanced Search</string>
+    <string name="walk_through__unlimited_wallpapers">Upload Wallpapers</string>
+    <string name="walk_through__text_1">User can get and use whatever they want \nfor any Free Wallpapers.</string>
+    <string name="walk_through__text_2">User can buy Premium Wallpapers \nby using their points.</string>
+    <string name="walk_through__text_3">User can search the wallpapers with \nsome advanced filters.</string>
+    <string name="walk_through__text_4">User can upload their wallpapers and \nadmin would do for approval process.</string>
+    <string name="walk_through__check_option">Don\'t show intro again next time open.</string>
+    <string name="walk_through__let_explore">Let\'s Explore</string>
+
+
+    <!-- Setting fragment -->
+    <string name="setting__privacy_policy">Privacy Policy</string>
+    <string name="setting__privacy_policy_desc">Policy Statement</string>
+    <string name="setting__notification_setting">Notification Setting</string>
+    <string name="setting__notification_setting_desc">Control setting for notification</string>
+    <string name="setting__app_version">App Version</string>
+    <string name="setting__cache_size">Image Cache Size</string>
+    <string name="setting__clear_cache">Clear Image Cache</string>
+    <string name="setting__clear_cache_confirm">Are you sure to clear image cache?</string>
+    <string name="setting__change_gdpr">Change GDPR setting</string>
+
+
+    <!--force update-->
+    <string name="force_update_true">Update is available</string>
+    <string name="force_update__button_update"> Update </string>
+    <string name="version_update"> Version Update </string>
+
+    <!-- FB Register -->
+    <string name="fb_register__welcome">Welcome from %1$s </string>
+    <string name="fb_register__desc">Please login to use all features of application.</string>
+
+    <!-- Verify Email -->
+    <string name="verify_email__informateion">You\'ve just received an email containing verification code on</string>
+    <string name="verify_email__enter_code">Enter verification code</string>
+    <string name="verify_email__change_email">Change Email</string>
+    <string name="verify_email__resent_code">Resent Code</string>
+    <string name="verify_email__submit">Submit</string>
+    <string name="verify_email__title">Email Verification</string>
+
+    <!-- Verify Phone -->
+    <string name="verify_phone__informateion">You\'ve just received phone message containing OTP Code on</string>
+    <string name="verify_phone__back_login">BACK TO LOGIN ?</string>
+    <string name="verify_phone__title">Phone Verification</string>
+    <string name="verify_phone_code">Enter OTP Code</string>
+
+
+</resources>
+

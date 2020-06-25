@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Papéis de parede 4K / HD</string>
+    <string name="app__app_name">Papéis de parede 4K / HD</string>
+    <string name="app__ok">Está bem</string>
+    <string name="app__drawer_open">Gaveta aberta</string>
+    <string name="app__drawer_close">Gaveta Fechar</string>
+    <string name="app__cancel">Cancelar</string>
+    <string name="success">SUCESSO</string>
+    <string name="confirm">CONFIRME</string>
+    <string name="info">INFO</string>
+    <string name="error">ERRO</string>
+    <string name="warning">AVISO</string>
+
+
+    <string name="menu__home">Casa</string>
+    <string name="menu__profile">Perfil</string>
+    <string name="menu__favourite_items">Favorito</string>
+    <string name="menu__logout">Sair</string>
+    <string name="menu__about_app">Sobre nós</string>
+    <string name="menu__setting">Configuração</string>
+    <string name="menu__privacy_app">Política de Privacidade</string>
+    <string name="menu__dashboard">painel de controle</string>
+    <string name="menu__contact_us">Contate-Nos</string>
+    <string name="menu__notification_setting">Configuração de notificação</string>
+    <string name="menu__language">Língua</string>
+    <string name="menu__app_setting">Aplicativo</string>
+    <string name="menu__user_info">informação de usuário</string>
+    <string name="menu__save">Salve </string>
+    <string name="menu__search">Procurar</string>
+    <string name="menu__filter">Filtro</string>
+    <string name="menu__category_list">Listas de categorias</string>
+    <string name="menu__wallpaper_by_category">Papel de parede por categoria</string>
+    <string name="menu__latest_wallpapers">Últimos Wallpapers</string>
+    <string name="menu__wallpapers_list">Lista de papéis de parede</string>
+    <string name="menu__category">Categoria</string>
+    <string name="menu_wallpaper">Wallpaper</string>
+    <string name="menu__premium">Prêmio</string>
+    <string name="menu__trending">Tendendo</string>
+    <string name="menu__claimPoint">Ponto de Reivindicação</string>
+    <string name="menu__trending_list">Lista de tendências</string>
+    <string name="menu__fav">Favorito</string>
+    <string name="menu__fav_live_wallpaper">Papéis de parede animados favoritos</string>
+    <string name="menu__downloaded">Wallpapers baixados</string>
+    <string name="menu__downloaded_live_wallpaper">Papéis de parede animados baixados</string>
+    <string name="menu__upload_photo">Upload Wallpapers</string>
+    <string name="menu__fav_list">Lista de favoritos</string>
+    <string name="menu__latest_wallpaper">Latest Wallpaper</string>
+    <string name="menu__latest_live_wallpaper">Latest Live Wallpaper</string>
+    <string name="menu__premium_wallpapers">Premium Wallpapers</string>
+    <string name="menu__gif_wallpapers">GIFs</string>
+    <string name="menu__live_wallpapers">Papel de parede animados</string>
+    <string name="menu__free_wallpapers">Papéis de Parede Grátis</string>
+    <string name="menu__rate">Avalie este aplicativo</string>
+    <string name="menu__imageTypes">Tipos de papel de parede</string>
+    <string name="menu__privacy_policy">Termos e Condições</string>
+
+
+<!--    <string name="about_us__phone">telefone</string>-->
+<!--    <string name="about_us__facebook">Facebook</string>-->
+<!--    <string name="about_us__gplus">Google Plus</string>-->
+<!--    <string name="about_us__instagram">Instagram</string>-->
+<!--    <string name="about_us__youtube">Youtube</string>-->
+<!--    <string name="about_us__pinterest">Pinterest</string>-->
+<!--    <string name="about_us__twitter">Twitter</string>-->
+<!--    <string name="about_us__visit_website">Visite o nosso site</string>-->
+<!--    <string name="about_us__email">O email</string>-->
+
+
+    <string name="favourite__favourites">Favoritos</string>
+
+
+    <string name="profile__title">Perfil</string>
+    <string name="profile__about_me">Sobre mim</string>
+    <string name="profile__joined_date">Data de inscrição</string>
+    <string name="profile__email">O email</string>
+    <string name="profile__review">Rever</string>
+
+
+    <string name="edit_profile__title">Editar Perfil</string>
+    <string name="edit_profile__user_name">Nome de Usuário</string>
+    <string name="edit_profile__about_me">Sobre mim</string>
+    <string name="edit_profile__email">O email</string>
+    <string name="edit_profile__password">Senha</string>
+    <string name="edit_profile__password_change">Mudança de senha</string>
+    <string name="edit_profile__save">Salve </string>
+
+
+    <string name="register__user_name">Nome de Usuário</string>
+    <string name="register__email">O email</string>
+    <string name="register__password">Senha</string>
+    <string name="register__back_to_login">Já é membro? Conecte-se</string>
+    <string name="register__register">registo</string>
+    <string name="register__new_account">Registrar nova conta de usuário</string>
+    <string name="register__check_option">Você concorda com esta privacidade e política?</string>
+
+
+    <string name="forgot_password__title">Esqueceu a senha</string>
+    <string name="forgot_password__email">O email</string>
+    <string name="forgot_password__back_to_login">Já é membro? Conecte-se</string>
+    <string name="forgot_password__password_recovery">Recuperação de senha</string>
+    <string name="forgot_password__save">Salve </string>
+    <string name="forgot_password__send">Enviar</string>
+
+
+    <string name="password_change__password">Senha</string>
+    <string name="password_change__save">Salve </string>
+    <string name="password_change__confirm_password">Confirme a Senha</string>
+    <string name="password_change__password_change">Mudança de senha</string>
+
+
+    <string name="login__email">O email</string>
+    <string name="login__password">Senha</string>
+    <string name="login__not_a_member_join_now">Não é um membro? Entrar</string>
+    <string name="login__forgot_your_password">Esqueceu sua senha ?</string>
+    <string name="login__login">Login</string>
+    <string name="login__welcome_title">Bem-vindo ao 4K / HD Wallpapers</string>
+    <string name="login__with_google">Faça login no Google</string>
+    <string name="login__with_phone">SignIn com telefone</string>
+
+
+
+    <string name="image__default_image">Imagem padrão</string>
+
+
+    <string name="gallery__title">Galeria</string>
+    <string name="gallery__image_gallery">Galeria de imagens</string>
+    <string name="gallery__img_desc">Descrição da imagem</string>
+
+
+    <string name="image_default__image">Imagem padrão</string>
+
+
+    <string name="youtube__image">Imagem do YouTube</string>
+
+
+    <string name="no_data">No Data.</string>
+    <string name="search__zero">0</string>
+    <string name="search_five">5</string>
+
+
+    <string name="rating__min">%1$s </string>
+    <string name="rating__max"> %1$s</string>
+
+
+    <string name="premium__point">$ %1$s</string>
+    <string name="premium__premium">Prêmio</string>
+
+
+    <string name="contact_us__name">Nome de contato</string>
+    <string name="contact_us__email">email de contato</string>
+    <string name="contact_us__message">Mensagem de Contato</string>
+    <string name="contact_us__phone">telefone de contato</string>
+    <string name="contact_us__submit">Enviar</string>
+
+
+    <string name="notification__notification_setting_on_off">Configuração de notificação (On / Off)</string>
+    <string name="notification__latest_message_from_system">Mensagem mais recente do sistema</string>
+    <string name="notification__notification">Notificação!</string>
+    <string name="notification__alert">Alerta</string>
+
+
+    <string name="language__english">Inglês</string>
+    <string name="language__arabic">árabe</string>
+    <string name="language__spanish">espanhol</string>
+    <string name="language__language_change">Tem certeza de que deseja alterar para %1$s?</string>
+    <string name="language__title">Língua</string>
+
+
+    <string name="message__register_success">Registre-se com sucesso.</string>
+    <string name="message__loading">Carregando…</string>
+    <string name="message__please_wait">Por favor, espere…</string>
+    <string name="message__welcome">Formulário de boas-vindas PSNews</string>
+    <string name="message__want_to_quit">Você realmente quer sair?</string>
+    <string name="message__select_category">Por favor, selecione a categoria que você deseja ver !!!</string>
+    <string name="message__ok_close">Fechar</string>
+    <string name="message__cancel_close">Cancelar</string>
+    <string name="message__want_to_logout">Deseja realmente sair?</string>
+    <string name="message__logout">Sair</string>
+    <string name="message__download_success">Baixado com sucesso.</string>
+    <string name="message__downloading">Baixando arquivo ..</string>
+    <string name="message__crop_image">Deseja cortar esta imagem</string>
+
+
+
+    <string name="error_message__select_location">Por favor, selecione a localização.</string>
+    <string name="error_message__login_first">Por favor faça o login primeiro!</string>
+    <string name="error_message__youtube_not_valid">O YouTube não é válido.</string>
+    <string name="error_message__blank_email">Por favor insira Email.</string>
+    <string name="error_message__blank_contact_message">Insira a mensagem de contato.</string>
+    <string name="error_message__blank_password">Por favor insira a senha.</string>
+    <string name="error_message__blank_name">Por favor insira o nome.</string>
+    <string name="error_message__blank_keyword">Insira a palavra-chave de pesquisa.</string>
+    <string name="error_message__password_not_equal">Senha não é igual!</string>
+    <string name="error_message__no_internet">Sem conexão à internet.</string>
+    <string name="error_message__img_not_selected">Nenhuma imagem selecionada</string>
+    <string name="error_message__image_cannot_upload">A imagem não pode ser carregada</string>
+    <string name="error_message__required_fields">Os campos obrigatórios não podem ficar em branco</string>
+    <string name="error_message__to_check_agreement">Você precisa verificar um acordo de privacidade e política.</string>
+    <string name="error_message__blank_phone_no">Por favor, insira o número de telefone.</string>
+
+
+    <string name="confirm_message__set_wallpaper">Confirme para definir o papel de parede</string>
+    <string name="confirm_message__ok">Está bem</string>
+    <string name="confirm_message__cancel">Cancelar</string>
+    <string name="success_message__set_wallpaper">Definir papel de parede com sucesso</string>
+    <string name="success_message__upload_successful">Carregado com sucesso</string>
+
+
+
+    <string name="hello_blank_fragment">Olá fragmento em branco</string>
+
+
+    <string name="dashboard__title">Find Wallpaper</string>
+    <string name="dashboard__search">Pesquisar Wallpaper</string>
+    <string name="dashboard__latest_wallpaper">Latest Wallpaper</string>
+    <string name="dashboard__category">Categoria</string>
+    <string name="dashboard__trending">Tendendo</string>
+    <string name="dashboard__landscape">Panorama</string>
+    <string name="dashboard__potrait">Retrato</string>
+    <string name="dashboard__square">Quadrado</string>
+    <string name="dashboard__gif">GIFs</string>
+
+    <string name="dashboard__view_all">Exibir tudo&gt;</string>
+    <string name="dashboard__wallpaper_by_category">Papel de parede por categoria</string>
+    <string name="dashboard__pts">%1$s pts</string>
+
+
+
+    <string name="dashboard__premium_latest">Mais recentes</string>
+    <string name="dashboard__premium_trending">Tendendo</string>
+    <string name="dashboard__premium_recommended">Recomendado</string>
+    <string name="dashboard__premium_download">Mais Download</string>
+
+
+    <string name="search__recommanded">recomendado</string>
+
+
+    <string name="dashboard__wallpaper_latest">Mais recentes</string>
+    <string name="dashboard__wallpaper_trending">Tendendo</string>
+    <string name="dashboard__wallpaper_recommended">Recomendado</string>
+    <string name="dashboard__wallpaper_download">Mais Download</string>
+
+
+    <string name="category__category">Categoria</string>
+    <string name="category__30wallpaper">Papeis de parede</string>
+    <string name="category__wallpaperCount">%1$s  %2$s</string>
+
+
+    <string name="wallpaper__detail">Wallpaper</string>
+
+
+
+    <string name="search__notSet">Não configurado</string>
+    <string name="search_button_searh">Pesquisa / Filtro</string>
+    <string name="search_button_sorting">Ordenação</string>
+
+
+
+    <string name="dialog__title_m_mun">Ordenação</string>
+    <string name="popular__m_mun">Popular</string>
+    <string name="recent__m_mun">Mais recentes</string>
+    <string name="most_download__m_mun">Mais Download</string>
+    <string name="low_price__m_mun">Classificação mais baixa</string>
+    <string name="high_price__m_mun">Classificação mais alta</string>
+
+
+    <string name="sf__notSet">Não configurado</string>
+    <string name="sf__notSet_zg">Não configurado</string>
+    <string name="sf__ByKeyWord">Palavra-chave</string>
+    <string name="sf__ByPrice">Definir preço</string>
+    <string name="sf__free">Livre</string>
+    <string name="sf__premium">Prêmio</string>
+    <string name="sf__AdvanceFiltering">Advanced Filtering</string>
+    <string name="sf__Recommend">É recomendado</string>
+    <string name="sf__Portrait">É retrato</string>
+    <string name="sf__Filter_Button">Filtro</string>
+    <string name="sf__Category">Categoria</string>
+    <string name="sf__Landscape">É paisagem</string>
+    <string name="sf__Square">É quadrado</string>
+    <string name="sf__Gif">Is Gif</string>
+    <string name="sf__live_wallpaper">Is Live Wallpaper</string>
+    <string name="sf__Color">Cor</string>
+    <string name="sf__Points">Pontos</string>
+    <string name="sf__Rating">Faixa de classificação</string>
+    <string name="sf__Minimum">Mínimo</string>
+    <string name="sf__Maximum">Máximo</string>
+    <string name="sf__0_5"> PARA</string>
+
+
+
+    <string name="dbs__viewCount">Contagem de visualizações</string>
+    <string name="dbs__downloadCount">Contagem de downloads</string>
+    <string name="dbs__favouriteCount">Contagem de Favoritos</string>
+    <string name="dbs__setAs">Definir como</string>
+    <string name="dbs__download">Baixar</string>
+    <string name="dbs__share">Compartilhar</string>
+    <string name="dbs__favourite">Favorito</string>
+    <string name="dbs__rate">Taxa</string>
+    <string name="dbs__name">Nome</string>
+    <string name="dbs__orientation">Orientação</string>
+    <string name="dbs__category">Categoria</string>
+    <string name="dbs__addedDate">Data de adição</string>
+    <string name="dbs__width">Largura altura</string>
+    <string name="dbs__color">Cor</string>
+    <string name="dbs__size">Tamanho</string>
+    <string name="dbs__credit">Crédito</string>
+    <string name="dbs__tags">Tags</string>
+    <string name="dbs__setWallpaperTo">Definir papel de parede como</string>
+    <string name="dbs__setWallpaperToHome">Tela inicial</string>
+    <string name="dbs__setWallpaperToLock">Tela de bloqueio</string>
+    <string name="dbs__setWallpaperToBoth">Tela inicial e de bloqueio</string>
+
+
+
+    <string name="claim__pts_100">100 pts</string>
+    <string name="claim__pts_200">200 pts</string>
+    <string name="claim__pts_300">300 pts</string>
+    <string name="claim__daily_reward">Pontos de recompensa diários</string>
+    <string name="claim__watch_for_reward">Preste atenção na recompensa</string>
+    <string name="daily_point">Volte diariamente para ganhar pontos</string>
+    <string name="watch_point">Assista para ganhar mais pontos</string>
+
+
+    <string name="toast_unexpected_error">Erro inesperado</string>
+    <string name="toast_crop_successful">Bem sucedido</string>
+    <string name="your_rating">Sua avaliação</string>
+    <string name="user_rating">Avaliação do utilizador!</string>
+    <string name="button_submit">Enviar</string>
+
+    <string name="set_as_home_screen">Definir como tela inicial</string>
+    <string name="set_as_home_lock_screen">Definir como tela inicial e de bloqueio</string>
+
+    <string name="Landscape">Panorama</string>
+    <string name="Portrait">Retrato</string>
+    <string name="Square">Quadrado</string>
+
+    <string name="premium_count_purchased">%1$s pts (comprado)</string>
+    <string name="premium_count">%1$s pts</string>
+
+
+    <string name="buy_first">Você precisa comprar este papel de parede para executar a ação solicitada. Compre isso agora?</string>
+    <string name="Top_Up">Você ainda não tem pontos suficientes! Reivindicar um pouco mais</string>
+    <string name="purchased">Comprado</string>
+    <string name="purchase_successful">Obrigado por sua compra do Wallpaper</string>
+    <string name="purchase_unsuccessful">Ocorreu um erro com sua compra. Tente novamente</string>
+
+    <string name="loading">Carregando</string>
+
+    <string name="free">LIVRE</string>
+    <string name="premium">PRÊMIO</string>
+
+
+
+    <string name="wallpaper_name">Nome do papel de parede *</string>
+    <string name="wallpaper_search_tags">Tags de pesquisa de papel de parede</string>
+    <string name="wallpaper_types">Tipos de papel de parede *</string>
+    <string name="wallpaper_point">Wallpaper Point</string>
+    <string name="wallpaper_image">Wallpaper Image</string>
+    <string name="wallpaper_category_name">Nome da categoria de papel de parede *</string>
+    <string name="wallpaper_select_color">Cor do papel de parede *</string>
+    <string name="wallpaper_select_credit">Crédito</string>
+    <string name="wallpaper_image_type">Tipo de imagem</string>
+    <string name="wallpaper_published">O papel de parede é publicado?</string>
+    <string name="wallpaper_recommended">O papel de parede é recomendado?</string>
+    <string name="wallpaper_portrait">Is wallpaper portrait?</string>
+    <string name="wallpaper_landscape">O papel de parede é paisagem?</string>
+    <string name="wallpaper_square">O papel de parede é quadrado?</string>
+    <string name="wallpaper_submit_button">Envio</string>
+    <string name="wallpaper_choose_button">Escolher Foto</string>
+    <string name="wallpaper_image_upload_title">Wallpaper Upload</string>
+    <string name="wallpaper_error__required_name">O nome do papel de parede é obrigatório</string>
+    <string name="wallpaper_error__required_point">O Ponto de Papel de Parede é obrigatório</string>
+    <string name="wallpaper_error__not_required_point">Não é necessário inserir o ponto de papel de parede.</string>
+    <string name="wallpaper_error__required_category">Por favor, selecione a categoria.</string>
+    <string name="wallpaper_error__required_color">Por favor, selecione a cor</string>
+    <string name="wallpaper_error__required_image_type">Selecione o tipo de imagem como retrato, paisagem ou quadrado.</string>
+    <string name="wallpaper_error__gif_radio_on">Selecione o tipo de imagem como GIF.</string>
+    <string name="wallpaper_error__image_wallpaper_on">Por favor, selecione o tipo de imagem como Image Wallpaper.</string>
+    <string name="wallpaper_error__required_wallpaper_type">Por favor, selecione o tipo de papel de parede.</string>
+    <string name="upload_photo__delete">Tem certeza de que deseja excluir esta foto?</string>
+    <string name="upload_photo__delete_status">Excluído com sucesso</string>
+    <string name="upload_photo__point_greater_0">O ponto deve ser maior que 0</string>
+    <string name="upload_photo__image_wallpapers">Image Wallpaper</string>
+    <string name="upload_photo__gif">GIF</string>
+
+
+
+    <string name="walk_through__next">PRÓXIMO</string>
+    <string name="walk_through__skip">PULAR</string>
+    <string name="walk_through__free_wallpaper">Papéis de Parede Grátis</string>
+    <string name="walk_through__premium_wallpaper">Premium Wallpapers</string>
+    <string name="walk_through__advanced_search">Busca Avançada</string>
+    <string name="walk_through__unlimited_wallpapers">Upload Wallpapers</string>
+    <string name="walk_through__text_1">O usuário pode obter e usar o que quiser \ npara qualquer Papel de Parede Grátis.</string>
+    <string name="walk_through__text_2">O usuário pode comprar papéis de parede premium \ nby usando seus pontos.</string>
+    <string name="walk_through__text_3">O usuário pode pesquisar nos papéis de parede com \ nalguns filtros avançados.</string>
+    <string name="walk_through__text_4">O usuário pode enviar seus papéis de parede e \ nadmin faria pelo processo de aprovação.</string>
+    <string name="walk_through__check_option">Não mostre a introdução novamente na próxima vez que abrir.</string>
+    <string name="walk_through__let_explore">Vamos explorar</string>
+
+
+
+    <string name="setting__privacy_policy">Política de Privacidade</string>
+    <string name="setting__privacy_policy_desc">Declaração de política</string>
+    <string name="setting__notification_setting">Configuração de notificação</string>
+    <string name="setting__notification_setting_desc">Configuração de controle para notificação</string>
+    <string name="setting__app_version">Versão do aplicativo</string>
+    <string name="setting__cache_size">Tamanho do cache de imagem</string>
+    <string name="setting__clear_cache">Limpar cache de imagem</string>
+    <string name="setting__clear_cache_confirm">Você tem certeza de limpar o cache de imagens?</string>
+    <string name="setting__change_gdpr">Alterar configuração do GDPR</string>
+
+
+
+    <string name="force_update_true">Atualização disponível</string>
+    <string name="force_update__button_update"> Atualizar</string>
+    <string name="version_update"> Atualização de versão</string>
+
+
+    <string name="fb_register__welcome">Bem-vindo de %1$s</string>
+    <string name="fb_register__desc">Faça o login para usar todos os recursos do aplicativo.</string>
+
+
+    <string name="verify_email__informateion">Você acabou de receber um email com o código de verificação em</string>
+    <string name="verify_email__enter_code">Digite o código de verificação</string>
+    <string name="verify_email__change_email">Mude o e-mail</string>
+    <string name="verify_email__resent_code">Código de Reenvio</string>
+    <string name="verify_email__submit">Enviar</string>
+    <string name="verify_email__title">verificação de e-mail</string>
+
+
+    <string name="verify_phone__informateion">Você acabou de receber uma mensagem telefônica contendo o código OTP em</string>
+    <string name="verify_phone__back_login">VOLTE AO LOGIN ?</string>
+    <string name="verify_phone__title">Verificação por telefone</string>
+    <string name="verify_phone_code">Digite o Código OTP</string>
+</resources>
